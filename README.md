@@ -13,7 +13,7 @@ pip install -r requirements.txt
 -   Run the script with the following command
 
 ```
-python run.py [MODEL: finance | medicine | SQL | llama2 | router] [DATASET: fin | med | nsql]
+python run.py [MODEL: finance-llm | medicine-llm | NSQL | llama2 | hybrid] [DATASET: fin-headline | med-rct | sql-spider]
 ```
 
 where the router is the hybrid model that uses llama2 to router the tasks to a fined-tuned model then executes the task.
