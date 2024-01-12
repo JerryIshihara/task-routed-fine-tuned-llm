@@ -1,0 +1,990 @@
+2024-01-12 07:44:26,184 - PyTorch version 2.1.2 available.
+2024-01-12 07:48:00,564 - =================== sql-spider   0 ======================
+2024-01-12 07:48:00,564 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:00,564 - ROUTING ACC | Med: 0 - Fin: 1 - NSQL: 0
+2024-01-12 07:48:00,564 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:02,266 - =================== sql-spider   1 ======================
+2024-01-12 07:48:02,266 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:02,267 - ROUTING ACC | Med: 0 - Fin: 2 - NSQL: 0
+2024-01-12 07:48:02,267 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:05,286 - =================== sql-spider   2 ======================
+2024-01-12 07:48:05,286 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:05,286 - ROUTING ACC | Med: 0 - Fin: 3 - NSQL: 0
+2024-01-12 07:48:05,286 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:06,678 - =================== sql-spider   3 ======================
+2024-01-12 07:48:06,678 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:06,678 - ROUTING ACC | Med: 0 - Fin: 4 - NSQL: 0
+2024-01-12 07:48:06,678 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:08,149 - =================== sql-spider   4 ======================
+2024-01-12 07:48:08,149 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:08,150 - ROUTING ACC | Med: 0 - Fin: 5 - NSQL: 0
+2024-01-12 07:48:08,150 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:09,038 - =================== sql-spider   5 ======================
+2024-01-12 07:48:09,038 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:09,038 - ROUTING ACC | Med: 0 - Fin: 6 - NSQL: 0
+2024-01-12 07:48:09,038 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:11,712 - =================== sql-spider   6 ======================
+2024-01-12 07:48:11,713 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:11,713 - ROUTING ACC | Med: 0 - Fin: 7 - NSQL: 0
+2024-01-12 07:48:11,714 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:13,884 - =================== sql-spider   7 ======================
+2024-01-12 07:48:13,884 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:13,884 - ROUTING ACC | Med: 0 - Fin: 8 - NSQL: 0
+2024-01-12 07:48:13,885 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:18,155 - =================== sql-spider   8 ======================
+2024-01-12 07:48:18,156 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:18,156 - ROUTING ACC | Med: 0 - Fin: 9 - NSQL: 0
+2024-01-12 07:48:18,156 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:22,931 - =================== sql-spider   9 ======================
+2024-01-12 07:48:22,931 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:22,931 - ROUTING ACC | Med: 0 - Fin: 10 - NSQL: 0
+2024-01-12 07:48:22,931 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:24,402 - =================== sql-spider  10 ======================
+2024-01-12 07:48:24,403 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:24,403 - ROUTING ACC | Med: 0 - Fin: 11 - NSQL: 0
+2024-01-12 07:48:24,403 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:25,681 - =================== sql-spider  11 ======================
+2024-01-12 07:48:25,681 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:25,681 - ROUTING ACC | Med: 0 - Fin: 12 - NSQL: 0
+2024-01-12 07:48:25,681 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:26,648 - =================== sql-spider  12 ======================
+2024-01-12 07:48:26,649 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:26,649 - ROUTING ACC | Med: 0 - Fin: 13 - NSQL: 0
+2024-01-12 07:48:26,649 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:31,732 - =================== sql-spider  13 ======================
+2024-01-12 07:48:31,732 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:31,732 - ROUTING ACC | Med: 0 - Fin: 14 - NSQL: 0
+2024-01-12 07:48:31,732 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:35,263 - =================== sql-spider  14 ======================
+2024-01-12 07:48:35,263 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:35,264 - ROUTING ACC | Med: 0 - Fin: 15 - NSQL: 0
+2024-01-12 07:48:35,264 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:40,618 - =================== sql-spider  15 ======================
+2024-01-12 07:48:40,618 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:40,618 - ROUTING ACC | Med: 0 - Fin: 16 - NSQL: 0
+2024-01-12 07:48:40,618 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:43,022 - =================== sql-spider  16 ======================
+2024-01-12 07:48:43,023 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:43,023 - ROUTING ACC | Med: 0 - Fin: 17 - NSQL: 0
+2024-01-12 07:48:43,023 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:45,083 - =================== sql-spider  17 ======================
+2024-01-12 07:48:45,083 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:45,083 - ROUTING ACC | Med: 0 - Fin: 18 - NSQL: 0
+2024-01-12 07:48:45,083 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:46,787 - =================== sql-spider  18 ======================
+2024-01-12 07:48:46,787 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:46,787 - ROUTING ACC | Med: 0 - Fin: 19 - NSQL: 0
+2024-01-12 07:48:46,787 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:50,479 - =================== sql-spider  19 ======================
+2024-01-12 07:48:50,479 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:50,479 - ROUTING ACC | Med: 0 - Fin: 20 - NSQL: 0
+2024-01-12 07:48:50,479 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:51,800 - =================== sql-spider  20 ======================
+2024-01-12 07:48:51,800 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:51,801 - ROUTING ACC | Med: 0 - Fin: 21 - NSQL: 0
+2024-01-12 07:48:51,801 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:53,118 - =================== sql-spider  21 ======================
+2024-01-12 07:48:53,118 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:53,119 - ROUTING ACC | Med: 0 - Fin: 22 - NSQL: 0
+2024-01-12 07:48:53,119 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:55,334 - =================== sql-spider  22 ======================
+2024-01-12 07:48:55,334 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:55,334 - ROUTING ACC | Med: 0 - Fin: 23 - NSQL: 0
+2024-01-12 07:48:55,334 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:57,545 - =================== sql-spider  23 ======================
+2024-01-12 07:48:57,545 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:57,546 - ROUTING ACC | Med: 0 - Fin: 24 - NSQL: 0
+2024-01-12 07:48:57,546 - CUM ACC | 0 | 0.0
+2024-01-12 07:48:58,947 - =================== sql-spider  24 ======================
+2024-01-12 07:48:58,947 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:48:58,947 - ROUTING ACC | Med: 0 - Fin: 25 - NSQL: 0
+2024-01-12 07:48:58,947 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:00,346 - =================== sql-spider  25 ======================
+2024-01-12 07:49:00,346 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:00,347 - ROUTING ACC | Med: 0 - Fin: 26 - NSQL: 0
+2024-01-12 07:49:00,347 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:04,424 - =================== sql-spider  26 ======================
+2024-01-12 07:49:04,425 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:04,425 - ROUTING ACC | Med: 0 - Fin: 27 - NSQL: 0
+2024-01-12 07:49:04,425 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:08,782 - =================== sql-spider  27 ======================
+2024-01-12 07:49:08,782 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:08,782 - ROUTING ACC | Med: 0 - Fin: 28 - NSQL: 0
+2024-01-12 07:49:08,782 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:09,750 - =================== sql-spider  28 ======================
+2024-01-12 07:49:09,750 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:09,751 - ROUTING ACC | Med: 0 - Fin: 29 - NSQL: 0
+2024-01-12 07:49:09,751 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:10,600 - =================== sql-spider  29 ======================
+2024-01-12 07:49:10,600 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:10,601 - ROUTING ACC | Med: 0 - Fin: 30 - NSQL: 0
+2024-01-12 07:49:10,601 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:11,723 - =================== sql-spider  30 ======================
+2024-01-12 07:49:11,723 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:11,723 - ROUTING ACC | Med: 0 - Fin: 31 - NSQL: 0
+2024-01-12 07:49:11,724 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:13,121 - =================== sql-spider  31 ======================
+2024-01-12 07:49:13,121 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:13,121 - ROUTING ACC | Med: 0 - Fin: 32 - NSQL: 0
+2024-01-12 07:49:13,121 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:14,943 - =================== sql-spider  32 ======================
+2024-01-12 07:49:14,943 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:14,944 - ROUTING ACC | Med: 0 - Fin: 33 - NSQL: 0
+2024-01-12 07:49:14,944 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:16,769 - =================== sql-spider  33 ======================
+2024-01-12 07:49:16,769 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:16,769 - ROUTING ACC | Med: 0 - Fin: 34 - NSQL: 0
+2024-01-12 07:49:16,770 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:19,062 - =================== sql-spider  34 ======================
+2024-01-12 07:49:19,062 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:19,063 - ROUTING ACC | Med: 0 - Fin: 35 - NSQL: 0
+2024-01-12 07:49:19,063 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:23,640 - =================== sql-spider  35 ======================
+2024-01-12 07:49:23,640 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:23,640 - ROUTING ACC | Med: 0 - Fin: 36 - NSQL: 0
+2024-01-12 07:49:23,641 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:26,671 - =================== sql-spider  36 ======================
+2024-01-12 07:49:26,671 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:26,671 - ROUTING ACC | Med: 0 - Fin: 37 - NSQL: 0
+2024-01-12 07:49:26,671 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:29,698 - =================== sql-spider  37 ======================
+2024-01-12 07:49:29,698 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:29,698 - ROUTING ACC | Med: 0 - Fin: 38 - NSQL: 0
+2024-01-12 07:49:29,698 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:32,498 - =================== sql-spider  38 ======================
+2024-01-12 07:49:32,498 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:32,498 - ROUTING ACC | Med: 0 - Fin: 39 - NSQL: 0
+2024-01-12 07:49:32,498 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:35,529 - =================== sql-spider  39 ======================
+2024-01-12 07:49:35,529 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:35,530 - ROUTING ACC | Med: 0 - Fin: 40 - NSQL: 0
+2024-01-12 07:49:35,530 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:37,940 - =================== sql-spider  40 ======================
+2024-01-12 07:49:37,940 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:37,940 - ROUTING ACC | Med: 0 - Fin: 41 - NSQL: 0
+2024-01-12 07:49:37,940 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:40,350 - =================== sql-spider  41 ======================
+2024-01-12 07:49:40,350 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:40,351 - ROUTING ACC | Med: 0 - Fin: 42 - NSQL: 0
+2024-01-12 07:49:40,351 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:45,837 - =================== sql-spider  42 ======================
+2024-01-12 07:49:45,837 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:45,838 - ROUTING ACC | Med: 0 - Fin: 43 - NSQL: 0
+2024-01-12 07:49:45,838 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:47,660 - =================== sql-spider  43 ======================
+2024-01-12 07:49:47,660 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:47,661 - ROUTING ACC | Med: 0 - Fin: 44 - NSQL: 0
+2024-01-12 07:49:47,661 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:48,983 - =================== sql-spider  44 ======================
+2024-01-12 07:49:48,983 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:48,984 - ROUTING ACC | Med: 0 - Fin: 45 - NSQL: 0
+2024-01-12 07:49:48,984 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:50,728 - =================== sql-spider  45 ======================
+2024-01-12 07:49:50,729 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:50,729 - ROUTING ACC | Med: 0 - Fin: 46 - NSQL: 0
+2024-01-12 07:49:50,729 - CUM ACC | 0 | 0.0
+2024-01-12 07:49:51,812 - =================== sql-spider  46 ======================
+2024-01-12 07:49:51,812 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:49:51,813 - ROUTING ACC | Med: 0 - Fin: 47 - NSQL: 0
+2024-01-12 07:49:51,813 - CUM ACC | 0 | 0.0
+2024-01-12 07:51:00,311 - PyTorch version 2.1.2 available.
+2024-01-12 07:51:20,222 - =================== sql-spider   0 ======================
+2024-01-12 07:51:20,222 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:20,223 - ROUTING ACC | Med: 0 - Fin: 1 - NSQL: 0
+2024-01-12 07:51:20,223 - CUM ACC | 1 | 1.0
+2024-01-12 07:51:21,244 - =================== sql-spider   1 ======================
+2024-01-12 07:51:21,244 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:21,244 - ROUTING ACC | Med: 0 - Fin: 2 - NSQL: 0
+2024-01-12 07:51:21,244 - CUM ACC | 2 | 1.0
+2024-01-12 07:51:22,989 - =================== sql-spider   2 ======================
+2024-01-12 07:51:22,989 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:22,989 - ROUTING ACC | Med: 0 - Fin: 3 - NSQL: 0
+2024-01-12 07:51:22,989 - CUM ACC | 2 | 0.6666666666666666
+2024-01-12 07:51:24,236 - =================== sql-spider   3 ======================
+2024-01-12 07:51:24,236 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:24,237 - ROUTING ACC | Med: 0 - Fin: 4 - NSQL: 0
+2024-01-12 07:51:24,237 - CUM ACC | 3 | 0.75
+2024-01-12 07:51:25,564 - =================== sql-spider   4 ======================
+2024-01-12 07:51:25,564 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:25,565 - ROUTING ACC | Med: 0 - Fin: 5 - NSQL: 0
+2024-01-12 07:51:25,565 - CUM ACC | 3 | 0.6
+2024-01-12 07:51:26,245 - =================== sql-spider   5 ======================
+2024-01-12 07:51:26,245 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:26,245 - ROUTING ACC | Med: 0 - Fin: 6 - NSQL: 0
+2024-01-12 07:51:26,245 - CUM ACC | 4 | 0.6666666666666666
+2024-01-12 07:51:27,945 - =================== sql-spider   6 ======================
+2024-01-12 07:51:27,945 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:27,945 - ROUTING ACC | Med: 0 - Fin: 7 - NSQL: 0
+2024-01-12 07:51:27,945 - CUM ACC | 4 | 0.5714285714285714
+2024-01-12 07:51:29,154 - =================== sql-spider   7 ======================
+2024-01-12 07:51:29,154 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:29,154 - ROUTING ACC | Med: 0 - Fin: 8 - NSQL: 0
+2024-01-12 07:51:29,154 - CUM ACC | 4 | 0.5
+2024-01-12 07:51:30,026 - =================== sql-spider   8 ======================
+2024-01-12 07:51:30,026 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:30,026 - ROUTING ACC | Med: 0 - Fin: 9 - NSQL: 0
+2024-01-12 07:51:30,026 - CUM ACC | 4 | 0.4444444444444444
+2024-01-12 07:51:31,316 - =================== sql-spider   9 ======================
+2024-01-12 07:51:31,316 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:31,317 - ROUTING ACC | Med: 0 - Fin: 10 - NSQL: 0
+2024-01-12 07:51:31,317 - CUM ACC | 4 | 0.4
+2024-01-12 07:51:32,227 - =================== sql-spider  10 ======================
+2024-01-12 07:51:32,228 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:32,228 - ROUTING ACC | Med: 0 - Fin: 11 - NSQL: 0
+2024-01-12 07:51:32,228 - CUM ACC | 4 | 0.36363636363636365
+2024-01-12 07:51:33,362 - =================== sql-spider  11 ======================
+2024-01-12 07:51:33,362 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:33,362 - ROUTING ACC | Med: 0 - Fin: 12 - NSQL: 0
+2024-01-12 07:51:33,362 - CUM ACC | 4 | 0.3333333333333333
+2024-01-12 07:51:33,815 - =================== sql-spider  12 ======================
+2024-01-12 07:51:33,815 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:33,816 - ROUTING ACC | Med: 0 - Fin: 13 - NSQL: 0
+2024-01-12 07:51:33,816 - CUM ACC | 4 | 0.3076923076923077
+2024-01-12 07:51:35,824 - =================== sql-spider  13 ======================
+2024-01-12 07:51:35,825 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:35,825 - ROUTING ACC | Med: 0 - Fin: 14 - NSQL: 0
+2024-01-12 07:51:35,825 - CUM ACC | 4 | 0.2857142857142857
+2024-01-12 07:51:37,609 - =================== sql-spider  14 ======================
+2024-01-12 07:51:37,609 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:37,609 - ROUTING ACC | Med: 0 - Fin: 15 - NSQL: 0
+2024-01-12 07:51:37,609 - CUM ACC | 4 | 0.26666666666666666
+2024-01-12 07:51:38,669 - =================== sql-spider  15 ======================
+2024-01-12 07:51:38,669 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:38,669 - ROUTING ACC | Med: 0 - Fin: 16 - NSQL: 0
+2024-01-12 07:51:38,669 - CUM ACC | 4 | 0.25
+2024-01-12 07:51:39,087 - =================== sql-spider  16 ======================
+2024-01-12 07:51:39,087 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:39,087 - ROUTING ACC | Med: 0 - Fin: 17 - NSQL: 0
+2024-01-12 07:51:39,087 - CUM ACC | 5 | 0.29411764705882354
+2024-01-12 07:51:39,503 - =================== sql-spider  17 ======================
+2024-01-12 07:51:39,503 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:39,503 - ROUTING ACC | Med: 0 - Fin: 18 - NSQL: 0
+2024-01-12 07:51:39,504 - CUM ACC | 6 | 0.3333333333333333
+2024-01-12 07:51:42,841 - =================== sql-spider  18 ======================
+2024-01-12 07:51:42,841 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:42,843 - ROUTING ACC | Med: 0 - Fin: 19 - NSQL: 0
+2024-01-12 07:51:42,843 - CUM ACC | 6 | 0.3157894736842105
+2024-01-12 07:51:46,870 - =================== sql-spider  19 ======================
+2024-01-12 07:51:46,871 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:46,871 - ROUTING ACC | Med: 0 - Fin: 20 - NSQL: 0
+2024-01-12 07:51:46,871 - CUM ACC | 6 | 0.3
+2024-01-12 07:51:47,972 - =================== sql-spider  20 ======================
+2024-01-12 07:51:47,972 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:47,974 - ROUTING ACC | Med: 0 - Fin: 21 - NSQL: 0
+2024-01-12 07:51:47,974 - CUM ACC | 7 | 0.3333333333333333
+2024-01-12 07:51:49,075 - =================== sql-spider  21 ======================
+2024-01-12 07:51:49,076 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:49,076 - ROUTING ACC | Med: 0 - Fin: 22 - NSQL: 0
+2024-01-12 07:51:49,076 - CUM ACC | 8 | 0.36363636363636365
+2024-01-12 07:51:50,024 - =================== sql-spider  22 ======================
+2024-01-12 07:51:50,024 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:50,025 - ROUTING ACC | Med: 0 - Fin: 23 - NSQL: 0
+2024-01-12 07:51:50,025 - CUM ACC | 9 | 0.391304347826087
+2024-01-12 07:51:51,734 - =================== sql-spider  23 ======================
+2024-01-12 07:51:51,734 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:51,734 - ROUTING ACC | Med: 0 - Fin: 24 - NSQL: 0
+2024-01-12 07:51:51,734 - CUM ACC | 9 | 0.375
+2024-01-12 07:51:52,993 - =================== sql-spider  24 ======================
+2024-01-12 07:51:52,993 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:52,995 - ROUTING ACC | Med: 0 - Fin: 25 - NSQL: 0
+2024-01-12 07:51:52,995 - CUM ACC | 10 | 0.4
+2024-01-12 07:51:54,256 - =================== sql-spider  25 ======================
+2024-01-12 07:51:54,256 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:54,256 - ROUTING ACC | Med: 0 - Fin: 26 - NSQL: 0
+2024-01-12 07:51:54,257 - CUM ACC | 11 | 0.4230769230769231
+2024-01-12 07:51:55,016 - =================== sql-spider  26 ======================
+2024-01-12 07:51:55,016 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:55,017 - ROUTING ACC | Med: 0 - Fin: 27 - NSQL: 0
+2024-01-12 07:51:55,017 - CUM ACC | 11 | 0.4074074074074074
+2024-01-12 07:51:56,344 - =================== sql-spider  27 ======================
+2024-01-12 07:51:56,344 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:56,344 - ROUTING ACC | Med: 0 - Fin: 28 - NSQL: 0
+2024-01-12 07:51:56,345 - CUM ACC | 11 | 0.39285714285714285
+2024-01-12 07:51:57,104 - =================== sql-spider  28 ======================
+2024-01-12 07:51:57,104 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:57,104 - ROUTING ACC | Med: 0 - Fin: 29 - NSQL: 0
+2024-01-12 07:51:57,104 - CUM ACC | 11 | 0.3793103448275862
+2024-01-12 07:51:57,787 - =================== sql-spider  29 ======================
+2024-01-12 07:51:57,788 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:57,788 - ROUTING ACC | Med: 0 - Fin: 30 - NSQL: 0
+2024-01-12 07:51:57,788 - CUM ACC | 12 | 0.4
+2024-01-12 07:51:58,813 - =================== sql-spider  30 ======================
+2024-01-12 07:51:58,813 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:51:58,814 - ROUTING ACC | Med: 0 - Fin: 31 - NSQL: 0
+2024-01-12 07:51:58,815 - CUM ACC | 12 | 0.3870967741935484
+2024-01-12 07:52:00,072 - =================== sql-spider  31 ======================
+2024-01-12 07:52:00,072 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:00,072 - ROUTING ACC | Med: 0 - Fin: 32 - NSQL: 0
+2024-01-12 07:52:00,072 - CUM ACC | 12 | 0.375
+2024-01-12 07:52:02,085 - =================== sql-spider  32 ======================
+2024-01-12 07:52:02,086 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:02,086 - ROUTING ACC | Med: 0 - Fin: 33 - NSQL: 0
+2024-01-12 07:52:02,086 - CUM ACC | 13 | 0.3939393939393939
+2024-01-12 07:52:03,456 - =================== sql-spider  33 ======================
+2024-01-12 07:52:03,456 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:03,456 - ROUTING ACC | Med: 0 - Fin: 34 - NSQL: 0
+2024-01-12 07:52:03,456 - CUM ACC | 14 | 0.4117647058823529
+2024-01-12 07:52:05,471 - =================== sql-spider  34 ======================
+2024-01-12 07:52:05,471 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:05,471 - ROUTING ACC | Med: 0 - Fin: 35 - NSQL: 0
+2024-01-12 07:52:05,471 - CUM ACC | 14 | 0.4
+2024-01-12 07:52:10,827 - =================== sql-spider  35 ======================
+2024-01-12 07:52:10,827 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:10,828 - ROUTING ACC | Med: 0 - Fin: 36 - NSQL: 0
+2024-01-12 07:52:10,828 - CUM ACC | 14 | 0.3888888888888889
+2024-01-12 07:52:13,673 - =================== sql-spider  36 ======================
+2024-01-12 07:52:13,674 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:13,674 - ROUTING ACC | Med: 0 - Fin: 37 - NSQL: 0
+2024-01-12 07:52:13,674 - CUM ACC | 14 | 0.3783783783783784
+2024-01-12 07:52:16,532 - =================== sql-spider  37 ======================
+2024-01-12 07:52:16,532 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:16,532 - ROUTING ACC | Med: 0 - Fin: 38 - NSQL: 0
+2024-01-12 07:52:16,533 - CUM ACC | 14 | 0.3684210526315789
+2024-01-12 07:52:19,155 - =================== sql-spider  38 ======================
+2024-01-12 07:52:19,155 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:19,155 - ROUTING ACC | Med: 0 - Fin: 39 - NSQL: 0
+2024-01-12 07:52:19,155 - CUM ACC | 14 | 0.358974358974359
+2024-01-12 07:52:22,003 - =================== sql-spider  39 ======================
+2024-01-12 07:52:22,003 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:22,004 - ROUTING ACC | Med: 0 - Fin: 40 - NSQL: 0
+2024-01-12 07:52:22,004 - CUM ACC | 14 | 0.35
+2024-01-12 07:52:23,904 - =================== sql-spider  40 ======================
+2024-01-12 07:52:23,905 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:23,905 - ROUTING ACC | Med: 0 - Fin: 41 - NSQL: 0
+2024-01-12 07:52:23,905 - CUM ACC | 15 | 0.36585365853658536
+2024-01-12 07:52:25,806 - =================== sql-spider  41 ======================
+2024-01-12 07:52:25,806 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:25,806 - ROUTING ACC | Med: 0 - Fin: 42 - NSQL: 0
+2024-01-12 07:52:25,807 - CUM ACC | 16 | 0.38095238095238093
+2024-01-12 07:52:32,618 - =================== sql-spider  42 ======================
+2024-01-12 07:52:32,618 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:32,619 - ROUTING ACC | Med: 0 - Fin: 43 - NSQL: 0
+2024-01-12 07:52:32,619 - CUM ACC | 16 | 0.37209302325581395
+2024-01-12 07:52:37,182 - =================== sql-spider  43 ======================
+2024-01-12 07:52:37,182 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:37,183 - ROUTING ACC | Med: 0 - Fin: 44 - NSQL: 0
+2024-01-12 07:52:37,183 - CUM ACC | 16 | 0.36363636363636365
+2024-01-12 07:52:38,364 - =================== sql-spider  44 ======================
+2024-01-12 07:52:38,364 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:38,365 - ROUTING ACC | Med: 0 - Fin: 45 - NSQL: 0
+2024-01-12 07:52:38,365 - CUM ACC | 16 | 0.35555555555555557
+2024-01-12 07:52:39,200 - =================== sql-spider  45 ======================
+2024-01-12 07:52:39,200 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:39,200 - ROUTING ACC | Med: 0 - Fin: 46 - NSQL: 0
+2024-01-12 07:52:39,200 - CUM ACC | 16 | 0.34782608695652173
+2024-01-12 07:52:39,732 - =================== sql-spider  46 ======================
+2024-01-12 07:52:39,732 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:39,732 - ROUTING ACC | Med: 0 - Fin: 47 - NSQL: 0
+2024-01-12 07:52:39,732 - CUM ACC | 16 | 0.3404255319148936
+2024-01-12 07:52:40,113 - =================== sql-spider  47 ======================
+2024-01-12 07:52:40,113 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:40,113 - ROUTING ACC | Med: 0 - Fin: 48 - NSQL: 0
+2024-01-12 07:52:40,113 - CUM ACC | 16 | 0.3333333333333333
+2024-01-12 07:52:42,085 - =================== sql-spider  48 ======================
+2024-01-12 07:52:42,085 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:42,086 - ROUTING ACC | Med: 0 - Fin: 49 - NSQL: 0
+2024-01-12 07:52:42,086 - CUM ACC | 17 | 0.3469387755102041
+2024-01-12 07:52:44,482 - =================== sql-spider  49 ======================
+2024-01-12 07:52:44,482 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:44,483 - ROUTING ACC | Med: 0 - Fin: 50 - NSQL: 0
+2024-01-12 07:52:44,483 - CUM ACC | 18 | 0.36
+2024-01-12 07:52:46,233 - =================== sql-spider  50 ======================
+2024-01-12 07:52:46,233 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:46,234 - ROUTING ACC | Med: 0 - Fin: 51 - NSQL: 0
+2024-01-12 07:52:46,234 - CUM ACC | 18 | 0.35294117647058826
+2024-01-12 07:52:47,683 - =================== sql-spider  51 ======================
+2024-01-12 07:52:47,684 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:47,684 - ROUTING ACC | Med: 0 - Fin: 52 - NSQL: 0
+2024-01-12 07:52:47,684 - CUM ACC | 18 | 0.34615384615384615
+2024-01-12 07:52:49,055 - =================== sql-spider  52 ======================
+2024-01-12 07:52:49,055 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:49,056 - ROUTING ACC | Med: 0 - Fin: 53 - NSQL: 0
+2024-01-12 07:52:49,056 - CUM ACC | 18 | 0.33962264150943394
+2024-01-12 07:52:50,504 - =================== sql-spider  53 ======================
+2024-01-12 07:52:50,504 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:50,505 - ROUTING ACC | Med: 0 - Fin: 54 - NSQL: 0
+2024-01-12 07:52:50,505 - CUM ACC | 19 | 0.35185185185185186
+2024-01-12 07:52:52,591 - =================== sql-spider  54 ======================
+2024-01-12 07:52:52,591 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:52,592 - ROUTING ACC | Med: 0 - Fin: 55 - NSQL: 0
+2024-01-12 07:52:52,592 - CUM ACC | 19 | 0.34545454545454546
+2024-01-12 07:52:54,687 - =================== sql-spider  55 ======================
+2024-01-12 07:52:54,687 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:54,688 - ROUTING ACC | Med: 0 - Fin: 56 - NSQL: 0
+2024-01-12 07:52:54,688 - CUM ACC | 19 | 0.3392857142857143
+2024-01-12 07:52:57,110 - =================== sql-spider  56 ======================
+2024-01-12 07:52:57,110 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:57,111 - ROUTING ACC | Med: 0 - Fin: 57 - NSQL: 0
+2024-01-12 07:52:57,111 - CUM ACC | 19 | 0.3333333333333333
+2024-01-12 07:52:59,327 - =================== sql-spider  57 ======================
+2024-01-12 07:52:59,327 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:52:59,327 - ROUTING ACC | Med: 0 - Fin: 58 - NSQL: 0
+2024-01-12 07:52:59,328 - CUM ACC | 19 | 0.3275862068965517
+2024-01-12 07:53:02,423 - =================== sql-spider  58 ======================
+2024-01-12 07:53:02,423 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:02,424 - ROUTING ACC | Med: 0 - Fin: 59 - NSQL: 0
+2024-01-12 07:53:02,424 - CUM ACC | 19 | 0.3220338983050847
+2024-01-12 07:53:04,854 - =================== sql-spider  59 ======================
+2024-01-12 07:53:04,855 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:04,855 - ROUTING ACC | Med: 0 - Fin: 60 - NSQL: 0
+2024-01-12 07:53:04,855 - CUM ACC | 19 | 0.31666666666666665
+2024-01-12 07:53:06,066 - =================== sql-spider  60 ======================
+2024-01-12 07:53:06,066 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:06,066 - ROUTING ACC | Med: 0 - Fin: 61 - NSQL: 0
+2024-01-12 07:53:06,066 - CUM ACC | 19 | 0.3114754098360656
+2024-01-12 07:53:07,194 - =================== sql-spider  61 ======================
+2024-01-12 07:53:07,194 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:07,194 - ROUTING ACC | Med: 0 - Fin: 62 - NSQL: 0
+2024-01-12 07:53:07,195 - CUM ACC | 20 | 0.3225806451612903
+2024-01-12 07:53:08,786 - =================== sql-spider  62 ======================
+2024-01-12 07:53:08,787 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:08,787 - ROUTING ACC | Med: 0 - Fin: 63 - NSQL: 0
+2024-01-12 07:53:08,787 - CUM ACC | 20 | 0.31746031746031744
+2024-01-12 07:53:10,380 - =================== sql-spider  63 ======================
+2024-01-12 07:53:10,380 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:10,381 - ROUTING ACC | Med: 0 - Fin: 64 - NSQL: 0
+2024-01-12 07:53:10,381 - CUM ACC | 20 | 0.3125
+2024-01-12 07:53:11,591 - =================== sql-spider  64 ======================
+2024-01-12 07:53:11,591 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:11,591 - ROUTING ACC | Med: 0 - Fin: 65 - NSQL: 0
+2024-01-12 07:53:11,591 - CUM ACC | 21 | 0.3230769230769231
+2024-01-12 07:53:13,226 - =================== sql-spider  65 ======================
+2024-01-12 07:53:13,226 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:13,226 - ROUTING ACC | Med: 0 - Fin: 66 - NSQL: 0
+2024-01-12 07:53:13,226 - CUM ACC | 22 | 0.3333333333333333
+2024-01-12 07:53:14,814 - =================== sql-spider  66 ======================
+2024-01-12 07:53:14,814 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:14,815 - ROUTING ACC | Med: 0 - Fin: 67 - NSQL: 0
+2024-01-12 07:53:14,815 - CUM ACC | 22 | 0.3283582089552239
+2024-01-12 07:53:17,148 - =================== sql-spider  67 ======================
+2024-01-12 07:53:17,148 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:17,149 - ROUTING ACC | Med: 0 - Fin: 68 - NSQL: 0
+2024-01-12 07:53:17,149 - CUM ACC | 22 | 0.3235294117647059
+2024-01-12 07:53:19,491 - =================== sql-spider  68 ======================
+2024-01-12 07:53:19,491 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:19,491 - ROUTING ACC | Med: 0 - Fin: 69 - NSQL: 0
+2024-01-12 07:53:19,491 - CUM ACC | 22 | 0.3188405797101449
+2024-01-12 07:53:20,956 - =================== sql-spider  69 ======================
+2024-01-12 07:53:20,956 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:20,956 - ROUTING ACC | Med: 0 - Fin: 70 - NSQL: 0
+2024-01-12 07:53:20,957 - CUM ACC | 22 | 0.3142857142857143
+2024-01-12 07:53:22,423 - =================== sql-spider  70 ======================
+2024-01-12 07:53:22,423 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:22,423 - ROUTING ACC | Med: 0 - Fin: 71 - NSQL: 0
+2024-01-12 07:53:22,424 - CUM ACC | 22 | 0.30985915492957744
+2024-01-12 07:53:23,975 - =================== sql-spider  71 ======================
+2024-01-12 07:53:23,975 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:23,976 - ROUTING ACC | Med: 0 - Fin: 72 - NSQL: 0
+2024-01-12 07:53:23,976 - CUM ACC | 23 | 0.3194444444444444
+2024-01-12 07:53:25,527 - =================== sql-spider  72 ======================
+2024-01-12 07:53:25,527 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:25,528 - ROUTING ACC | Med: 0 - Fin: 73 - NSQL: 0
+2024-01-12 07:53:25,528 - CUM ACC | 24 | 0.3287671232876712
+2024-01-12 07:53:27,247 - =================== sql-spider  73 ======================
+2024-01-12 07:53:27,247 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:27,248 - ROUTING ACC | Med: 0 - Fin: 74 - NSQL: 0
+2024-01-12 07:53:27,248 - CUM ACC | 24 | 0.32432432432432434
+2024-01-12 07:53:28,969 - =================== sql-spider  74 ======================
+2024-01-12 07:53:28,969 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:28,969 - ROUTING ACC | Med: 0 - Fin: 75 - NSQL: 0
+2024-01-12 07:53:28,969 - CUM ACC | 24 | 0.32
+2024-01-12 07:53:31,178 - =================== sql-spider  75 ======================
+2024-01-12 07:53:31,178 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:31,179 - ROUTING ACC | Med: 0 - Fin: 76 - NSQL: 0
+2024-01-12 07:53:31,179 - CUM ACC | 24 | 0.3157894736842105
+2024-01-12 07:53:33,179 - =================== sql-spider  76 ======================
+2024-01-12 07:53:33,179 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:33,179 - ROUTING ACC | Med: 0 - Fin: 77 - NSQL: 0
+2024-01-12 07:53:33,179 - CUM ACC | 24 | 0.3116883116883117
+2024-01-12 07:53:37,599 - =================== sql-spider  77 ======================
+2024-01-12 07:53:37,599 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:37,599 - ROUTING ACC | Med: 0 - Fin: 78 - NSQL: 0
+2024-01-12 07:53:37,599 - CUM ACC | 24 | 0.3076923076923077
+2024-01-12 07:53:40,352 - =================== sql-spider  78 ======================
+2024-01-12 07:53:40,352 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:40,352 - ROUTING ACC | Med: 0 - Fin: 79 - NSQL: 0
+2024-01-12 07:53:40,352 - CUM ACC | 24 | 0.3037974683544304
+2024-01-12 07:53:42,238 - =================== sql-spider  79 ======================
+2024-01-12 07:53:42,238 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:42,238 - ROUTING ACC | Med: 0 - Fin: 80 - NSQL: 0
+2024-01-12 07:53:42,238 - CUM ACC | 25 | 0.3125
+2024-01-12 07:53:43,452 - =================== sql-spider  80 ======================
+2024-01-12 07:53:43,452 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:43,452 - ROUTING ACC | Med: 0 - Fin: 81 - NSQL: 0
+2024-01-12 07:53:43,452 - CUM ACC | 25 | 0.30864197530864196
+2024-01-12 07:53:45,381 - =================== sql-spider  81 ======================
+2024-01-12 07:53:45,381 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:45,382 - ROUTING ACC | Med: 0 - Fin: 82 - NSQL: 0
+2024-01-12 07:53:45,382 - CUM ACC | 25 | 0.3048780487804878
+2024-01-12 07:53:47,435 - =================== sql-spider  82 ======================
+2024-01-12 07:53:47,435 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:47,435 - ROUTING ACC | Med: 0 - Fin: 83 - NSQL: 0
+2024-01-12 07:53:47,435 - CUM ACC | 25 | 0.30120481927710846
+2024-01-12 07:53:49,103 - =================== sql-spider  83 ======================
+2024-01-12 07:53:49,103 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:49,103 - ROUTING ACC | Med: 0 - Fin: 84 - NSQL: 0
+2024-01-12 07:53:49,103 - CUM ACC | 25 | 0.2976190476190476
+2024-01-12 07:53:50,780 - =================== sql-spider  84 ======================
+2024-01-12 07:53:50,780 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:50,781 - ROUTING ACC | Med: 0 - Fin: 85 - NSQL: 0
+2024-01-12 07:53:50,781 - CUM ACC | 25 | 0.29411764705882354
+2024-01-12 07:53:52,284 - =================== sql-spider  85 ======================
+2024-01-12 07:53:52,284 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:52,284 - ROUTING ACC | Med: 0 - Fin: 86 - NSQL: 0
+2024-01-12 07:53:52,284 - CUM ACC | 25 | 0.29069767441860467
+2024-01-12 07:53:54,920 - =================== sql-spider  86 ======================
+2024-01-12 07:53:54,920 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:54,921 - ROUTING ACC | Med: 0 - Fin: 87 - NSQL: 0
+2024-01-12 07:53:54,921 - CUM ACC | 25 | 0.28735632183908044
+2024-01-12 07:53:56,548 - =================== sql-spider  87 ======================
+2024-01-12 07:53:56,548 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:56,548 - ROUTING ACC | Med: 0 - Fin: 88 - NSQL: 0
+2024-01-12 07:53:56,548 - CUM ACC | 26 | 0.29545454545454547
+2024-01-12 07:53:58,176 - =================== sql-spider  88 ======================
+2024-01-12 07:53:58,176 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:53:58,177 - ROUTING ACC | Med: 0 - Fin: 89 - NSQL: 0
+2024-01-12 07:53:58,177 - CUM ACC | 27 | 0.30337078651685395
+2024-01-12 07:54:00,187 - =================== sql-spider  89 ======================
+2024-01-12 07:54:00,187 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:00,187 - ROUTING ACC | Med: 0 - Fin: 90 - NSQL: 0
+2024-01-12 07:54:00,188 - CUM ACC | 27 | 0.3
+2024-01-12 07:54:02,108 - =================== sql-spider  90 ======================
+2024-01-12 07:54:02,108 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:02,109 - ROUTING ACC | Med: 0 - Fin: 91 - NSQL: 0
+2024-01-12 07:54:02,109 - CUM ACC | 27 | 0.2967032967032967
+2024-01-12 07:54:03,152 - =================== sql-spider  91 ======================
+2024-01-12 07:54:03,152 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:03,153 - ROUTING ACC | Med: 0 - Fin: 92 - NSQL: 0
+2024-01-12 07:54:03,153 - CUM ACC | 27 | 0.29347826086956524
+2024-01-12 07:54:04,203 - =================== sql-spider  92 ======================
+2024-01-12 07:54:04,204 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:04,204 - ROUTING ACC | Med: 0 - Fin: 93 - NSQL: 0
+2024-01-12 07:54:04,204 - CUM ACC | 27 | 0.2903225806451613
+2024-01-12 07:54:06,493 - =================== sql-spider  93 ======================
+2024-01-12 07:54:06,493 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:06,494 - ROUTING ACC | Med: 0 - Fin: 94 - NSQL: 0
+2024-01-12 07:54:06,494 - CUM ACC | 27 | 0.2872340425531915
+2024-01-12 07:54:07,544 - =================== sql-spider  94 ======================
+2024-01-12 07:54:07,544 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:07,546 - ROUTING ACC | Med: 0 - Fin: 95 - NSQL: 0
+2024-01-12 07:54:07,546 - CUM ACC | 27 | 0.28421052631578947
+2024-01-12 07:54:08,756 - =================== sql-spider  95 ======================
+2024-01-12 07:54:08,756 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:08,757 - ROUTING ACC | Med: 0 - Fin: 96 - NSQL: 0
+2024-01-12 07:54:08,757 - CUM ACC | 28 | 0.2916666666666667
+2024-01-12 07:54:09,967 - =================== sql-spider  96 ======================
+2024-01-12 07:54:09,967 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:09,968 - ROUTING ACC | Med: 0 - Fin: 97 - NSQL: 0
+2024-01-12 07:54:09,968 - CUM ACC | 29 | 0.29896907216494845
+2024-01-12 07:54:13,850 - =================== sql-spider  97 ======================
+2024-01-12 07:54:13,850 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:13,851 - ROUTING ACC | Med: 0 - Fin: 98 - NSQL: 0
+2024-01-12 07:54:13,851 - CUM ACC | 29 | 0.29591836734693877
+2024-01-12 07:54:16,401 - =================== sql-spider  98 ======================
+2024-01-12 07:54:16,401 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:16,401 - ROUTING ACC | Med: 0 - Fin: 99 - NSQL: 0
+2024-01-12 07:54:16,401 - CUM ACC | 29 | 0.29292929292929293
+2024-01-12 07:54:18,285 - =================== sql-spider  99 ======================
+2024-01-12 07:54:18,285 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:18,286 - ROUTING ACC | Med: 0 - Fin: 100 - NSQL: 0
+2024-01-12 07:54:18,286 - CUM ACC | 30 | 0.3
+2024-01-12 07:54:19,547 - =================== sql-spider 100 ======================
+2024-01-12 07:54:19,547 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:19,547 - ROUTING ACC | Med: 0 - Fin: 101 - NSQL: 0
+2024-01-12 07:54:19,547 - CUM ACC | 31 | 0.3069306930693069
+2024-01-12 07:54:21,176 - =================== sql-spider 101 ======================
+2024-01-12 07:54:21,176 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:21,177 - ROUTING ACC | Med: 0 - Fin: 102 - NSQL: 0
+2024-01-12 07:54:21,177 - CUM ACC | 32 | 0.3137254901960784
+2024-01-12 07:54:22,815 - =================== sql-spider 102 ======================
+2024-01-12 07:54:22,815 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:22,816 - ROUTING ACC | Med: 0 - Fin: 103 - NSQL: 0
+2024-01-12 07:54:22,816 - CUM ACC | 33 | 0.32038834951456313
+2024-01-12 07:54:26,693 - =================== sql-spider 103 ======================
+2024-01-12 07:54:26,693 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:26,694 - ROUTING ACC | Med: 0 - Fin: 104 - NSQL: 0
+2024-01-12 07:54:26,694 - CUM ACC | 34 | 0.3269230769230769
+2024-01-12 07:54:29,529 - =================== sql-spider 104 ======================
+2024-01-12 07:54:29,529 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:29,529 - ROUTING ACC | Med: 0 - Fin: 105 - NSQL: 0
+2024-01-12 07:54:29,529 - CUM ACC | 35 | 0.3333333333333333
+2024-01-12 07:54:30,990 - =================== sql-spider 105 ======================
+2024-01-12 07:54:30,991 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:30,991 - ROUTING ACC | Med: 0 - Fin: 106 - NSQL: 0
+2024-01-12 07:54:30,991 - CUM ACC | 35 | 0.330188679245283
+2024-01-12 07:54:32,461 - =================== sql-spider 106 ======================
+2024-01-12 07:54:32,461 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:32,461 - ROUTING ACC | Med: 0 - Fin: 107 - NSQL: 0
+2024-01-12 07:54:32,461 - CUM ACC | 35 | 0.32710280373831774
+2024-01-12 07:54:34,965 - =================== sql-spider 107 ======================
+2024-01-12 07:54:34,965 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:34,965 - ROUTING ACC | Med: 0 - Fin: 108 - NSQL: 0
+2024-01-12 07:54:34,965 - CUM ACC | 35 | 0.32407407407407407
+2024-01-12 07:54:38,018 - =================== sql-spider 108 ======================
+2024-01-12 07:54:38,019 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:38,019 - ROUTING ACC | Med: 0 - Fin: 109 - NSQL: 0
+2024-01-12 07:54:38,019 - CUM ACC | 35 | 0.3211009174311927
+2024-01-12 07:54:38,846 - =================== sql-spider 109 ======================
+2024-01-12 07:54:38,846 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:38,847 - ROUTING ACC | Med: 0 - Fin: 110 - NSQL: 0
+2024-01-12 07:54:38,847 - CUM ACC | 36 | 0.32727272727272727
+2024-01-12 07:54:39,940 - =================== sql-spider 110 ======================
+2024-01-12 07:54:39,940 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:39,941 - ROUTING ACC | Med: 0 - Fin: 111 - NSQL: 0
+2024-01-12 07:54:39,941 - CUM ACC | 36 | 0.32432432432432434
+2024-01-12 07:54:40,653 - =================== sql-spider 111 ======================
+2024-01-12 07:54:40,653 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:40,654 - ROUTING ACC | Med: 0 - Fin: 112 - NSQL: 0
+2024-01-12 07:54:40,654 - CUM ACC | 37 | 0.33035714285714285
+2024-01-12 07:54:41,367 - =================== sql-spider 112 ======================
+2024-01-12 07:54:41,367 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:41,367 - ROUTING ACC | Med: 0 - Fin: 113 - NSQL: 0
+2024-01-12 07:54:41,367 - CUM ACC | 38 | 0.336283185840708
+2024-01-12 07:54:42,346 - =================== sql-spider 113 ======================
+2024-01-12 07:54:42,346 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:42,347 - ROUTING ACC | Med: 0 - Fin: 114 - NSQL: 0
+2024-01-12 07:54:42,347 - CUM ACC | 38 | 0.3333333333333333
+2024-01-12 07:54:43,324 - =================== sql-spider 114 ======================
+2024-01-12 07:54:43,324 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:43,324 - ROUTING ACC | Med: 0 - Fin: 115 - NSQL: 0
+2024-01-12 07:54:43,324 - CUM ACC | 38 | 0.33043478260869563
+2024-01-12 07:54:45,181 - =================== sql-spider 115 ======================
+2024-01-12 07:54:45,182 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 07:54:45,182 - ROUTING ACC | Med: 0 - Fin: 116 - NSQL: 0
+2024-01-12 07:54:45,182 - CUM ACC | 38 | 0.3275862068965517
+2024-01-12 08:01:24,061 - =================== sql-spider 116 ======================
+2024-01-12 08:01:24,061 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:01:24,062 - ROUTING ACC | Med: 0 - Fin: 117 - NSQL: 0
+2024-01-12 08:01:24,062 - CUM ACC | 38 | 0.3247863247863248
+2024-01-12 08:01:25,052 - =================== sql-spider 117 ======================
+2024-01-12 08:01:25,052 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:01:25,052 - ROUTING ACC | Med: 0 - Fin: 118 - NSQL: 0
+2024-01-12 08:01:25,052 - CUM ACC | 39 | 0.3305084745762712
+2024-01-12 08:01:26,034 - =================== sql-spider 118 ======================
+2024-01-12 08:01:26,034 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:01:26,034 - ROUTING ACC | Med: 0 - Fin: 119 - NSQL: 0
+2024-01-12 08:01:26,035 - CUM ACC | 40 | 0.33613445378151263
+2024-01-12 08:01:26,901 - =================== sql-spider 119 ======================
+2024-01-12 08:01:26,901 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:01:26,904 - ROUTING ACC | Med: 0 - Fin: 120 - NSQL: 0
+2024-01-12 08:01:26,904 - CUM ACC | 41 | 0.3416666666666667
+2024-01-12 08:01:27,770 - =================== sql-spider 120 ======================
+2024-01-12 08:01:27,770 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:01:27,773 - ROUTING ACC | Med: 0 - Fin: 121 - NSQL: 0
+2024-01-12 08:01:27,773 - CUM ACC | 42 | 0.34710743801652894
+2024-01-12 08:01:29,182 - =================== sql-spider 121 ======================
+2024-01-12 08:01:29,182 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:01:29,184 - ROUTING ACC | Med: 0 - Fin: 122 - NSQL: 0
+2024-01-12 08:01:29,184 - CUM ACC | 43 | 0.3524590163934426
+2024-01-12 08:01:30,664 - =================== sql-spider 122 ======================
+2024-01-12 08:01:30,664 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:01:30,665 - ROUTING ACC | Med: 0 - Fin: 123 - NSQL: 0
+2024-01-12 08:01:30,665 - CUM ACC | 44 | 0.35772357723577236
+2024-01-12 08:08:04,362 - =================== sql-spider 123 ======================
+2024-01-12 08:08:04,362 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:04,363 - ROUTING ACC | Med: 0 - Fin: 124 - NSQL: 0
+2024-01-12 08:08:04,363 - CUM ACC | 44 | 0.3548387096774194
+2024-01-12 08:08:05,671 - =================== sql-spider 124 ======================
+2024-01-12 08:08:05,671 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:05,672 - ROUTING ACC | Med: 0 - Fin: 125 - NSQL: 0
+2024-01-12 08:08:05,672 - CUM ACC | 44 | 0.352
+2024-01-12 08:08:06,655 - =================== sql-spider 125 ======================
+2024-01-12 08:08:06,655 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:06,658 - ROUTING ACC | Med: 0 - Fin: 126 - NSQL: 0
+2024-01-12 08:08:06,659 - CUM ACC | 45 | 0.35714285714285715
+2024-01-12 08:08:07,105 - =================== sql-spider 126 ======================
+2024-01-12 08:08:07,106 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:07,108 - ROUTING ACC | Med: 0 - Fin: 127 - NSQL: 0
+2024-01-12 08:08:07,108 - CUM ACC | 45 | 0.3543307086614173
+2024-01-12 08:08:07,743 - =================== sql-spider 127 ======================
+2024-01-12 08:08:07,743 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:07,743 - ROUTING ACC | Med: 0 - Fin: 128 - NSQL: 0
+2024-01-12 08:08:07,743 - CUM ACC | 46 | 0.359375
+2024-01-12 08:08:08,381 - =================== sql-spider 128 ======================
+2024-01-12 08:08:08,381 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:08,382 - ROUTING ACC | Med: 0 - Fin: 129 - NSQL: 0
+2024-01-12 08:08:08,382 - CUM ACC | 46 | 0.35658914728682173
+2024-01-12 08:08:09,095 - =================== sql-spider 129 ======================
+2024-01-12 08:08:09,096 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:09,096 - ROUTING ACC | Med: 0 - Fin: 130 - NSQL: 0
+2024-01-12 08:08:09,096 - CUM ACC | 47 | 0.36153846153846153
+2024-01-12 08:08:09,811 - =================== sql-spider 130 ======================
+2024-01-12 08:08:09,811 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:09,811 - ROUTING ACC | Med: 0 - Fin: 131 - NSQL: 0
+2024-01-12 08:08:09,811 - CUM ACC | 48 | 0.366412213740458
+2024-01-12 08:08:10,526 - =================== sql-spider 131 ======================
+2024-01-12 08:08:10,526 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:10,527 - ROUTING ACC | Med: 0 - Fin: 132 - NSQL: 0
+2024-01-12 08:08:10,527 - CUM ACC | 48 | 0.36363636363636365
+2024-01-12 08:08:11,242 - =================== sql-spider 132 ======================
+2024-01-12 08:08:11,242 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:11,243 - ROUTING ACC | Med: 0 - Fin: 133 - NSQL: 0
+2024-01-12 08:08:11,243 - CUM ACC | 48 | 0.3609022556390977
+2024-01-12 08:08:13,003 - =================== sql-spider 133 ======================
+2024-01-12 08:08:13,003 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:13,008 - ROUTING ACC | Med: 0 - Fin: 134 - NSQL: 0
+2024-01-12 08:08:13,008 - CUM ACC | 48 | 0.3582089552238806
+2024-01-12 08:08:15,962 - =================== sql-spider 134 ======================
+2024-01-12 08:08:15,962 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:15,967 - ROUTING ACC | Med: 0 - Fin: 135 - NSQL: 0
+2024-01-12 08:08:15,967 - CUM ACC | 48 | 0.35555555555555557
+2024-01-12 08:08:17,906 - =================== sql-spider 135 ======================
+2024-01-12 08:08:17,906 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:17,908 - ROUTING ACC | Med: 0 - Fin: 136 - NSQL: 0
+2024-01-12 08:08:17,908 - CUM ACC | 48 | 0.35294117647058826
+2024-01-12 08:08:19,358 - =================== sql-spider 136 ======================
+2024-01-12 08:08:19,358 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:19,359 - ROUTING ACC | Med: 0 - Fin: 137 - NSQL: 0
+2024-01-12 08:08:19,359 - CUM ACC | 48 | 0.35036496350364965
+2024-01-12 08:08:20,532 - =================== sql-spider 137 ======================
+2024-01-12 08:08:20,533 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:20,533 - ROUTING ACC | Med: 0 - Fin: 138 - NSQL: 0
+2024-01-12 08:08:20,533 - CUM ACC | 48 | 0.34782608695652173
+2024-01-12 08:08:21,941 - =================== sql-spider 138 ======================
+2024-01-12 08:08:21,941 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:21,943 - ROUTING ACC | Med: 0 - Fin: 139 - NSQL: 0
+2024-01-12 08:08:21,943 - CUM ACC | 48 | 0.34532374100719426
+2024-01-12 08:08:24,992 - =================== sql-spider 139 ======================
+2024-01-12 08:08:24,992 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:24,995 - ROUTING ACC | Med: 0 - Fin: 140 - NSQL: 0
+2024-01-12 08:08:24,995 - CUM ACC | 48 | 0.34285714285714286
+2024-01-12 08:08:28,056 - =================== sql-spider 140 ======================
+2024-01-12 08:08:28,056 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:28,059 - ROUTING ACC | Med: 0 - Fin: 141 - NSQL: 0
+2024-01-12 08:08:28,059 - CUM ACC | 48 | 0.3404255319148936
+2024-01-12 08:08:29,160 - =================== sql-spider 141 ======================
+2024-01-12 08:08:29,161 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:29,163 - ROUTING ACC | Med: 0 - Fin: 142 - NSQL: 0
+2024-01-12 08:08:29,163 - CUM ACC | 48 | 0.3380281690140845
+2024-01-12 08:08:30,228 - =================== sql-spider 142 ======================
+2024-01-12 08:08:30,228 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:30,230 - ROUTING ACC | Med: 0 - Fin: 143 - NSQL: 0
+2024-01-12 08:08:30,230 - CUM ACC | 48 | 0.3356643356643357
+2024-01-12 08:08:31,531 - =================== sql-spider 143 ======================
+2024-01-12 08:08:31,531 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:31,534 - ROUTING ACC | Med: 0 - Fin: 144 - NSQL: 0
+2024-01-12 08:08:31,534 - CUM ACC | 48 | 0.3333333333333333
+2024-01-12 08:08:32,672 - =================== sql-spider 144 ======================
+2024-01-12 08:08:32,672 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:32,675 - ROUTING ACC | Med: 0 - Fin: 145 - NSQL: 0
+2024-01-12 08:08:32,675 - CUM ACC | 48 | 0.3310344827586207
+2024-01-12 08:08:35,038 - =================== sql-spider 145 ======================
+2024-01-12 08:08:35,038 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:35,039 - ROUTING ACC | Med: 0 - Fin: 146 - NSQL: 0
+2024-01-12 08:08:35,040 - CUM ACC | 48 | 0.3287671232876712
+2024-01-12 08:08:36,287 - =================== sql-spider 146 ======================
+2024-01-12 08:08:36,288 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:36,289 - ROUTING ACC | Med: 0 - Fin: 147 - NSQL: 0
+2024-01-12 08:08:36,289 - CUM ACC | 48 | 0.32653061224489793
+2024-01-12 08:08:38,074 - =================== sql-spider 147 ======================
+2024-01-12 08:08:38,074 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:38,076 - ROUTING ACC | Med: 0 - Fin: 148 - NSQL: 0
+2024-01-12 08:08:38,076 - CUM ACC | 48 | 0.32432432432432434
+2024-01-12 08:08:39,865 - =================== sql-spider 148 ======================
+2024-01-12 08:08:39,865 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:39,867 - ROUTING ACC | Med: 0 - Fin: 149 - NSQL: 0
+2024-01-12 08:08:39,867 - CUM ACC | 48 | 0.3221476510067114
+2024-01-12 08:08:41,347 - =================== sql-spider 149 ======================
+2024-01-12 08:08:41,347 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:41,350 - ROUTING ACC | Med: 0 - Fin: 150 - NSQL: 0
+2024-01-12 08:08:41,351 - CUM ACC | 49 | 0.32666666666666666
+2024-01-12 08:08:42,753 - =================== sql-spider 150 ======================
+2024-01-12 08:08:42,753 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:42,756 - ROUTING ACC | Med: 0 - Fin: 151 - NSQL: 0
+2024-01-12 08:08:42,756 - CUM ACC | 50 | 0.33112582781456956
+2024-01-12 08:08:43,662 - =================== sql-spider 151 ======================
+2024-01-12 08:08:43,662 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:43,664 - ROUTING ACC | Med: 0 - Fin: 152 - NSQL: 0
+2024-01-12 08:08:43,664 - CUM ACC | 50 | 0.32894736842105265
+2024-01-12 08:08:44,491 - =================== sql-spider 152 ======================
+2024-01-12 08:08:44,491 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:44,494 - ROUTING ACC | Med: 0 - Fin: 153 - NSQL: 0
+2024-01-12 08:08:44,494 - CUM ACC | 50 | 0.32679738562091504
+2024-01-12 08:08:46,429 - =================== sql-spider 153 ======================
+2024-01-12 08:08:46,429 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:46,430 - ROUTING ACC | Med: 0 - Fin: 154 - NSQL: 0
+2024-01-12 08:08:46,431 - CUM ACC | 50 | 0.3246753246753247
+2024-01-12 08:08:48,797 - =================== sql-spider 154 ======================
+2024-01-12 08:08:48,797 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:48,798 - ROUTING ACC | Med: 0 - Fin: 155 - NSQL: 0
+2024-01-12 08:08:48,798 - CUM ACC | 50 | 0.3225806451612903
+2024-01-12 08:08:50,548 - =================== sql-spider 155 ======================
+2024-01-12 08:08:50,549 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:50,883 - ROUTING ACC | Med: 0 - Fin: 156 - NSQL: 0
+2024-01-12 08:08:50,884 - CUM ACC | 50 | 0.32051282051282054
+2024-01-12 08:08:53,055 - =================== sql-spider 156 ======================
+2024-01-12 08:08:53,055 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:53,390 - ROUTING ACC | Med: 0 - Fin: 157 - NSQL: 0
+2024-01-12 08:08:53,390 - CUM ACC | 50 | 0.3184713375796178
+2024-01-12 08:08:55,405 - =================== sql-spider 157 ======================
+2024-01-12 08:08:55,405 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:55,406 - ROUTING ACC | Med: 0 - Fin: 158 - NSQL: 0
+2024-01-12 08:08:55,406 - CUM ACC | 51 | 0.3227848101265823
+2024-01-12 08:08:56,886 - =================== sql-spider 158 ======================
+2024-01-12 08:08:56,886 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:08:56,888 - ROUTING ACC | Med: 0 - Fin: 159 - NSQL: 0
+2024-01-12 08:08:56,888 - CUM ACC | 51 | 0.32075471698113206
+2024-01-12 08:09:00,254 - =================== sql-spider 159 ======================
+2024-01-12 08:09:00,254 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:09:00,255 - ROUTING ACC | Med: 0 - Fin: 160 - NSQL: 0
+2024-01-12 08:09:00,255 - CUM ACC | 51 | 0.31875
+2024-01-12 08:15:33,305 - =================== sql-spider 160 ======================
+2024-01-12 08:15:33,306 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:33,307 - ROUTING ACC | Med: 0 - Fin: 161 - NSQL: 0
+2024-01-12 08:15:33,307 - CUM ACC | 51 | 0.3167701863354037
+2024-01-12 08:15:34,528 - =================== sql-spider 161 ======================
+2024-01-12 08:15:34,528 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:34,535 - ROUTING ACC | Med: 0 - Fin: 162 - NSQL: 0
+2024-01-12 08:15:34,535 - CUM ACC | 51 | 0.3148148148148148
+2024-01-12 08:15:36,716 - =================== sql-spider 162 ======================
+2024-01-12 08:15:36,716 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:38,268 - ROUTING ACC | Med: 0 - Fin: 163 - NSQL: 0
+2024-01-12 08:15:38,268 - CUM ACC | 51 | 0.3128834355828221
+2024-01-12 08:15:39,746 - =================== sql-spider 163 ======================
+2024-01-12 08:15:39,747 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:39,750 - ROUTING ACC | Med: 0 - Fin: 164 - NSQL: 0
+2024-01-12 08:15:39,750 - CUM ACC | 51 | 0.31097560975609756
+2024-01-12 08:15:41,230 - =================== sql-spider 164 ======================
+2024-01-12 08:15:41,230 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:41,233 - ROUTING ACC | Med: 0 - Fin: 165 - NSQL: 0
+2024-01-12 08:15:41,234 - CUM ACC | 51 | 0.3090909090909091
+2024-01-12 08:15:42,407 - =================== sql-spider 165 ======================
+2024-01-12 08:15:42,407 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:42,411 - ROUTING ACC | Med: 0 - Fin: 166 - NSQL: 0
+2024-01-12 08:15:42,411 - CUM ACC | 51 | 0.3072289156626506
+2024-01-12 08:15:43,586 - =================== sql-spider 166 ======================
+2024-01-12 08:15:43,586 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:43,590 - ROUTING ACC | Med: 0 - Fin: 167 - NSQL: 0
+2024-01-12 08:15:43,590 - CUM ACC | 51 | 0.30538922155688625
+2024-01-12 08:15:46,813 - =================== sql-spider 167 ======================
+2024-01-12 08:15:46,813 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:46,814 - ROUTING ACC | Med: 0 - Fin: 168 - NSQL: 0
+2024-01-12 08:15:46,814 - CUM ACC | 51 | 0.30357142857142855
+2024-01-12 08:15:48,377 - =================== sql-spider 168 ======================
+2024-01-12 08:15:48,377 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:48,378 - ROUTING ACC | Med: 0 - Fin: 169 - NSQL: 0
+2024-01-12 08:15:48,378 - CUM ACC | 51 | 0.30177514792899407
+2024-01-12 08:15:49,406 - =================== sql-spider 169 ======================
+2024-01-12 08:15:49,406 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:49,409 - ROUTING ACC | Med: 0 - Fin: 170 - NSQL: 0
+2024-01-12 08:15:49,409 - CUM ACC | 51 | 0.3
+2024-01-12 08:15:50,432 - =================== sql-spider 170 ======================
+2024-01-12 08:15:50,432 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:50,435 - ROUTING ACC | Med: 0 - Fin: 171 - NSQL: 0
+2024-01-12 08:15:50,435 - CUM ACC | 51 | 0.2982456140350877
+2024-01-12 08:15:51,919 - =================== sql-spider 171 ======================
+2024-01-12 08:15:51,919 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:51,923 - ROUTING ACC | Med: 0 - Fin: 172 - NSQL: 0
+2024-01-12 08:15:51,923 - CUM ACC | 51 | 0.29651162790697677
+2024-01-12 08:15:52,908 - =================== sql-spider 172 ======================
+2024-01-12 08:15:52,908 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:52,911 - ROUTING ACC | Med: 0 - Fin: 173 - NSQL: 0
+2024-01-12 08:15:52,911 - CUM ACC | 51 | 0.2947976878612717
+2024-01-12 08:15:53,929 - =================== sql-spider 173 ======================
+2024-01-12 08:15:53,929 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:53,929 - ROUTING ACC | Med: 0 - Fin: 174 - NSQL: 0
+2024-01-12 08:15:53,929 - CUM ACC | 52 | 0.2988505747126437
+2024-01-12 08:15:54,908 - =================== sql-spider 174 ======================
+2024-01-12 08:15:54,908 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:54,909 - ROUTING ACC | Med: 0 - Fin: 175 - NSQL: 0
+2024-01-12 08:15:54,909 - CUM ACC | 52 | 0.29714285714285715
+2024-01-12 08:15:57,581 - =================== sql-spider 175 ======================
+2024-01-12 08:15:57,581 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:15:57,582 - ROUTING ACC | Med: 0 - Fin: 176 - NSQL: 0
+2024-01-12 08:15:57,582 - CUM ACC | 52 | 0.29545454545454547
+2024-01-12 08:16:00,249 - =================== sql-spider 176 ======================
+2024-01-12 08:16:00,250 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:16:00,252 - ROUTING ACC | Med: 0 - Fin: 177 - NSQL: 0
+2024-01-12 08:16:00,252 - CUM ACC | 52 | 0.2937853107344633
+2024-01-12 08:16:01,541 - =================== sql-spider 177 ======================
+2024-01-12 08:16:01,541 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:16:01,541 - ROUTING ACC | Med: 0 - Fin: 178 - NSQL: 0
+2024-01-12 08:16:01,541 - CUM ACC | 52 | 0.29213483146067415
+2024-01-12 08:16:02,834 - =================== sql-spider 178 ======================
+2024-01-12 08:16:02,834 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:16:02,835 - ROUTING ACC | Med: 0 - Fin: 179 - NSQL: 0
+2024-01-12 08:16:02,835 - CUM ACC | 52 | 0.2905027932960894
+2024-01-12 08:16:04,122 - =================== sql-spider 179 ======================
+2024-01-12 08:16:04,122 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:16:04,126 - ROUTING ACC | Med: 0 - Fin: 180 - NSQL: 0
+2024-01-12 08:16:04,126 - CUM ACC | 52 | 0.28888888888888886
+2024-01-12 08:22:37,438 - =================== sql-spider 180 ======================
+2024-01-12 08:22:37,438 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:37,442 - ROUTING ACC | Med: 0 - Fin: 181 - NSQL: 0
+2024-01-12 08:22:37,442 - CUM ACC | 52 | 0.287292817679558
+2024-01-12 08:22:38,434 - =================== sql-spider 181 ======================
+2024-01-12 08:22:38,434 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:38,436 - ROUTING ACC | Med: 0 - Fin: 182 - NSQL: 0
+2024-01-12 08:22:38,436 - CUM ACC | 52 | 0.2857142857142857
+2024-01-12 08:22:40,124 - =================== sql-spider 182 ======================
+2024-01-12 08:22:40,124 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:40,125 - ROUTING ACC | Med: 0 - Fin: 183 - NSQL: 0
+2024-01-12 08:22:40,125 - CUM ACC | 52 | 0.28415300546448086
+2024-01-12 08:22:41,411 - =================== sql-spider 183 ======================
+2024-01-12 08:22:41,411 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:41,411 - ROUTING ACC | Med: 0 - Fin: 184 - NSQL: 0
+2024-01-12 08:22:41,411 - CUM ACC | 52 | 0.2826086956521739
+2024-01-12 08:22:42,964 - =================== sql-spider 184 ======================
+2024-01-12 08:22:42,964 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:42,965 - ROUTING ACC | Med: 0 - Fin: 185 - NSQL: 0
+2024-01-12 08:22:42,965 - CUM ACC | 52 | 0.2810810810810811
+2024-01-12 08:22:44,488 - =================== sql-spider 185 ======================
+2024-01-12 08:22:44,488 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:44,489 - ROUTING ACC | Med: 0 - Fin: 186 - NSQL: 0
+2024-01-12 08:22:44,489 - CUM ACC | 52 | 0.27956989247311825
+2024-01-12 08:22:45,927 - =================== sql-spider 186 ======================
+2024-01-12 08:22:45,927 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:45,930 - ROUTING ACC | Med: 0 - Fin: 187 - NSQL: 0
+2024-01-12 08:22:45,930 - CUM ACC | 52 | 0.27807486631016043
+2024-01-12 08:22:46,681 - =================== sql-spider 187 ======================
+2024-01-12 08:22:46,681 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:46,683 - ROUTING ACC | Med: 0 - Fin: 188 - NSQL: 0
+2024-01-12 08:22:46,683 - CUM ACC | 53 | 0.28191489361702127
+2024-01-12 08:22:47,591 - =================== sql-spider 188 ======================
+2024-01-12 08:22:47,591 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:47,594 - ROUTING ACC | Med: 0 - Fin: 189 - NSQL: 0
+2024-01-12 08:22:47,594 - CUM ACC | 53 | 0.2804232804232804
+2024-01-12 08:22:49,298 - =================== sql-spider 189 ======================
+2024-01-12 08:22:49,299 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:49,309 - ROUTING ACC | Med: 0 - Fin: 190 - NSQL: 0
+2024-01-12 08:22:49,309 - CUM ACC | 53 | 0.2789473684210526
+2024-01-12 08:22:51,091 - =================== sql-spider 190 ======================
+2024-01-12 08:22:51,091 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:51,096 - ROUTING ACC | Med: 0 - Fin: 191 - NSQL: 0
+2024-01-12 08:22:51,096 - CUM ACC | 53 | 0.2774869109947644
+2024-01-12 08:22:52,535 - =================== sql-spider 191 ======================
+2024-01-12 08:22:52,535 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:52,545 - ROUTING ACC | Med: 0 - Fin: 192 - NSQL: 0
+2024-01-12 08:22:52,545 - CUM ACC | 53 | 0.2760416666666667
+2024-01-12 08:22:54,294 - =================== sql-spider 192 ======================
+2024-01-12 08:22:54,294 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:54,299 - ROUTING ACC | Med: 0 - Fin: 193 - NSQL: 0
+2024-01-12 08:22:54,299 - CUM ACC | 53 | 0.27461139896373055
+2024-01-12 08:22:55,091 - =================== sql-spider 193 ======================
+2024-01-12 08:22:55,091 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:55,092 - ROUTING ACC | Med: 0 - Fin: 194 - NSQL: 0
+2024-01-12 08:22:55,092 - CUM ACC | 53 | 0.27319587628865977
+2024-01-12 08:22:55,918 - =================== sql-spider 194 ======================
+2024-01-12 08:22:55,918 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:55,920 - ROUTING ACC | Med: 0 - Fin: 195 - NSQL: 0
+2024-01-12 08:22:55,920 - CUM ACC | 54 | 0.27692307692307694
+2024-01-12 08:22:56,975 - =================== sql-spider 195 ======================
+2024-01-12 08:22:56,976 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:56,978 - ROUTING ACC | Med: 0 - Fin: 196 - NSQL: 0
+2024-01-12 08:22:56,978 - CUM ACC | 54 | 0.2755102040816326
+2024-01-12 08:22:57,966 - =================== sql-spider 196 ======================
+2024-01-12 08:22:57,966 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:57,968 - ROUTING ACC | Med: 0 - Fin: 197 - NSQL: 0
+2024-01-12 08:22:57,968 - CUM ACC | 54 | 0.27411167512690354
+2024-01-12 08:22:59,322 - =================== sql-spider 197 ======================
+2024-01-12 08:22:59,322 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:22:59,329 - ROUTING ACC | Med: 0 - Fin: 198 - NSQL: 0
+2024-01-12 08:22:59,329 - CUM ACC | 55 | 0.2777777777777778
+2024-01-12 08:23:00,683 - =================== sql-spider 198 ======================
+2024-01-12 08:23:00,683 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:23:00,688 - ROUTING ACC | Med: 0 - Fin: 199 - NSQL: 0
+2024-01-12 08:23:00,688 - CUM ACC | 55 | 0.27638190954773867
+2024-01-12 08:23:02,669 - =================== sql-spider 199 ======================
+2024-01-12 08:23:02,670 - Model Chosen: finance-llm | Model Expected: sql-spider
+2024-01-12 08:23:02,670 - ROUTING ACC | Med: 0 - Fin: 200 - NSQL: 0
+2024-01-12 08:23:02,671 - CUM ACC | 55 | 0.275

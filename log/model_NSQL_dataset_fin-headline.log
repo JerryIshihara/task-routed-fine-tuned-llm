@@ -1,0 +1,1002 @@
+2024-01-12 10:52:30,029 - PyTorch version 2.1.2 available.
+2024-01-12 10:52:47,537 - =================== fin-headline   0 ======================
+2024-01-12 10:52:47,537 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:47,537 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:47,537 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 1
+2024-01-12 10:52:47,537 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:47,719 - =================== fin-headline   1 ======================
+2024-01-12 10:52:47,719 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:47,720 - Predicted Label:  | True Label: No
+2024-01-12 10:52:47,720 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 2
+2024-01-12 10:52:47,720 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:47,908 - =================== fin-headline   2 ======================
+2024-01-12 10:52:47,908 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:47,908 - Predicted Label:  | True Label: No
+2024-01-12 10:52:47,908 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 3
+2024-01-12 10:52:47,908 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:48,108 - =================== fin-headline   3 ======================
+2024-01-12 10:52:48,108 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:48,108 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:48,108 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 4
+2024-01-12 10:52:48,108 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:48,288 - =================== fin-headline   4 ======================
+2024-01-12 10:52:48,288 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:48,288 - Predicted Label:  | True Label: No
+2024-01-12 10:52:48,288 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 5
+2024-01-12 10:52:48,288 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:48,476 - =================== fin-headline   5 ======================
+2024-01-12 10:52:48,476 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:48,476 - Predicted Label:  | True Label: No
+2024-01-12 10:52:48,477 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 6
+2024-01-12 10:52:48,477 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:48,657 - =================== fin-headline   6 ======================
+2024-01-12 10:52:48,657 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:48,658 - Predicted Label:  | True Label: No
+2024-01-12 10:52:48,658 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 7
+2024-01-12 10:52:48,658 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:48,837 - =================== fin-headline   7 ======================
+2024-01-12 10:52:48,838 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:48,838 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:48,838 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 8
+2024-01-12 10:52:48,838 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:49,020 - =================== fin-headline   8 ======================
+2024-01-12 10:52:49,020 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:49,020 - Predicted Label:  | True Label: No
+2024-01-12 10:52:49,020 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 9
+2024-01-12 10:52:49,020 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:49,196 - =================== fin-headline   9 ======================
+2024-01-12 10:52:49,196 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:49,196 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:49,196 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 10
+2024-01-12 10:52:49,196 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:49,391 - =================== fin-headline  10 ======================
+2024-01-12 10:52:49,391 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:49,391 - Predicted Label:  | True Label: No
+2024-01-12 10:52:49,391 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 11
+2024-01-12 10:52:49,391 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:49,571 - =================== fin-headline  11 ======================
+2024-01-12 10:52:49,571 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:49,571 - Predicted Label:  | True Label: No
+2024-01-12 10:52:49,571 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 12
+2024-01-12 10:52:49,571 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:49,748 - =================== fin-headline  12 ======================
+2024-01-12 10:52:49,748 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:49,748 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:49,748 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 13
+2024-01-12 10:52:49,748 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:49,944 - =================== fin-headline  13 ======================
+2024-01-12 10:52:49,944 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:49,944 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:49,944 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 14
+2024-01-12 10:52:49,944 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:50,133 - =================== fin-headline  14 ======================
+2024-01-12 10:52:50,133 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:50,133 - Predicted Label:  | True Label: No
+2024-01-12 10:52:50,133 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 15
+2024-01-12 10:52:50,133 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:50,318 - =================== fin-headline  15 ======================
+2024-01-12 10:52:50,318 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:50,319 - Predicted Label:  | True Label: No
+2024-01-12 10:52:50,319 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 16
+2024-01-12 10:52:50,319 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:50,497 - =================== fin-headline  16 ======================
+2024-01-12 10:52:50,497 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:50,497 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:50,497 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 17
+2024-01-12 10:52:50,497 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:50,675 - =================== fin-headline  17 ======================
+2024-01-12 10:52:50,675 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:50,676 - Predicted Label:  | True Label: No
+2024-01-12 10:52:50,676 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 18
+2024-01-12 10:52:50,676 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:50,869 - =================== fin-headline  18 ======================
+2024-01-12 10:52:50,869 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:50,870 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:50,870 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 19
+2024-01-12 10:52:50,870 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:51,055 - =================== fin-headline  19 ======================
+2024-01-12 10:52:51,055 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:51,055 - Predicted Label:  | True Label: No
+2024-01-12 10:52:51,055 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 20
+2024-01-12 10:52:51,055 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:51,231 - =================== fin-headline  20 ======================
+2024-01-12 10:52:51,231 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:51,231 - Predicted Label:  | True Label: No
+2024-01-12 10:52:51,231 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 21
+2024-01-12 10:52:51,231 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:51,413 - =================== fin-headline  21 ======================
+2024-01-12 10:52:51,413 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:51,413 - Predicted Label:  | True Label: No
+2024-01-12 10:52:51,413 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 22
+2024-01-12 10:52:51,413 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:51,606 - =================== fin-headline  22 ======================
+2024-01-12 10:52:51,606 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:51,606 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:51,606 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 23
+2024-01-12 10:52:51,606 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:51,788 - =================== fin-headline  23 ======================
+2024-01-12 10:52:51,788 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:51,788 - Predicted Label:  | True Label: No
+2024-01-12 10:52:51,789 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 24
+2024-01-12 10:52:51,789 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:51,964 - =================== fin-headline  24 ======================
+2024-01-12 10:52:51,965 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:51,965 - Predicted Label:  | True Label: No
+2024-01-12 10:52:51,965 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 25
+2024-01-12 10:52:51,965 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:52,160 - =================== fin-headline  25 ======================
+2024-01-12 10:52:52,160 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:52,160 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:52,160 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 26
+2024-01-12 10:52:52,160 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:52,357 - =================== fin-headline  26 ======================
+2024-01-12 10:52:52,357 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:52,357 - Predicted Label:  | True Label: No
+2024-01-12 10:52:52,357 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 27
+2024-01-12 10:52:52,357 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:52,542 - =================== fin-headline  27 ======================
+2024-01-12 10:52:52,542 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:52,543 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:52,543 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 28
+2024-01-12 10:52:52,543 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:52,732 - =================== fin-headline  28 ======================
+2024-01-12 10:52:52,732 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:52,732 - Predicted Label:  | True Label: No
+2024-01-12 10:52:52,732 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 29
+2024-01-12 10:52:52,732 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:52,926 - =================== fin-headline  29 ======================
+2024-01-12 10:52:52,926 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:52,926 - Predicted Label:  | True Label: No
+2024-01-12 10:52:52,926 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 30
+2024-01-12 10:52:52,926 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:53,109 - =================== fin-headline  30 ======================
+2024-01-12 10:52:53,109 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:53,109 - Predicted Label:  | True Label: No
+2024-01-12 10:52:53,109 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 31
+2024-01-12 10:52:53,109 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:53,289 - =================== fin-headline  31 ======================
+2024-01-12 10:52:53,289 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:53,289 - Predicted Label:  | True Label: No
+2024-01-12 10:52:53,289 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 32
+2024-01-12 10:52:53,289 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:53,468 - =================== fin-headline  32 ======================
+2024-01-12 10:52:53,468 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:53,469 - Predicted Label:  | True Label: No
+2024-01-12 10:52:53,469 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 33
+2024-01-12 10:52:53,469 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:53,646 - =================== fin-headline  33 ======================
+2024-01-12 10:52:53,646 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:53,647 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:53,647 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 34
+2024-01-12 10:52:53,647 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:53,820 - =================== fin-headline  34 ======================
+2024-01-12 10:52:53,821 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:53,821 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:53,821 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 35
+2024-01-12 10:52:53,821 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:53,997 - =================== fin-headline  35 ======================
+2024-01-12 10:52:53,997 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:53,997 - Predicted Label:  | True Label: No
+2024-01-12 10:52:53,997 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 36
+2024-01-12 10:52:53,997 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:54,172 - =================== fin-headline  36 ======================
+2024-01-12 10:52:54,172 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:54,172 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:54,172 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 37
+2024-01-12 10:52:54,172 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:54,366 - =================== fin-headline  37 ======================
+2024-01-12 10:52:54,366 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:54,367 - Predicted Label:  | True Label: No
+2024-01-12 10:52:54,367 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 38
+2024-01-12 10:52:54,367 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:54,547 - =================== fin-headline  38 ======================
+2024-01-12 10:52:54,547 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:54,547 - Predicted Label:  | True Label: No
+2024-01-12 10:52:54,547 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 39
+2024-01-12 10:52:54,547 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:54,729 - =================== fin-headline  39 ======================
+2024-01-12 10:52:54,729 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:54,729 - Predicted Label:  | True Label: No
+2024-01-12 10:52:54,729 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 40
+2024-01-12 10:52:54,729 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:54,913 - =================== fin-headline  40 ======================
+2024-01-12 10:52:54,913 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:54,913 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:54,913 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 41
+2024-01-12 10:52:54,913 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:55,090 - =================== fin-headline  41 ======================
+2024-01-12 10:52:55,090 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:55,090 - Predicted Label:  | True Label: No
+2024-01-12 10:52:55,090 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 42
+2024-01-12 10:52:55,090 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:55,270 - =================== fin-headline  42 ======================
+2024-01-12 10:52:55,270 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:55,271 - Predicted Label:  | True Label: No
+2024-01-12 10:52:55,271 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 43
+2024-01-12 10:52:55,271 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:55,454 - =================== fin-headline  43 ======================
+2024-01-12 10:52:55,454 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:55,454 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:55,454 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 44
+2024-01-12 10:52:55,455 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:55,644 - =================== fin-headline  44 ======================
+2024-01-12 10:52:55,644 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:55,644 - Predicted Label:  | True Label: No
+2024-01-12 10:52:55,644 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 45
+2024-01-12 10:52:55,644 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:55,832 - =================== fin-headline  45 ======================
+2024-01-12 10:52:55,832 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:55,832 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:55,832 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 46
+2024-01-12 10:52:55,832 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:56,031 - =================== fin-headline  46 ======================
+2024-01-12 10:52:56,031 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:56,031 - Predicted Label:  | True Label: No
+2024-01-12 10:52:56,031 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 47
+2024-01-12 10:52:56,031 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:56,232 - =================== fin-headline  47 ======================
+2024-01-12 10:52:56,232 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:56,232 - Predicted Label:  | True Label: No
+2024-01-12 10:52:56,232 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 48
+2024-01-12 10:52:56,232 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:56,427 - =================== fin-headline  48 ======================
+2024-01-12 10:52:56,427 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:56,427 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:56,427 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 49
+2024-01-12 10:52:56,427 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:56,612 - =================== fin-headline  49 ======================
+2024-01-12 10:52:56,612 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:56,612 - Predicted Label:  | True Label: No
+2024-01-12 10:52:56,612 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 50
+2024-01-12 10:52:56,612 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:56,791 - =================== fin-headline  50 ======================
+2024-01-12 10:52:56,791 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:56,792 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:56,792 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 51
+2024-01-12 10:52:56,792 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:56,978 - =================== fin-headline  51 ======================
+2024-01-12 10:52:56,978 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:56,978 - Predicted Label:  | True Label: No
+2024-01-12 10:52:56,978 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 52
+2024-01-12 10:52:56,978 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:57,157 - =================== fin-headline  52 ======================
+2024-01-12 10:52:57,157 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:57,158 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:57,158 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 53
+2024-01-12 10:52:57,158 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:57,333 - =================== fin-headline  53 ======================
+2024-01-12 10:52:57,333 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:57,334 - Predicted Label:  | True Label: No
+2024-01-12 10:52:57,334 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 54
+2024-01-12 10:52:57,334 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:57,528 - =================== fin-headline  54 ======================
+2024-01-12 10:52:57,528 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:57,528 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:57,528 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 55
+2024-01-12 10:52:57,528 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:57,721 - =================== fin-headline  55 ======================
+2024-01-12 10:52:57,721 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:57,721 - Predicted Label:  | True Label: No
+2024-01-12 10:52:57,722 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 56
+2024-01-12 10:52:57,722 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:57,899 - =================== fin-headline  56 ======================
+2024-01-12 10:52:57,899 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:57,899 - Predicted Label:  | True Label: No
+2024-01-12 10:52:57,899 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 57
+2024-01-12 10:52:57,899 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:58,097 - =================== fin-headline  57 ======================
+2024-01-12 10:52:58,097 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:58,097 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:58,097 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 58
+2024-01-12 10:52:58,097 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:58,286 - =================== fin-headline  58 ======================
+2024-01-12 10:52:58,286 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:58,286 - Predicted Label:  | True Label: No
+2024-01-12 10:52:58,286 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 59
+2024-01-12 10:52:58,286 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:58,465 - =================== fin-headline  59 ======================
+2024-01-12 10:52:58,465 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:58,465 - Predicted Label:  | True Label: No
+2024-01-12 10:52:58,465 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 60
+2024-01-12 10:52:58,465 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:58,659 - =================== fin-headline  60 ======================
+2024-01-12 10:52:58,659 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:58,659 - Predicted Label:  | True Label: No
+2024-01-12 10:52:58,659 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 61
+2024-01-12 10:52:58,659 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:58,834 - =================== fin-headline  61 ======================
+2024-01-12 10:52:58,834 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:58,834 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:58,834 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 62
+2024-01-12 10:52:58,835 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:59,014 - =================== fin-headline  62 ======================
+2024-01-12 10:52:59,014 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:59,014 - Predicted Label:  | True Label: No
+2024-01-12 10:52:59,014 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 63
+2024-01-12 10:52:59,014 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:59,212 - =================== fin-headline  63 ======================
+2024-01-12 10:52:59,212 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:59,212 - Predicted Label:  | True Label: Yes
+2024-01-12 10:52:59,212 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 64
+2024-01-12 10:52:59,212 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:59,395 - =================== fin-headline  64 ======================
+2024-01-12 10:52:59,395 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:59,395 - Predicted Label:  | True Label: No
+2024-01-12 10:52:59,395 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 65
+2024-01-12 10:52:59,395 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:59,589 - =================== fin-headline  65 ======================
+2024-01-12 10:52:59,589 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:59,589 - Predicted Label:  | True Label: No
+2024-01-12 10:52:59,589 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 66
+2024-01-12 10:52:59,589 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:59,784 - =================== fin-headline  66 ======================
+2024-01-12 10:52:59,784 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:59,784 - Predicted Label:  | True Label: No
+2024-01-12 10:52:59,784 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 67
+2024-01-12 10:52:59,784 - CUM ACC | 0 | 0.0
+2024-01-12 10:52:59,960 - =================== fin-headline  67 ======================
+2024-01-12 10:52:59,960 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:52:59,961 - Predicted Label:  | True Label: No
+2024-01-12 10:52:59,961 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 68
+2024-01-12 10:52:59,961 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:00,161 - =================== fin-headline  68 ======================
+2024-01-12 10:53:00,161 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:00,161 - Predicted Label:  | True Label: No
+2024-01-12 10:53:00,161 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 69
+2024-01-12 10:53:00,161 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:00,358 - =================== fin-headline  69 ======================
+2024-01-12 10:53:00,358 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:00,358 - Predicted Label:  | True Label: No
+2024-01-12 10:53:00,358 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 70
+2024-01-12 10:53:00,358 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:00,546 - =================== fin-headline  70 ======================
+2024-01-12 10:53:00,546 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:00,546 - Predicted Label:  | True Label: Yes
+2024-01-12 10:53:00,546 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 71
+2024-01-12 10:53:00,546 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:00,727 - =================== fin-headline  71 ======================
+2024-01-12 10:53:00,727 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:00,727 - Predicted Label:  | True Label: No
+2024-01-12 10:53:00,727 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 72
+2024-01-12 10:53:00,727 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:00,913 - =================== fin-headline  72 ======================
+2024-01-12 10:53:00,913 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:00,913 - Predicted Label:  | True Label: Yes
+2024-01-12 10:53:00,913 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 73
+2024-01-12 10:53:00,913 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:01,110 - =================== fin-headline  73 ======================
+2024-01-12 10:53:01,110 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:01,110 - Predicted Label:  | True Label: No
+2024-01-12 10:53:01,110 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 74
+2024-01-12 10:53:01,110 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:01,306 - =================== fin-headline  74 ======================
+2024-01-12 10:53:01,306 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:01,306 - Predicted Label:  | True Label: No
+2024-01-12 10:53:01,306 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 75
+2024-01-12 10:53:01,306 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:01,494 - =================== fin-headline  75 ======================
+2024-01-12 10:53:01,494 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:01,494 - Predicted Label:  | True Label: Yes
+2024-01-12 10:53:01,494 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 76
+2024-01-12 10:53:01,494 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:01,694 - =================== fin-headline  76 ======================
+2024-01-12 10:53:01,695 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:01,695 - Predicted Label:  | True Label: No
+2024-01-12 10:53:01,695 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 77
+2024-01-12 10:53:01,695 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:01,889 - =================== fin-headline  77 ======================
+2024-01-12 10:53:01,889 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:01,889 - Predicted Label:  | True Label: No
+2024-01-12 10:53:01,889 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 78
+2024-01-12 10:53:01,889 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:02,078 - =================== fin-headline  78 ======================
+2024-01-12 10:53:02,078 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:02,078 - Predicted Label:  | True Label: No
+2024-01-12 10:53:02,078 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 79
+2024-01-12 10:53:02,078 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:02,266 - =================== fin-headline  79 ======================
+2024-01-12 10:53:02,266 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:02,267 - Predicted Label:  | True Label: No
+2024-01-12 10:53:02,267 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 80
+2024-01-12 10:53:02,267 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:02,452 - =================== fin-headline  80 ======================
+2024-01-12 10:53:02,453 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:02,453 - Predicted Label:  | True Label: No
+2024-01-12 10:53:02,453 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 81
+2024-01-12 10:53:02,453 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:02,629 - =================== fin-headline  81 ======================
+2024-01-12 10:53:02,629 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:02,629 - Predicted Label:  | True Label: Yes
+2024-01-12 10:53:02,629 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 82
+2024-01-12 10:53:02,629 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:02,832 - =================== fin-headline  82 ======================
+2024-01-12 10:53:02,832 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:02,832 - Predicted Label:  | True Label: No
+2024-01-12 10:53:02,832 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 83
+2024-01-12 10:53:02,832 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:03,011 - =================== fin-headline  83 ======================
+2024-01-12 10:53:03,011 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:03,011 - Predicted Label:  | True Label: No
+2024-01-12 10:53:03,011 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 84
+2024-01-12 10:53:03,011 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:03,193 - =================== fin-headline  84 ======================
+2024-01-12 10:53:03,193 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:03,193 - Predicted Label:  | True Label: No
+2024-01-12 10:53:03,193 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 85
+2024-01-12 10:53:03,193 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:03,370 - =================== fin-headline  85 ======================
+2024-01-12 10:53:03,370 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:03,371 - Predicted Label:  | True Label: No
+2024-01-12 10:53:03,371 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 86
+2024-01-12 10:53:03,372 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:03,551 - =================== fin-headline  86 ======================
+2024-01-12 10:53:03,551 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:03,551 - Predicted Label:  | True Label: No
+2024-01-12 10:53:03,551 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 87
+2024-01-12 10:53:03,551 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:03,739 - =================== fin-headline  87 ======================
+2024-01-12 10:53:03,739 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:03,739 - Predicted Label:  | True Label: No
+2024-01-12 10:53:03,739 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 88
+2024-01-12 10:53:03,739 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:03,918 - =================== fin-headline  88 ======================
+2024-01-12 10:53:03,918 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:03,918 - Predicted Label:  | True Label: No
+2024-01-12 10:53:03,918 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 89
+2024-01-12 10:53:03,918 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:04,098 - =================== fin-headline  89 ======================
+2024-01-12 10:53:04,098 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:04,098 - Predicted Label:  | True Label: No
+2024-01-12 10:53:04,098 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 90
+2024-01-12 10:53:04,098 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:04,280 - =================== fin-headline  90 ======================
+2024-01-12 10:53:04,280 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:04,280 - Predicted Label:  | True Label: Yes
+2024-01-12 10:53:04,280 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 91
+2024-01-12 10:53:04,280 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:04,461 - =================== fin-headline  91 ======================
+2024-01-12 10:53:04,461 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:04,461 - Predicted Label:  | True Label: No
+2024-01-12 10:53:04,462 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 92
+2024-01-12 10:53:04,462 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:04,641 - =================== fin-headline  92 ======================
+2024-01-12 10:53:04,641 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:04,641 - Predicted Label:  | True Label: No
+2024-01-12 10:53:04,642 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 93
+2024-01-12 10:53:04,642 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:04,841 - =================== fin-headline  93 ======================
+2024-01-12 10:53:04,841 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:04,841 - Predicted Label:  | True Label: No
+2024-01-12 10:53:04,841 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 94
+2024-01-12 10:53:04,841 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:05,029 - =================== fin-headline  94 ======================
+2024-01-12 10:53:05,029 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:05,029 - Predicted Label:  | True Label: Yes
+2024-01-12 10:53:05,029 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 95
+2024-01-12 10:53:05,029 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:05,214 - =================== fin-headline  95 ======================
+2024-01-12 10:53:05,214 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:05,215 - Predicted Label:  | True Label: No
+2024-01-12 10:53:05,215 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 96
+2024-01-12 10:53:05,215 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:05,410 - =================== fin-headline  96 ======================
+2024-01-12 10:53:05,410 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:05,410 - Predicted Label:  | True Label: No
+2024-01-12 10:53:05,410 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 97
+2024-01-12 10:53:05,410 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:05,595 - =================== fin-headline  97 ======================
+2024-01-12 10:53:05,595 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:05,596 - Predicted Label:  | True Label: No
+2024-01-12 10:53:05,596 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 98
+2024-01-12 10:53:05,596 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:05,772 - =================== fin-headline  98 ======================
+2024-01-12 10:53:05,773 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:05,773 - Predicted Label:  | True Label: No
+2024-01-12 10:53:05,773 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 99
+2024-01-12 10:53:05,773 - CUM ACC | 0 | 0.0
+2024-01-12 10:53:05,951 - =================== fin-headline  99 ======================
+2024-01-12 10:53:05,951 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:53:05,951 - Predicted Label:  | True Label: No
+2024-01-12 10:53:05,952 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 100
+2024-01-12 10:53:05,952 - CUM ACC | 0 | 0.0
+2024-01-12 10:55:21,185 - PyTorch version 2.1.2 available.
+2024-01-12 10:55:38,595 - =================== fin-headline   0 ======================
+2024-01-12 10:55:38,596 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:38,596 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:38,596 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 1
+2024-01-12 10:55:38,596 - CUM ACC | 1 | 1.0
+2024-01-12 10:55:38,739 - =================== fin-headline   1 ======================
+2024-01-12 10:55:38,739 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:38,739 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:38,739 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 2
+2024-01-12 10:55:38,740 - CUM ACC | 1 | 0.5
+2024-01-12 10:55:38,901 - =================== fin-headline   2 ======================
+2024-01-12 10:55:38,901 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:38,901 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:38,901 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 3
+2024-01-12 10:55:38,901 - CUM ACC | 1 | 0.3333333333333333
+2024-01-12 10:55:39,078 - =================== fin-headline   3 ======================
+2024-01-12 10:55:39,078 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:39,078 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:39,078 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 4
+2024-01-12 10:55:39,078 - CUM ACC | 2 | 0.5
+2024-01-12 10:55:39,220 - =================== fin-headline   4 ======================
+2024-01-12 10:55:39,220 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:39,220 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:39,220 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 5
+2024-01-12 10:55:39,221 - CUM ACC | 2 | 0.4
+2024-01-12 10:55:39,369 - =================== fin-headline   5 ======================
+2024-01-12 10:55:39,370 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:39,370 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:39,370 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 6
+2024-01-12 10:55:39,370 - CUM ACC | 2 | 0.3333333333333333
+2024-01-12 10:55:39,513 - =================== fin-headline   6 ======================
+2024-01-12 10:55:39,513 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:39,513 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:39,513 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 7
+2024-01-12 10:55:39,513 - CUM ACC | 2 | 0.2857142857142857
+2024-01-12 10:55:39,655 - =================== fin-headline   7 ======================
+2024-01-12 10:55:39,655 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:39,655 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:39,655 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 8
+2024-01-12 10:55:39,655 - CUM ACC | 3 | 0.375
+2024-01-12 10:55:39,799 - =================== fin-headline   8 ======================
+2024-01-12 10:55:39,799 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:39,799 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:39,799 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 9
+2024-01-12 10:55:39,800 - CUM ACC | 3 | 0.3333333333333333
+2024-01-12 10:55:39,938 - =================== fin-headline   9 ======================
+2024-01-12 10:55:39,938 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:39,938 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:39,938 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 10
+2024-01-12 10:55:39,938 - CUM ACC | 4 | 0.4
+2024-01-12 10:55:40,111 - =================== fin-headline  10 ======================
+2024-01-12 10:55:40,111 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:40,111 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:40,111 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 11
+2024-01-12 10:55:40,111 - CUM ACC | 4 | 0.36363636363636365
+2024-01-12 10:55:40,253 - =================== fin-headline  11 ======================
+2024-01-12 10:55:40,253 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:40,253 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:40,253 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 12
+2024-01-12 10:55:40,253 - CUM ACC | 4 | 0.3333333333333333
+2024-01-12 10:55:40,392 - =================== fin-headline  12 ======================
+2024-01-12 10:55:40,393 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:40,393 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:40,393 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 13
+2024-01-12 10:55:40,393 - CUM ACC | 5 | 0.38461538461538464
+2024-01-12 10:55:40,566 - =================== fin-headline  13 ======================
+2024-01-12 10:55:40,566 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:40,566 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:40,566 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 14
+2024-01-12 10:55:40,566 - CUM ACC | 6 | 0.42857142857142855
+2024-01-12 10:55:40,717 - =================== fin-headline  14 ======================
+2024-01-12 10:55:40,717 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:40,717 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:40,717 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 15
+2024-01-12 10:55:40,717 - CUM ACC | 6 | 0.4
+2024-01-12 10:55:40,864 - =================== fin-headline  15 ======================
+2024-01-12 10:55:40,864 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:40,865 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:40,865 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 16
+2024-01-12 10:55:40,865 - CUM ACC | 6 | 0.375
+2024-01-12 10:55:41,005 - =================== fin-headline  16 ======================
+2024-01-12 10:55:41,005 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:41,005 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:41,005 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 17
+2024-01-12 10:55:41,005 - CUM ACC | 7 | 0.4117647058823529
+2024-01-12 10:55:41,146 - =================== fin-headline  17 ======================
+2024-01-12 10:55:41,146 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:41,146 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:41,146 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 18
+2024-01-12 10:55:41,146 - CUM ACC | 7 | 0.3888888888888889
+2024-01-12 10:55:41,298 - =================== fin-headline  18 ======================
+2024-01-12 10:55:41,298 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:41,298 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:41,298 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 19
+2024-01-12 10:55:41,298 - CUM ACC | 8 | 0.42105263157894735
+2024-01-12 10:55:41,445 - =================== fin-headline  19 ======================
+2024-01-12 10:55:41,445 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:41,445 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:41,445 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 20
+2024-01-12 10:55:41,445 - CUM ACC | 8 | 0.4
+2024-01-12 10:55:41,583 - =================== fin-headline  20 ======================
+2024-01-12 10:55:41,584 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:41,584 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:41,584 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 21
+2024-01-12 10:55:41,584 - CUM ACC | 8 | 0.38095238095238093
+2024-01-12 10:55:41,727 - =================== fin-headline  21 ======================
+2024-01-12 10:55:41,727 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:41,728 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:41,728 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 22
+2024-01-12 10:55:41,728 - CUM ACC | 8 | 0.36363636363636365
+2024-01-12 10:55:41,879 - =================== fin-headline  22 ======================
+2024-01-12 10:55:41,879 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:41,880 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:41,880 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 23
+2024-01-12 10:55:41,880 - CUM ACC | 9 | 0.391304347826087
+2024-01-12 10:55:42,024 - =================== fin-headline  23 ======================
+2024-01-12 10:55:42,024 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:42,024 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:42,024 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 24
+2024-01-12 10:55:42,024 - CUM ACC | 9 | 0.375
+2024-01-12 10:55:42,163 - =================== fin-headline  24 ======================
+2024-01-12 10:55:42,163 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:42,163 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:42,163 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 25
+2024-01-12 10:55:42,163 - CUM ACC | 9 | 0.36
+2024-01-12 10:55:42,336 - =================== fin-headline  25 ======================
+2024-01-12 10:55:42,336 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:42,336 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:42,336 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 26
+2024-01-12 10:55:42,336 - CUM ACC | 10 | 0.38461538461538464
+2024-01-12 10:55:42,510 - =================== fin-headline  26 ======================
+2024-01-12 10:55:42,510 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:42,510 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:42,510 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 27
+2024-01-12 10:55:42,510 - CUM ACC | 10 | 0.37037037037037035
+2024-01-12 10:55:42,657 - =================== fin-headline  27 ======================
+2024-01-12 10:55:42,657 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:42,657 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:42,657 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 28
+2024-01-12 10:55:42,657 - CUM ACC | 11 | 0.39285714285714285
+2024-01-12 10:55:42,808 - =================== fin-headline  28 ======================
+2024-01-12 10:55:42,808 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:42,809 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:42,809 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 29
+2024-01-12 10:55:42,809 - CUM ACC | 11 | 0.3793103448275862
+2024-01-12 10:55:42,981 - =================== fin-headline  29 ======================
+2024-01-12 10:55:42,981 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:42,981 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:42,981 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 30
+2024-01-12 10:55:42,981 - CUM ACC | 11 | 0.36666666666666664
+2024-01-12 10:55:43,126 - =================== fin-headline  30 ======================
+2024-01-12 10:55:43,126 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:43,126 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:43,126 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 31
+2024-01-12 10:55:43,126 - CUM ACC | 11 | 0.3548387096774194
+2024-01-12 10:55:43,268 - =================== fin-headline  31 ======================
+2024-01-12 10:55:43,268 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:43,268 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:43,268 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 32
+2024-01-12 10:55:43,268 - CUM ACC | 11 | 0.34375
+2024-01-12 10:55:43,409 - =================== fin-headline  32 ======================
+2024-01-12 10:55:43,409 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:43,410 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:43,410 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 33
+2024-01-12 10:55:43,410 - CUM ACC | 11 | 0.3333333333333333
+2024-01-12 10:55:43,550 - =================== fin-headline  33 ======================
+2024-01-12 10:55:43,550 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:43,550 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:43,550 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 34
+2024-01-12 10:55:43,550 - CUM ACC | 12 | 0.35294117647058826
+2024-01-12 10:55:43,686 - =================== fin-headline  34 ======================
+2024-01-12 10:55:43,687 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:43,687 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:43,687 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 35
+2024-01-12 10:55:43,687 - CUM ACC | 13 | 0.37142857142857144
+2024-01-12 10:55:43,825 - =================== fin-headline  35 ======================
+2024-01-12 10:55:43,825 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:43,825 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:43,825 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 36
+2024-01-12 10:55:43,825 - CUM ACC | 13 | 0.3611111111111111
+2024-01-12 10:55:43,963 - =================== fin-headline  36 ======================
+2024-01-12 10:55:43,963 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:43,963 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:43,963 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 37
+2024-01-12 10:55:43,963 - CUM ACC | 14 | 0.3783783783783784
+2024-01-12 10:55:44,136 - =================== fin-headline  37 ======================
+2024-01-12 10:55:44,136 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:44,136 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:44,136 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 38
+2024-01-12 10:55:44,136 - CUM ACC | 14 | 0.3684210526315789
+2024-01-12 10:55:44,279 - =================== fin-headline  38 ======================
+2024-01-12 10:55:44,279 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:44,279 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:44,279 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 39
+2024-01-12 10:55:44,279 - CUM ACC | 14 | 0.358974358974359
+2024-01-12 10:55:44,423 - =================== fin-headline  39 ======================
+2024-01-12 10:55:44,423 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:44,423 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:44,423 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 40
+2024-01-12 10:55:44,423 - CUM ACC | 14 | 0.35
+2024-01-12 10:55:44,568 - =================== fin-headline  40 ======================
+2024-01-12 10:55:44,568 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:44,569 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:44,569 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 41
+2024-01-12 10:55:44,569 - CUM ACC | 15 | 0.36585365853658536
+2024-01-12 10:55:44,708 - =================== fin-headline  41 ======================
+2024-01-12 10:55:44,708 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:44,708 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:44,708 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 42
+2024-01-12 10:55:44,708 - CUM ACC | 15 | 0.35714285714285715
+2024-01-12 10:55:44,850 - =================== fin-headline  42 ======================
+2024-01-12 10:55:44,851 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:44,851 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:44,851 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 43
+2024-01-12 10:55:44,851 - CUM ACC | 15 | 0.3488372093023256
+2024-01-12 10:55:44,996 - =================== fin-headline  43 ======================
+2024-01-12 10:55:44,996 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:44,996 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:44,996 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 44
+2024-01-12 10:55:44,996 - CUM ACC | 16 | 0.36363636363636365
+2024-01-12 10:55:45,148 - =================== fin-headline  44 ======================
+2024-01-12 10:55:45,148 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:45,148 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:45,148 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 45
+2024-01-12 10:55:45,148 - CUM ACC | 16 | 0.35555555555555557
+2024-01-12 10:55:45,296 - =================== fin-headline  45 ======================
+2024-01-12 10:55:45,296 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:45,297 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:45,297 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 46
+2024-01-12 10:55:45,297 - CUM ACC | 17 | 0.3695652173913043
+2024-01-12 10:55:45,473 - =================== fin-headline  46 ======================
+2024-01-12 10:55:45,473 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:45,473 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:45,473 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 47
+2024-01-12 10:55:45,473 - CUM ACC | 17 | 0.3617021276595745
+2024-01-12 10:55:45,651 - =================== fin-headline  47 ======================
+2024-01-12 10:55:45,651 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:45,651 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:45,651 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 48
+2024-01-12 10:55:45,651 - CUM ACC | 17 | 0.3541666666666667
+2024-01-12 10:55:45,824 - =================== fin-headline  48 ======================
+2024-01-12 10:55:45,824 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:45,824 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:45,824 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 49
+2024-01-12 10:55:45,824 - CUM ACC | 18 | 0.3673469387755102
+2024-01-12 10:55:45,971 - =================== fin-headline  49 ======================
+2024-01-12 10:55:45,971 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:45,971 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:45,971 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 50
+2024-01-12 10:55:45,971 - CUM ACC | 18 | 0.36
+2024-01-12 10:55:46,112 - =================== fin-headline  50 ======================
+2024-01-12 10:55:46,112 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:46,112 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:46,112 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 51
+2024-01-12 10:55:46,113 - CUM ACC | 19 | 0.37254901960784315
+2024-01-12 10:55:46,260 - =================== fin-headline  51 ======================
+2024-01-12 10:55:46,260 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:46,260 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:46,261 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 52
+2024-01-12 10:55:46,261 - CUM ACC | 19 | 0.36538461538461536
+2024-01-12 10:55:46,402 - =================== fin-headline  52 ======================
+2024-01-12 10:55:46,402 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:46,402 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:46,402 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 53
+2024-01-12 10:55:46,402 - CUM ACC | 20 | 0.37735849056603776
+2024-01-12 10:55:46,540 - =================== fin-headline  53 ======================
+2024-01-12 10:55:46,540 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:46,541 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:46,541 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 54
+2024-01-12 10:55:46,541 - CUM ACC | 20 | 0.37037037037037035
+2024-01-12 10:55:46,693 - =================== fin-headline  54 ======================
+2024-01-12 10:55:46,693 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:46,693 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:46,693 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 55
+2024-01-12 10:55:46,693 - CUM ACC | 21 | 0.38181818181818183
+2024-01-12 10:55:46,845 - =================== fin-headline  55 ======================
+2024-01-12 10:55:46,845 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:46,845 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:46,845 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 56
+2024-01-12 10:55:46,845 - CUM ACC | 21 | 0.375
+2024-01-12 10:55:46,985 - =================== fin-headline  56 ======================
+2024-01-12 10:55:46,985 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:46,985 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:46,985 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 57
+2024-01-12 10:55:46,985 - CUM ACC | 21 | 0.3684210526315789
+2024-01-12 10:55:47,160 - =================== fin-headline  57 ======================
+2024-01-12 10:55:47,160 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:47,161 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:47,161 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 58
+2024-01-12 10:55:47,161 - CUM ACC | 22 | 0.3793103448275862
+2024-01-12 10:55:47,311 - =================== fin-headline  58 ======================
+2024-01-12 10:55:47,312 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:47,312 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:47,312 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 59
+2024-01-12 10:55:47,312 - CUM ACC | 22 | 0.3728813559322034
+2024-01-12 10:55:47,453 - =================== fin-headline  59 ======================
+2024-01-12 10:55:47,453 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:47,453 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:47,453 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 60
+2024-01-12 10:55:47,453 - CUM ACC | 22 | 0.36666666666666664
+2024-01-12 10:55:47,605 - =================== fin-headline  60 ======================
+2024-01-12 10:55:47,605 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:47,605 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:47,605 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 61
+2024-01-12 10:55:47,605 - CUM ACC | 22 | 0.36065573770491804
+2024-01-12 10:55:47,743 - =================== fin-headline  61 ======================
+2024-01-12 10:55:47,743 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:47,743 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:47,743 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 62
+2024-01-12 10:55:47,743 - CUM ACC | 23 | 0.3709677419354839
+2024-01-12 10:55:47,885 - =================== fin-headline  62 ======================
+2024-01-12 10:55:47,885 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:47,885 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:47,885 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 63
+2024-01-12 10:55:47,885 - CUM ACC | 23 | 0.36507936507936506
+2024-01-12 10:55:48,060 - =================== fin-headline  63 ======================
+2024-01-12 10:55:48,060 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:48,060 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:48,060 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 64
+2024-01-12 10:55:48,060 - CUM ACC | 24 | 0.375
+2024-01-12 10:55:48,205 - =================== fin-headline  64 ======================
+2024-01-12 10:55:48,205 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:48,205 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:48,205 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 65
+2024-01-12 10:55:48,205 - CUM ACC | 24 | 0.36923076923076925
+2024-01-12 10:55:48,357 - =================== fin-headline  65 ======================
+2024-01-12 10:55:48,358 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:48,358 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:48,358 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 66
+2024-01-12 10:55:48,358 - CUM ACC | 24 | 0.36363636363636365
+2024-01-12 10:55:48,530 - =================== fin-headline  66 ======================
+2024-01-12 10:55:48,530 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:48,530 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:48,530 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 67
+2024-01-12 10:55:48,530 - CUM ACC | 24 | 0.3582089552238806
+2024-01-12 10:55:48,669 - =================== fin-headline  67 ======================
+2024-01-12 10:55:48,669 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:48,669 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:48,669 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 68
+2024-01-12 10:55:48,669 - CUM ACC | 24 | 0.35294117647058826
+2024-01-12 10:55:48,846 - =================== fin-headline  68 ======================
+2024-01-12 10:55:48,846 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:48,847 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:48,847 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 69
+2024-01-12 10:55:48,847 - CUM ACC | 24 | 0.34782608695652173
+2024-01-12 10:55:49,020 - =================== fin-headline  69 ======================
+2024-01-12 10:55:49,021 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:49,021 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:49,021 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 70
+2024-01-12 10:55:49,021 - CUM ACC | 24 | 0.34285714285714286
+2024-01-12 10:55:49,169 - =================== fin-headline  70 ======================
+2024-01-12 10:55:49,169 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:49,170 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:49,170 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 71
+2024-01-12 10:55:49,170 - CUM ACC | 25 | 0.352112676056338
+2024-01-12 10:55:49,312 - =================== fin-headline  71 ======================
+2024-01-12 10:55:49,312 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:49,312 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:49,313 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 72
+2024-01-12 10:55:49,313 - CUM ACC | 25 | 0.3472222222222222
+2024-01-12 10:55:49,460 - =================== fin-headline  72 ======================
+2024-01-12 10:55:49,460 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:49,460 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:49,460 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 73
+2024-01-12 10:55:49,460 - CUM ACC | 26 | 0.3561643835616438
+2024-01-12 10:55:49,634 - =================== fin-headline  73 ======================
+2024-01-12 10:55:49,634 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:49,634 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:49,634 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 74
+2024-01-12 10:55:49,634 - CUM ACC | 26 | 0.35135135135135137
+2024-01-12 10:55:49,808 - =================== fin-headline  74 ======================
+2024-01-12 10:55:49,808 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:49,808 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:49,808 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 75
+2024-01-12 10:55:49,808 - CUM ACC | 26 | 0.3466666666666667
+2024-01-12 10:55:49,956 - =================== fin-headline  75 ======================
+2024-01-12 10:55:49,956 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:49,956 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:49,956 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 76
+2024-01-12 10:55:49,956 - CUM ACC | 27 | 0.35526315789473684
+2024-01-12 10:55:50,134 - =================== fin-headline  76 ======================
+2024-01-12 10:55:50,134 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:50,134 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:50,134 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 77
+2024-01-12 10:55:50,134 - CUM ACC | 27 | 0.35064935064935066
+2024-01-12 10:55:50,306 - =================== fin-headline  77 ======================
+2024-01-12 10:55:50,306 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:50,307 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:50,307 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 78
+2024-01-12 10:55:50,307 - CUM ACC | 27 | 0.34615384615384615
+2024-01-12 10:55:50,456 - =================== fin-headline  78 ======================
+2024-01-12 10:55:50,456 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:50,456 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:50,456 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 79
+2024-01-12 10:55:50,456 - CUM ACC | 27 | 0.34177215189873417
+2024-01-12 10:55:50,605 - =================== fin-headline  79 ======================
+2024-01-12 10:55:50,605 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:50,605 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:50,605 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 80
+2024-01-12 10:55:50,605 - CUM ACC | 27 | 0.3375
+2024-01-12 10:55:50,753 - =================== fin-headline  80 ======================
+2024-01-12 10:55:50,753 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:50,753 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:50,753 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 81
+2024-01-12 10:55:50,753 - CUM ACC | 27 | 0.3333333333333333
+2024-01-12 10:55:50,891 - =================== fin-headline  81 ======================
+2024-01-12 10:55:50,891 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:50,891 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:50,891 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 82
+2024-01-12 10:55:50,891 - CUM ACC | 28 | 0.34146341463414637
+2024-01-12 10:55:51,072 - =================== fin-headline  82 ======================
+2024-01-12 10:55:51,072 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:51,072 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:51,072 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 83
+2024-01-12 10:55:51,072 - CUM ACC | 28 | 0.3373493975903614
+2024-01-12 10:55:51,213 - =================== fin-headline  83 ======================
+2024-01-12 10:55:51,213 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:51,214 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:51,214 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 84
+2024-01-12 10:55:51,214 - CUM ACC | 28 | 0.3333333333333333
+2024-01-12 10:55:51,357 - =================== fin-headline  84 ======================
+2024-01-12 10:55:51,357 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:51,357 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:51,357 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 85
+2024-01-12 10:55:51,357 - CUM ACC | 28 | 0.32941176470588235
+2024-01-12 10:55:51,497 - =================== fin-headline  85 ======================
+2024-01-12 10:55:51,497 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:51,497 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:51,497 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 86
+2024-01-12 10:55:51,497 - CUM ACC | 28 | 0.32558139534883723
+2024-01-12 10:55:51,639 - =================== fin-headline  86 ======================
+2024-01-12 10:55:51,639 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:51,639 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:51,639 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 87
+2024-01-12 10:55:51,639 - CUM ACC | 28 | 0.3218390804597701
+2024-01-12 10:55:51,788 - =================== fin-headline  87 ======================
+2024-01-12 10:55:51,788 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:51,788 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:51,788 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 88
+2024-01-12 10:55:51,788 - CUM ACC | 28 | 0.3181818181818182
+2024-01-12 10:55:51,929 - =================== fin-headline  88 ======================
+2024-01-12 10:55:51,929 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:51,929 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:51,929 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 89
+2024-01-12 10:55:51,929 - CUM ACC | 28 | 0.3146067415730337
+2024-01-12 10:55:52,070 - =================== fin-headline  89 ======================
+2024-01-12 10:55:52,071 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:52,071 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:52,071 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 90
+2024-01-12 10:55:52,071 - CUM ACC | 28 | 0.3111111111111111
+2024-01-12 10:55:52,214 - =================== fin-headline  90 ======================
+2024-01-12 10:55:52,215 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:52,215 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:52,215 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 91
+2024-01-12 10:55:52,215 - CUM ACC | 29 | 0.31868131868131866
+2024-01-12 10:55:52,358 - =================== fin-headline  91 ======================
+2024-01-12 10:55:52,358 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:52,359 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:52,359 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 92
+2024-01-12 10:55:52,359 - CUM ACC | 29 | 0.31521739130434784
+2024-01-12 10:55:52,500 - =================== fin-headline  92 ======================
+2024-01-12 10:55:52,500 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:52,501 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:52,501 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 93
+2024-01-12 10:55:52,501 - CUM ACC | 29 | 0.3118279569892473
+2024-01-12 10:55:52,677 - =================== fin-headline  93 ======================
+2024-01-12 10:55:52,677 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:52,677 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:52,677 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 94
+2024-01-12 10:55:52,677 - CUM ACC | 29 | 0.30851063829787234
+2024-01-12 10:55:52,826 - =================== fin-headline  94 ======================
+2024-01-12 10:55:52,826 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:52,826 - Predicted Label: yes | True Label: Yes
+2024-01-12 10:55:52,826 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 95
+2024-01-12 10:55:52,826 - CUM ACC | 30 | 0.3157894736842105
+2024-01-12 10:55:52,973 - =================== fin-headline  95 ======================
+2024-01-12 10:55:52,973 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:52,973 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:52,973 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 96
+2024-01-12 10:55:52,973 - CUM ACC | 30 | 0.3125
+2024-01-12 10:55:53,146 - =================== fin-headline  96 ======================
+2024-01-12 10:55:53,146 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:53,147 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:53,147 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 97
+2024-01-12 10:55:53,147 - CUM ACC | 30 | 0.30927835051546393
+2024-01-12 10:55:53,293 - =================== fin-headline  97 ======================
+2024-01-12 10:55:53,293 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:53,294 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:53,294 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 98
+2024-01-12 10:55:53,294 - CUM ACC | 30 | 0.30612244897959184
+2024-01-12 10:55:53,433 - =================== fin-headline  98 ======================
+2024-01-12 10:55:53,433 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:53,433 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:53,433 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 99
+2024-01-12 10:55:53,433 - CUM ACC | 30 | 0.30303030303030304
+2024-01-12 10:55:53,574 - =================== fin-headline  99 ======================
+2024-01-12 10:55:53,574 - Model Chosen: NSQL | Model Expected: fin-headline
+2024-01-12 10:55:53,574 - Predicted Label: yes | True Label: No
+2024-01-12 10:55:53,574 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 100
+2024-01-12 10:55:53,574 - CUM ACC | 30 | 0.3

@@ -1,0 +1,501 @@
+2024-01-12 10:15:52,477 - PyTorch version 2.1.2 available.
+2024-01-12 10:16:01,571 - =================== med-rct   0 ======================
+2024-01-12 10:16:01,571 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:01,571 - Predicted: Methods | True: Results
+2024-01-12 10:16:01,571 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:01,571 - CUM ACC | 0 | 0.0
+2024-01-12 10:16:02,073 - =================== med-rct   1 ======================
+2024-01-12 10:16:02,074 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:02,074 - Predicted: Conclusions | True: Results
+2024-01-12 10:16:02,074 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:02,074 - CUM ACC | 0 | 0.0
+2024-01-12 10:16:02,535 - =================== med-rct   2 ======================
+2024-01-12 10:16:02,535 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:02,535 - Predicted: Conclusions | True: Results
+2024-01-12 10:16:02,535 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:02,535 - CUM ACC | 0 | 0.0
+2024-01-12 10:16:02,946 - =================== med-rct   3 ======================
+2024-01-12 10:16:02,946 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:02,947 - Predicted: Background | True: Methods
+2024-01-12 10:16:02,947 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:02,947 - CUM ACC | 0 | 0.0
+2024-01-12 10:16:03,351 - =================== med-rct   4 ======================
+2024-01-12 10:16:03,351 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:03,351 - Predicted: Background | True: Background
+2024-01-12 10:16:03,351 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:03,351 - CUM ACC | 1 | 0.2
+2024-01-12 10:16:03,780 - =================== med-rct   5 ======================
+2024-01-12 10:16:03,780 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:03,780 - Predicted:  | True: Background
+2024-01-12 10:16:03,780 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:03,780 - CUM ACC | 1 | 0.16666666666666666
+2024-01-12 10:16:04,196 - =================== med-rct   6 ======================
+2024-01-12 10:16:04,196 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:04,196 - Predicted: Objective | True: Conclusions
+2024-01-12 10:16:04,196 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:04,196 - CUM ACC | 1 | 0.14285714285714285
+2024-01-12 10:16:04,607 - =================== med-rct   7 ======================
+2024-01-12 10:16:04,607 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:04,607 - Predicted: Background | True: Background
+2024-01-12 10:16:04,607 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:04,607 - CUM ACC | 2 | 0.25
+2024-01-12 10:16:05,073 - =================== med-rct   8 ======================
+2024-01-12 10:16:05,073 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:05,073 - Predicted: Conclusions | True: Conclusions
+2024-01-12 10:16:05,073 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:05,073 - CUM ACC | 3 | 0.3333333333333333
+2024-01-12 10:16:05,468 - =================== med-rct   9 ======================
+2024-01-12 10:16:05,468 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:05,468 - Predicted: Results | True: Methods
+2024-01-12 10:16:05,468 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:05,468 - CUM ACC | 3 | 0.3
+2024-01-12 10:16:05,893 - =================== med-rct  10 ======================
+2024-01-12 10:16:05,893 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:05,893 - Predicted: Results | True: Conclusions
+2024-01-12 10:16:05,893 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:05,893 - CUM ACC | 3 | 0.2727272727272727
+2024-01-12 10:16:06,336 - =================== med-rct  11 ======================
+2024-01-12 10:16:06,336 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:06,336 - Predicted: Methods | True: Methods
+2024-01-12 10:16:06,336 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:06,336 - CUM ACC | 4 | 0.3333333333333333
+2024-01-12 10:16:06,771 - =================== med-rct  12 ======================
+2024-01-12 10:16:06,771 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:06,772 - Predicted: Objective | True: Conclusions
+2024-01-12 10:16:06,772 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:06,772 - CUM ACC | 4 | 0.3076923076923077
+2024-01-12 10:16:07,227 - =================== med-rct  13 ======================
+2024-01-12 10:16:07,227 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:07,228 - Predicted: Objective | True: Conclusions
+2024-01-12 10:16:07,228 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:07,228 - CUM ACC | 4 | 0.2857142857142857
+2024-01-12 10:16:07,659 - =================== med-rct  14 ======================
+2024-01-12 10:16:07,659 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:07,659 - Predicted: Methods | True: Background
+2024-01-12 10:16:07,659 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:07,659 - CUM ACC | 4 | 0.26666666666666666
+2024-01-12 10:16:08,100 - =================== med-rct  15 ======================
+2024-01-12 10:16:08,100 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:08,100 - Predicted: Objective | True: Conclusions
+2024-01-12 10:16:08,100 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:08,100 - CUM ACC | 4 | 0.25
+2024-01-12 10:16:08,614 - =================== med-rct  16 ======================
+2024-01-12 10:16:08,614 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:08,615 - Predicted: Background | True: Results
+2024-01-12 10:16:08,615 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:08,615 - CUM ACC | 4 | 0.23529411764705882
+2024-01-12 10:16:09,061 - =================== med-rct  17 ======================
+2024-01-12 10:16:09,061 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:09,061 - Predicted: Methods | True: Background
+2024-01-12 10:16:09,061 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:09,061 - CUM ACC | 4 | 0.2222222222222222
+2024-01-12 10:16:09,479 - =================== med-rct  18 ======================
+2024-01-12 10:16:09,479 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:09,480 - Predicted: Results | True: Conclusions
+2024-01-12 10:16:09,480 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:09,480 - CUM ACC | 4 | 0.21052631578947367
+2024-01-12 10:16:10,787 - =================== med-rct  19 ======================
+2024-01-12 10:16:10,787 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:10,788 - Predicted:  | True: Methods
+2024-01-12 10:16:10,788 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:10,788 - CUM ACC | 4 | 0.2
+2024-01-12 10:16:11,198 - =================== med-rct  20 ======================
+2024-01-12 10:16:11,198 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:11,199 - Predicted: Background | True: Results
+2024-01-12 10:16:11,199 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:11,199 - CUM ACC | 4 | 0.19047619047619047
+2024-01-12 10:16:11,624 - =================== med-rct  21 ======================
+2024-01-12 10:16:11,624 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:11,624 - Predicted: Background | True: Conclusions
+2024-01-12 10:16:11,624 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:11,624 - CUM ACC | 4 | 0.18181818181818182
+2024-01-12 10:16:12,035 - =================== med-rct  22 ======================
+2024-01-12 10:16:12,035 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:12,036 - Predicted: Results | True: Objective
+2024-01-12 10:16:12,036 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:12,036 - CUM ACC | 4 | 0.17391304347826086
+2024-01-12 10:16:12,457 - =================== med-rct  23 ======================
+2024-01-12 10:16:12,457 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:12,457 - Predicted: Objective | True: Objective
+2024-01-12 10:16:12,457 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:12,457 - CUM ACC | 5 | 0.20833333333333334
+2024-01-12 10:16:12,971 - =================== med-rct  24 ======================
+2024-01-12 10:16:12,971 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:12,971 - Predicted: Objective | True: Objective
+2024-01-12 10:16:12,972 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:12,972 - CUM ACC | 6 | 0.24
+2024-01-12 10:16:13,434 - =================== med-rct  25 ======================
+2024-01-12 10:16:13,434 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:13,435 - Predicted: Methods | True: Background
+2024-01-12 10:16:13,435 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:13,435 - CUM ACC | 6 | 0.23076923076923078
+2024-01-12 10:16:13,857 - =================== med-rct  26 ======================
+2024-01-12 10:16:13,858 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:13,858 - Predicted: Objective | True: Methods
+2024-01-12 10:16:13,858 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:13,858 - CUM ACC | 6 | 0.2222222222222222
+2024-01-12 10:16:14,278 - =================== med-rct  27 ======================
+2024-01-12 10:16:14,278 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:14,278 - Predicted: Results | True: Results
+2024-01-12 10:16:14,278 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:14,278 - CUM ACC | 7 | 0.25
+2024-01-12 10:16:14,706 - =================== med-rct  28 ======================
+2024-01-12 10:16:14,706 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:14,706 - Predicted: Results | True: Conclusions
+2024-01-12 10:16:14,706 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:14,706 - CUM ACC | 7 | 0.2413793103448276
+2024-01-12 10:16:15,154 - =================== med-rct  29 ======================
+2024-01-12 10:16:15,154 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:15,154 - Predicted: Methods | True: Results
+2024-01-12 10:16:15,154 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:15,154 - CUM ACC | 7 | 0.23333333333333334
+2024-01-12 10:16:15,619 - =================== med-rct  30 ======================
+2024-01-12 10:16:15,619 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:15,619 - Predicted: Objective | True: Methods
+2024-01-12 10:16:15,619 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:15,620 - CUM ACC | 7 | 0.22580645161290322
+2024-01-12 10:16:16,092 - =================== med-rct  31 ======================
+2024-01-12 10:16:16,092 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:16,092 - Predicted: Background | True: Objective
+2024-01-12 10:16:16,092 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:16,092 - CUM ACC | 7 | 0.21875
+2024-01-12 10:16:16,518 - =================== med-rct  32 ======================
+2024-01-12 10:16:16,518 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:16,518 - Predicted: Objective | True: Methods
+2024-01-12 10:16:16,518 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:16,518 - CUM ACC | 7 | 0.21212121212121213
+2024-01-12 10:16:17,010 - =================== med-rct  33 ======================
+2024-01-12 10:16:17,010 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:17,010 - Predicted: Conclusions | True: Conclusions
+2024-01-12 10:16:17,010 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:17,010 - CUM ACC | 8 | 0.23529411764705882
+2024-01-12 10:16:17,479 - =================== med-rct  34 ======================
+2024-01-12 10:16:17,480 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:17,481 - Predicted: Background | True: Results
+2024-01-12 10:16:17,481 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:17,481 - CUM ACC | 8 | 0.22857142857142856
+2024-01-12 10:16:17,927 - =================== med-rct  35 ======================
+2024-01-12 10:16:17,927 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:17,927 - Predicted: Methods | True: Results
+2024-01-12 10:16:17,927 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:17,927 - CUM ACC | 8 | 0.2222222222222222
+2024-01-12 10:16:18,354 - =================== med-rct  36 ======================
+2024-01-12 10:16:18,354 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:18,355 - Predicted: Results | True: Results
+2024-01-12 10:16:18,355 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:18,355 - CUM ACC | 9 | 0.24324324324324326
+2024-01-12 10:16:18,788 - =================== med-rct  37 ======================
+2024-01-12 10:16:18,788 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:18,788 - Predicted: Objective | True: Results
+2024-01-12 10:16:18,789 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:18,789 - CUM ACC | 9 | 0.23684210526315788
+2024-01-12 10:16:19,239 - =================== med-rct  38 ======================
+2024-01-12 10:16:19,239 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:19,239 - Predicted: Methods | True: Objective
+2024-01-12 10:16:19,239 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:19,239 - CUM ACC | 9 | 0.23076923076923078
+2024-01-12 10:16:19,761 - =================== med-rct  39 ======================
+2024-01-12 10:16:19,761 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:19,762 - Predicted:  | True: Results
+2024-01-12 10:16:19,762 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:19,762 - CUM ACC | 9 | 0.225
+2024-01-12 10:16:20,162 - =================== med-rct  40 ======================
+2024-01-12 10:16:20,162 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:20,162 - Predicted: Background | True: Methods
+2024-01-12 10:16:20,162 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:20,162 - CUM ACC | 9 | 0.21951219512195122
+2024-01-12 10:16:20,680 - =================== med-rct  41 ======================
+2024-01-12 10:16:20,680 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:20,680 - Predicted: Methods | True: Methods
+2024-01-12 10:16:20,680 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:20,681 - CUM ACC | 10 | 0.23809523809523808
+2024-01-12 10:16:21,159 - =================== med-rct  42 ======================
+2024-01-12 10:16:21,159 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:21,160 - Predicted: Conclusions | True: Conclusions
+2024-01-12 10:16:21,160 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:21,160 - CUM ACC | 11 | 0.2558139534883721
+2024-01-12 10:16:21,639 - =================== med-rct  43 ======================
+2024-01-12 10:16:21,639 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:21,639 - Predicted:  | True: Results
+2024-01-12 10:16:21,639 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:21,639 - CUM ACC | 11 | 0.25
+2024-01-12 10:16:22,091 - =================== med-rct  44 ======================
+2024-01-12 10:16:22,091 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:22,091 - Predicted: Objective | True: Conclusions
+2024-01-12 10:16:22,091 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:22,091 - CUM ACC | 11 | 0.24444444444444444
+2024-01-12 10:16:22,601 - =================== med-rct  45 ======================
+2024-01-12 10:16:22,601 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:22,602 - Predicted: Methods | True: Results
+2024-01-12 10:16:22,602 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:22,602 - CUM ACC | 11 | 0.2391304347826087
+2024-01-12 10:16:23,110 - =================== med-rct  46 ======================
+2024-01-12 10:16:23,110 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:23,110 - Predicted:  | True: Conclusions
+2024-01-12 10:16:23,110 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:23,110 - CUM ACC | 11 | 0.23404255319148937
+2024-01-12 10:16:23,579 - =================== med-rct  47 ======================
+2024-01-12 10:16:23,579 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:23,580 - Predicted: Background | True: Results
+2024-01-12 10:16:23,580 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:23,580 - CUM ACC | 11 | 0.22916666666666666
+2024-01-12 10:16:23,993 - =================== med-rct  48 ======================
+2024-01-12 10:16:23,993 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:23,993 - Predicted: Results | True: Results
+2024-01-12 10:16:23,993 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:23,993 - CUM ACC | 12 | 0.24489795918367346
+2024-01-12 10:16:24,489 - =================== med-rct  49 ======================
+2024-01-12 10:16:24,489 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:24,489 - Predicted: Conclusions | True: Results
+2024-01-12 10:16:24,489 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:24,489 - CUM ACC | 12 | 0.24
+2024-01-12 10:16:24,943 - =================== med-rct  50 ======================
+2024-01-12 10:16:24,943 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:24,944 - Predicted: Objective | True: Background
+2024-01-12 10:16:24,944 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:24,944 - CUM ACC | 12 | 0.23529411764705882
+2024-01-12 10:16:25,340 - =================== med-rct  51 ======================
+2024-01-12 10:16:25,340 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:25,340 - Predicted: Background | True: Results
+2024-01-12 10:16:25,340 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:25,340 - CUM ACC | 12 | 0.23076923076923078
+2024-01-12 10:16:27,204 - =================== med-rct  52 ======================
+2024-01-12 10:16:27,205 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:27,205 - Predicted:  | True: Methods
+2024-01-12 10:16:27,205 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:27,205 - CUM ACC | 12 | 0.22641509433962265
+2024-01-12 10:16:27,822 - =================== med-rct  53 ======================
+2024-01-12 10:16:27,822 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:27,823 - Predicted:  | True: Results
+2024-01-12 10:16:27,823 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:27,823 - CUM ACC | 12 | 0.2222222222222222
+2024-01-12 10:16:28,251 - =================== med-rct  54 ======================
+2024-01-12 10:16:28,251 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:28,251 - Predicted: Objective | True: Methods
+2024-01-12 10:16:28,251 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:28,251 - CUM ACC | 12 | 0.21818181818181817
+2024-01-12 10:16:28,709 - =================== med-rct  55 ======================
+2024-01-12 10:16:28,709 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:28,709 - Predicted: Methods | True: Methods
+2024-01-12 10:16:28,709 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:28,709 - CUM ACC | 13 | 0.23214285714285715
+2024-01-12 10:16:29,198 - =================== med-rct  56 ======================
+2024-01-12 10:16:29,198 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:29,198 - Predicted: Conclusions | True: Conclusions
+2024-01-12 10:16:29,198 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:29,198 - CUM ACC | 14 | 0.24561403508771928
+2024-01-12 10:16:29,622 - =================== med-rct  57 ======================
+2024-01-12 10:16:29,622 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:29,623 - Predicted: Objective | True: Objective
+2024-01-12 10:16:29,623 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:29,623 - CUM ACC | 15 | 0.25862068965517243
+2024-01-12 10:16:30,146 - =================== med-rct  58 ======================
+2024-01-12 10:16:30,146 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:30,146 - Predicted: Methods | True: Methods
+2024-01-12 10:16:30,146 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:30,146 - CUM ACC | 16 | 0.2711864406779661
+2024-01-12 10:16:30,620 - =================== med-rct  59 ======================
+2024-01-12 10:16:30,620 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:30,620 - Predicted: Conclusions | True: Methods
+2024-01-12 10:16:30,620 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:30,620 - CUM ACC | 16 | 0.26666666666666666
+2024-01-12 10:16:31,032 - =================== med-rct  60 ======================
+2024-01-12 10:16:31,032 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:31,032 - Predicted: Results | True: Results
+2024-01-12 10:16:31,032 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:31,032 - CUM ACC | 17 | 0.2786885245901639
+2024-01-12 10:16:31,521 - =================== med-rct  61 ======================
+2024-01-12 10:16:31,521 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:31,521 - Predicted: Conclusions | True: Results
+2024-01-12 10:16:31,522 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:31,522 - CUM ACC | 17 | 0.27419354838709675
+2024-01-12 10:16:31,977 - =================== med-rct  62 ======================
+2024-01-12 10:16:31,977 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:31,977 - Predicted: Methods | True: Methods
+2024-01-12 10:16:31,978 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:31,978 - CUM ACC | 18 | 0.2857142857142857
+2024-01-12 10:16:32,479 - =================== med-rct  63 ======================
+2024-01-12 10:16:32,479 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:32,479 - Predicted: Results | True: Conclusions
+2024-01-12 10:16:32,479 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:32,479 - CUM ACC | 18 | 0.28125
+2024-01-12 10:16:32,890 - =================== med-rct  64 ======================
+2024-01-12 10:16:32,890 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:32,891 - Predicted: Background | True: Background
+2024-01-12 10:16:32,891 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:32,891 - CUM ACC | 19 | 0.2923076923076923
+2024-01-12 10:16:33,386 - =================== med-rct  65 ======================
+2024-01-12 10:16:33,386 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:33,386 - Predicted: Conclusions | True: Conclusions
+2024-01-12 10:16:33,386 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:33,386 - CUM ACC | 20 | 0.30303030303030304
+2024-01-12 10:16:33,807 - =================== med-rct  66 ======================
+2024-01-12 10:16:33,807 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:33,807 - Predicted: Background | True: Background
+2024-01-12 10:16:33,807 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:33,807 - CUM ACC | 21 | 0.31343283582089554
+2024-01-12 10:16:34,257 - =================== med-rct  67 ======================
+2024-01-12 10:16:34,257 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:34,257 - Predicted: Methods | True: Methods
+2024-01-12 10:16:34,257 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:34,257 - CUM ACC | 22 | 0.3235294117647059
+2024-01-12 10:16:34,713 - =================== med-rct  68 ======================
+2024-01-12 10:16:34,713 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:34,713 - Predicted: Objective | True: Objective
+2024-01-12 10:16:34,713 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:34,713 - CUM ACC | 23 | 0.3333333333333333
+2024-01-12 10:16:35,184 - =================== med-rct  69 ======================
+2024-01-12 10:16:35,184 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:35,184 - Predicted: Background | True: Conclusions
+2024-01-12 10:16:35,184 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:35,184 - CUM ACC | 23 | 0.32857142857142857
+2024-01-12 10:16:35,638 - =================== med-rct  70 ======================
+2024-01-12 10:16:35,638 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:35,638 - Predicted: Methods | True: Methods
+2024-01-12 10:16:35,638 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:35,638 - CUM ACC | 24 | 0.3380281690140845
+2024-01-12 10:16:36,024 - =================== med-rct  71 ======================
+2024-01-12 10:16:36,024 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:36,024 - Predicted: Background | True: Background
+2024-01-12 10:16:36,024 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:36,024 - CUM ACC | 25 | 0.3472222222222222
+2024-01-12 10:16:36,431 - =================== med-rct  72 ======================
+2024-01-12 10:16:36,431 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:36,432 - Predicted: Results | True: Methods
+2024-01-12 10:16:36,432 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:36,432 - CUM ACC | 25 | 0.3424657534246575
+2024-01-12 10:16:36,863 - =================== med-rct  73 ======================
+2024-01-12 10:16:36,863 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:36,863 - Predicted: Methods | True: Methods
+2024-01-12 10:16:36,863 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:36,863 - CUM ACC | 26 | 0.35135135135135137
+2024-01-12 10:16:37,358 - =================== med-rct  74 ======================
+2024-01-12 10:16:37,358 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:37,359 - Predicted: Conclusions | True: Results
+2024-01-12 10:16:37,359 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:37,359 - CUM ACC | 26 | 0.3466666666666667
+2024-01-12 10:16:37,849 - =================== med-rct  75 ======================
+2024-01-12 10:16:37,849 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:37,849 - Predicted: Conclusions | True: Background
+2024-01-12 10:16:37,849 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:37,849 - CUM ACC | 26 | 0.34210526315789475
+2024-01-12 10:16:38,260 - =================== med-rct  76 ======================
+2024-01-12 10:16:38,260 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:38,261 - Predicted: Results | True: Results
+2024-01-12 10:16:38,261 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:38,261 - CUM ACC | 27 | 0.35064935064935066
+2024-01-12 10:16:38,681 - =================== med-rct  77 ======================
+2024-01-12 10:16:38,681 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:38,681 - Predicted: Results | True: Conclusions
+2024-01-12 10:16:38,681 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:38,681 - CUM ACC | 27 | 0.34615384615384615
+2024-01-12 10:16:39,191 - =================== med-rct  78 ======================
+2024-01-12 10:16:39,191 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:39,191 - Predicted: Objective | True: Objective
+2024-01-12 10:16:39,191 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:39,191 - CUM ACC | 28 | 0.35443037974683544
+2024-01-12 10:16:39,631 - =================== med-rct  79 ======================
+2024-01-12 10:16:39,631 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:39,632 - Predicted: Methods | True: Results
+2024-01-12 10:16:39,632 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:39,632 - CUM ACC | 28 | 0.35
+2024-01-12 10:16:40,094 - =================== med-rct  80 ======================
+2024-01-12 10:16:40,094 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:40,094 - Predicted: Objective | True: Conclusions
+2024-01-12 10:16:40,094 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:40,094 - CUM ACC | 28 | 0.345679012345679
+2024-01-12 10:16:40,511 - =================== med-rct  81 ======================
+2024-01-12 10:16:40,511 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:40,512 - Predicted: Objective | True: Results
+2024-01-12 10:16:40,512 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:40,512 - CUM ACC | 28 | 0.34146341463414637
+2024-01-12 10:16:40,935 - =================== med-rct  82 ======================
+2024-01-12 10:16:40,935 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:40,935 - Predicted: Objective | True: Methods
+2024-01-12 10:16:40,936 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:40,936 - CUM ACC | 28 | 0.3373493975903614
+2024-01-12 10:16:41,462 - =================== med-rct  83 ======================
+2024-01-12 10:16:41,462 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:41,462 - Predicted: Objective | True: Conclusions
+2024-01-12 10:16:41,463 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:41,463 - CUM ACC | 28 | 0.3333333333333333
+2024-01-12 10:16:41,947 - =================== med-rct  84 ======================
+2024-01-12 10:16:41,947 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:41,947 - Predicted: Conclusions | True: Results
+2024-01-12 10:16:41,947 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:41,947 - CUM ACC | 28 | 0.32941176470588235
+2024-01-12 10:16:43,283 - =================== med-rct  85 ======================
+2024-01-12 10:16:43,283 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:43,284 - Predicted:  | True: Conclusions
+2024-01-12 10:16:43,284 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:43,284 - CUM ACC | 28 | 0.32558139534883723
+2024-01-12 10:16:43,687 - =================== med-rct  86 ======================
+2024-01-12 10:16:43,687 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:43,688 - Predicted: Background | True: Methods
+2024-01-12 10:16:43,688 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:43,688 - CUM ACC | 28 | 0.3218390804597701
+2024-01-12 10:16:44,178 - =================== med-rct  87 ======================
+2024-01-12 10:16:44,178 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:44,178 - Predicted: Conclusions | True: Results
+2024-01-12 10:16:44,178 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:44,178 - CUM ACC | 28 | 0.3181818181818182
+2024-01-12 10:16:44,594 - =================== med-rct  88 ======================
+2024-01-12 10:16:44,594 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:44,594 - Predicted: Results | True: Results
+2024-01-12 10:16:44,594 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:44,594 - CUM ACC | 29 | 0.3258426966292135
+2024-01-12 10:16:45,014 - =================== med-rct  89 ======================
+2024-01-12 10:16:45,014 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:45,014 - Predicted:  | True: Results
+2024-01-12 10:16:45,014 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:45,015 - CUM ACC | 29 | 0.32222222222222224
+2024-01-12 10:16:45,420 - =================== med-rct  90 ======================
+2024-01-12 10:16:45,420 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:45,421 - Predicted: Background | True: Conclusions
+2024-01-12 10:16:45,421 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:45,421 - CUM ACC | 29 | 0.31868131868131866
+2024-01-12 10:16:45,824 - =================== med-rct  91 ======================
+2024-01-12 10:16:45,825 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:45,825 - Predicted: Results | True: Results
+2024-01-12 10:16:45,825 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:45,825 - CUM ACC | 30 | 0.32608695652173914
+2024-01-12 10:16:46,216 - =================== med-rct  92 ======================
+2024-01-12 10:16:46,216 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:46,216 - Predicted: Background | True: Methods
+2024-01-12 10:16:46,216 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:46,216 - CUM ACC | 30 | 0.3225806451612903
+2024-01-12 10:16:46,677 - =================== med-rct  93 ======================
+2024-01-12 10:16:46,678 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:46,678 - Predicted: Methods | True: Methods
+2024-01-12 10:16:46,678 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:46,678 - CUM ACC | 31 | 0.32978723404255317
+2024-01-12 10:16:47,111 - =================== med-rct  94 ======================
+2024-01-12 10:16:47,111 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:47,111 - Predicted: Objective | True: Results
+2024-01-12 10:16:47,111 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:47,111 - CUM ACC | 31 | 0.3263157894736842
+2024-01-12 10:16:47,574 - =================== med-rct  95 ======================
+2024-01-12 10:16:47,574 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:47,574 - Predicted: Methods | True: Results
+2024-01-12 10:16:47,574 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:47,574 - CUM ACC | 31 | 0.3229166666666667
+2024-01-12 10:16:48,058 - =================== med-rct  96 ======================
+2024-01-12 10:16:48,058 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:48,058 - Predicted: Conclusions | True: Results
+2024-01-12 10:16:48,058 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:48,058 - CUM ACC | 31 | 0.31958762886597936
+2024-01-12 10:16:48,529 - =================== med-rct  97 ======================
+2024-01-12 10:16:48,529 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:48,530 - Predicted: Conclusions | True: Methods
+2024-01-12 10:16:48,530 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:48,530 - CUM ACC | 31 | 0.3163265306122449
+2024-01-12 10:16:49,064 - =================== med-rct  98 ======================
+2024-01-12 10:16:49,064 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:49,064 - Predicted: Methods | True: Methods
+2024-01-12 10:16:49,064 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:49,064 - CUM ACC | 32 | 0.32323232323232326
+2024-01-12 10:16:49,523 - =================== med-rct  99 ======================
+2024-01-12 10:16:49,523 - Model Chosen: llama2 | Model Expected: med-rct
+2024-01-12 10:16:49,523 - Predicted: Conclusions | True: Conclusions
+2024-01-12 10:16:49,523 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 0
+2024-01-12 10:16:49,523 - CUM ACC | 33 | 0.33

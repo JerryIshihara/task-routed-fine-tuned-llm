@@ -1,3 +1,4 @@
+import requests
 import os
 import json
 import torch
@@ -6,7 +7,6 @@ import sqlite3
 import logging
 import argparse
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from datasets import load_dataset
 
 # Create the parser
 parser = argparse.ArgumentParser(description="argparse")
@@ -20,14 +20,16 @@ args = parser.parse_args()
 
 # Access the arguments
 arg_model = args.model
+classified = None
 arg_dataset = args.dataset
-MODELS = ["medicine", "finance", "SQL", "llama2", "router"]
-DATASET = ["med", "fin", "nsql"]
-assert arg_model in MODELS, "model not supported"
-assert arg_dataset in DATASET, "dataset not supported"
+MODELS = ["medicine-llm", "finance-llm", "NSQL", "llama2", "hybrid"]
+DATASET = ["med-rct", "fin-headline", "sql-spider"]
+assert arg_model in MODELS, "model not found"
+assert arg_dataset in DATASET, "dataset not found"
 
+LOGGING_FILE = f'log/model_{arg_model}_dataset_{arg_dataset}.log'
 logging.basicConfig(
-    filename=f'log/model_{arg_model}_dataset_{arg_dataset}.log', 
+    filename=LOGGING_FILE, 
     format='%(asctime)s - %(message)s',
     level=logging.INFO
 )
@@ -35,32 +37,7 @@ logging.basicConfig(
 def print_and_log(text):
     logging.info(text)
     print(text)
-
-
-### ============ Load Model from Huggingface ============ ###
-
-if arg_model in ["llama2", "router"]:
-    llama_model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf", torch_dtype=torch.bfloat16, device_map='auto')
-    llama_tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf", use_fast=False)
-    print("LLAMA2 Model ", llama_model.device)
-
-if arg_model in ["SQL", "router"]:
-    nsql_model = AutoModelForCausalLM.from_pretrained("NumbersStation/nsql-llama-2-7B", torch_dtype=torch.bfloat16, device_map='auto')
-    nsql_tokenizer = AutoTokenizer.from_pretrained("NumbersStation/nsql-llama-2-7B")
-    print("NSQL Model ", nsql_model.device)
-
-if arg_model in ["medicine", "router"]:
-    med_model = AutoModelForCausalLM.from_pretrained("AdaptLLM/medicine-chat", torch_dtype=torch.bfloat16, device_map='auto')
-    med_tokenizer = AutoTokenizer.from_pretrained("AdaptLLM/medicine-chat", use_fast=False)
-    print("Med Model ", med_model.device)
-
-if arg_model in ["finance", "router"]:
-    fin_model = AutoModelForCausalLM.from_pretrained("AdaptLLM/finance-chat", torch_dtype=torch.bfloat16, device_map='auto')
-    fin_tokenizer = AutoTokenizer.from_pretrained("AdaptLLM/finance-chat", use_fast=False)
-    print("Fin Model ", fin_model.device)
-
-
-
+    
 ### ============ Load Dataset ============ ###
 
 # Define the parent absolute path
@@ -72,8 +49,33 @@ DATABASE_FOLDER = os.path.join(SPIDER_FOLDER, 'database')
 with open(os.path.join(SPIDER_FOLDER, "train_spider.json"), 'r') as file:
     nsql_dataset = json.load(file)
 
+from datasets import load_dataset
 med_dataset = load_dataset("AdaptLLM/medicine-tasks", "RCT")
 fin_dataset = load_dataset("AdaptLLM/finance-tasks", "Headline")
+
+
+### ============ Load Model from Huggingface ============ ###
+
+if arg_model in ["llama2", "hybrid"]:
+    llama_model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf", torch_dtype=torch.bfloat16, device_map='auto')
+    llama_tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf", use_fast=False)
+    print("LLAMA2 Model ", llama_model.device)
+
+if arg_model in ["NSQL", "hybrid"]:
+    nsql_model = AutoModelForCausalLM.from_pretrained("NumbersStation/nsql-llama-2-7B", torch_dtype=torch.bfloat16, device_map='auto')
+    nsql_tokenizer = AutoTokenizer.from_pretrained("NumbersStation/nsql-llama-2-7B")
+    print("NSQL Model ", nsql_model.device)
+
+if arg_model in ["medicine-llm", "hybrid"]:
+    med_model = AutoModelForCausalLM.from_pretrained("AdaptLLM/medicine-chat", torch_dtype=torch.bfloat16, device_map='auto')
+    med_tokenizer = AutoTokenizer.from_pretrained("AdaptLLM/medicine-chat", use_fast=False)
+    print("Med Model ", med_model.device)
+
+if arg_model in ["finance-llm", "hybrid"]:
+    fin_model = AutoModelForCausalLM.from_pretrained("AdaptLLM/finance-chat", torch_dtype=torch.bfloat16, device_map='auto')
+    fin_tokenizer = AutoTokenizer.from_pretrained("AdaptLLM/finance-chat", use_fast=False)
+    print("Fin Model ", fin_model.device)
+
 
 ### ============ model query function ============ ###
 def llama2_query(prompt, max_len=8192):
@@ -162,8 +164,16 @@ def med_prompt(data):
     {data['input']}
     
     Please only provide your choice to the last sentence. Keep your answer as short as one word.'''
-    prompt = f"<s>[INST] <<SYS>>\nYou are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.\n\nIf a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.\n<</SYS>>\n\n{user_input} [/INST]{arg_model == 'SQL' and '###ANSWER:'}"
+    if classified == "NSQL": return user_input + " ###ANSWER:"
+    prompt = f"<s>[INST] <<SYS>>\nYou are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.\n\nIf a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.\n<</SYS>>\n\n{user_input} [/INST]{'###ANSWER:' if arg_model == 'SQL' else ''}"
     return prompt
+
+def _get_nsql_user_prompt(data):
+    schema_path = os.path.join(DATABASE_FOLDER, data['db_id'], 'schema.sql')
+    fd = open(schema_path, 'r')
+    sql_file = "\n".join([line.strip() for line in fd.readlines() if not line.strip().startswith("INSERT")])
+    user_prompt = f"""SQL SCHEMA:\n{sql_file}\nQuery based on question:\n{data['question']}"""
+    return user_prompt
 
 def _get_nsql_schema(data):
     schema_path = os.path.join(DATABASE_FOLDER, data['db_id'], 'schema.sql')
@@ -172,24 +182,33 @@ def _get_nsql_schema(data):
     return sql_schema
 
 def nsql_prompt(data):
-    prompt = f"""{_get_nsql_schema(data)}
-    -- Using valid SQLite, answer the following questions for the tables provided above.
-    -- {data['question']}
-    ```"""
-    # system_prompt = """You are a powerful text-to-SQL model. Your job is to answer questions about a database. You are given a question and context regarding one or more tables. Keep your answer short. You must only output the SQL query that answers the question."""
-    # user_prompt = _get_nsql_user_prompt(data)
-    # base_prompt = f"<s>[INST]\n<<SYS>>\n{system_prompt}\n<</SYS>>\n\n{user_prompt}[/INST]###SQL Query:```"
-    return prompt
+    if classified == "NSQL":
+        prompt = f"""{_get_nsql_schema(data)}
+        -- Using valid SQLite, answer the following questions for the tables provided above.
+        -- {data['question']}
+        ```"""
+        return prompt
+    system_prompt = """You are a powerful text-to-SQL model. Your job is to answer questions about a database. You are given a question and context regarding one or more tables. Keep your answer short. You must only output the SQL query that answers the question."""
+    user_prompt = _get_nsql_user_prompt(data)
+    base_prompt = f"<s>[INST]\n<<SYS>>\n{system_prompt}\n<</SYS>>\n\n{user_prompt}###SQL Query:```[/INST]"
+    return base_prompt
+    
     
 
 def fin_prompt(data):
     user_input = f'''
-    A headline can be answered in "yes" or "No". 
-    
     {data['input']}
     
-    Please only provide your answer to the last headline. Keep your answer as short as one word.'''
-    prompt = f"<s>[INST] <<SYS>>\nYou are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.\n\nIf a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.\n<</SYS>>\n\n{user_input} [/INST]{arg_model == 'SQL' and '###ANSWER:'}"
+    ### OPTIONS:
+    <OPTION>0</OPTION>
+    <DEFINITION>No, Negative, False</DEFINITION>
+    <OPTION>1</OPTION>
+    <DEFINITION>Yes, Positive, True</DEFINITION>
+    
+    Keep your answer as short as one word.
+    '''
+    if classified == "NSQL": return user_input + " ###ANSWER:"
+    prompt = f"<s>[INST] <<SYS>>\nYou are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.\n\nIf a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.\n<</SYS>>\n\n{user_input}[/INST]{'###ANSWER:' if arg_model == 'SQL' else ''}"
     return prompt
 
 
@@ -211,15 +230,21 @@ def med_prunning(raw_response):
 def fin_prunning(raw_response):
     raw_response = raw_response if "[/INST]" not in raw_response else raw_response.split("[/INST]")[1]
     raw_response = raw_response if "###ANSWER:" not in raw_response else raw_response.split("###ANSWER:")[1]
-    res = [w if w.lower() in ["yes", "no"] else "" for w in split_string(raw_response.strip())][0].strip()
+    res = ""
+    if any([x in raw_response.lower() for x in ["1", "yes", "true"]]):
+        res = "yes"
+    elif any([x in raw_response.lower() for x in ["0", "no", "false"]]):
+        res = "no"
+    # res = [w if w.lower() in ["yes", "no"] else "" for w in split_string(raw_response.strip())][0].strip()
     return res
 
 def nsql_prunning(raw_response):
+    raw_response = raw_response if "[/INST]" not in raw_response else raw_response.split("[/INST]")[1]
     raw_response = raw_response.split('```')[1].strip() if "```" in raw_response else raw_response.strip()
     answer = raw_response.split('```')[0].strip() if "```" in raw_response else raw_response
     return answer if ";" not in answer else answer.split(";")[0]
 
-### ==================== Evaluation ============================ ###
+### =============================== Evaluation ============================ ###
 def nsql_evaluation(response, data):
     try:
         # Connect to SQLite database
@@ -234,18 +259,18 @@ def nsql_evaluation(response, data):
         # predictions
         cursor.execute(response)
         pred_rows = set(cursor.fetchall())
-        print(f"Predicted: {response} \nTrue: {data['query']}")
+        print_and_log(f"Predicted: {response} \nTrue: {data['query']}")
         return 1 if pred_rows.symmetric_difference(true_rows) == set() else 0
     except Exception as e:
         print(e)
         return 0
         
 def med_evaluation(response, data):
-    print(f"Predicted: {response} | True: {data['options'][data['gold_index']]}")
+    print_and_log(f"Predicted: {response} | True: {data['options'][data['gold_index']]}")
     return 1 if response.lower() == data['options'][data['gold_index']].lower() else 0
 
 def fin_evaluation(response, data):
-    print(f"Predicted: {response} | True: {data['options'][data['gold_index']]}")
+    print_and_log("Predicted Label: " + response + " | True Label: " + data['options'][data['gold_index']])
     return 1 if response.lower() == data['options'][data['gold_index']].lower() else 0
     
     
@@ -254,25 +279,24 @@ def fin_evaluation(response, data):
 def classify(context):
     prompt = router_prompt(context)
     response = llama2_query(prompt, max_len=8192)
-    print(response)
     return response.split(f"[/INST]")[-1].strip().lower()
 
 router_acc = {
-    "finance": 0,
-    "SQL": 0,
-    "medicine": 0,
+    "finance-llm": 0,
+    "NSQL": 0,
+    "medicine-llm": 0,
     'llama2': 0
 }
 
 scores = {
-    "med": 0,
-    "nsql":0,
-    "fin": 0,
+    "med-rct": 0,
+    "sql-spider":0,
+    "fin-headline": 0,
 }
 
 dataset = {
-    "med": {
-        "name": "med",
+    "med-rct": {
+        "name": "med-rct",
         "dataset": med_dataset,
         "num_data": 100,
         "label": "medicine",
@@ -283,8 +307,8 @@ dataset = {
         "evaluate": lambda res, data: med_evaluation(res, data),
         "prune": lambda res: med_prunning(res),
     },
-    "nsql": {
-        "name": "nsql",
+    "sql-spider": {
+        "name": "sql-spider",
         "dataset": nsql_dataset,
         "label": "SQL",
         "num_data": 200,
@@ -295,8 +319,8 @@ dataset = {
         "evaluate": lambda res, data: nsql_evaluation(res, data),
         "prune": lambda res: nsql_prunning(res),
     }, 
-    "fin": {
-        "name": "fin",
+    "fin-headline": {
+        "name": "fin-headline",
         "dataset": fin_dataset,
         "label": "finance",
         "num_data": 100,
@@ -314,13 +338,13 @@ models = {
     "llama2": {
         "query": lambda prompt: llama2_query(prompt),
     },
-    "medicine": {
+    "medicine-llm": {
         "query": lambda prompt: med_query(prompt),    
     },
-    "SQL": {
+    "NSQL": {
         "query": lambda prompt: nsql_query(prompt),
     },
-    "finance": {
+    "finance-llm": {
         "query": lambda prompt: fin_query(prompt),
     },
 }
@@ -330,27 +354,26 @@ models = {
 if __name__ == "__main__":
     data = dataset[arg_dataset]
     for i in range(data['num_data']):
-        if arg_model == "router":
+        if arg_model == "hybrid":
             classified = classify(data['get_classify_text'](i))
-            print_and_log("Router Text: " + classified)
-            if classified not in ["finance", "medicine", "SQL"]:
+            if classified not in MODELS:
                 if "sql" in classified.lower():
-                    classified = "SQL"
+                    classified = "NSQL"
                 elif "finance" in classified.lower():
-                    classified = "finance"
+                    classified = "finance-llm"
                 elif "medicine" in classified.lower():
-                    classified = "medicine"
+                    classified = "medicine-llm"
                 else: classified = "llama2"
         else:
             classified = arg_model
         router_acc[classified] += 1
         response = models[classified]['query'](data['get_prompt'](i))
+        print(response)
+        print_and_log(f"=================== {data['name']:<7} {i:>3} ======================")
+        print_and_log("Model Chosen: " + classified + " | Model Expected: " + data['name'])
         prunned_response = data['prune'](response)
         score = data['evaluate'](prunned_response, data['get_data'](i))
         scores[data['name']] += score
-        print_and_log(f"=================== {data['name']:<7} {i:>3} ======================")
-        print_and_log("Model Chosen: " + classified + " | Model Expected: " + data['name'])
-        print_and_log("Predicted Label: " + prunned_response + " | True Label: " + data['label'])
-        print_and_log(f"ROUTING ACC | Med: {router_acc['medicine']} - Fin: {router_acc['finance']} - SQL: {router_acc['SQL']}")
+        print_and_log(f"ROUTING ACC | Med: {router_acc['medicine-llm']} - Fin: {router_acc['finance-llm']} - NSQL: {router_acc['NSQL']}")
         print_and_log(f"CUM ACC | {scores[data['name']]} | {scores[data['name']] / (i + 1)}")
 

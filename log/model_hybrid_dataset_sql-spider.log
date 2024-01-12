@@ -1,0 +1,1185 @@
+2024-01-12 09:57:39,045 - PyTorch version 2.1.2 available.
+2024-01-12 09:58:28,448 - =================== sql-spider   0 ======================
+2024-01-12 09:58:28,448 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:28,449 - Predicted: SELECT COUNT("name") FROM head WHERE "age" > 56 
+True: SELECT count(*) FROM head WHERE age  >  56
+2024-01-12 09:58:28,449 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 1
+2024-01-12 09:58:28,449 - CUM ACC | 1 | 1.0
+2024-01-12 09:58:29,756 - =================== sql-spider   1 ======================
+2024-01-12 09:58:29,756 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:29,757 - Predicted: SELECT name, born_state, age FROM head ORDER BY age 
+True: SELECT name ,  born_state ,  age FROM head ORDER BY age
+2024-01-12 09:58:29,757 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 2
+2024-01-12 09:58:29,757 - CUM ACC | 2 | 1.0
+2024-01-12 09:58:31,211 - =================== sql-spider   2 ======================
+2024-01-12 09:58:31,211 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:31,211 - Predicted: SELECT Creation, Name, Budget_in_Billions FROM department 
+True: SELECT creation ,  name ,  budget_in_billions FROM department
+2024-01-12 09:58:31,211 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 3
+2024-01-12 09:58:31,211 - CUM ACC | 3 | 1.0
+2024-01-12 09:58:33,121 - =================== sql-spider   3 ======================
+2024-01-12 09:58:33,121 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:33,121 - Predicted: SELECT MAX("Budget_in_Billions"), MIN("Budget_in_Billions") FROM department 
+True: SELECT max(budget_in_billions) ,  min(budget_in_billions) FROM department
+2024-01-12 09:58:33,122 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 4
+2024-01-12 09:58:33,122 - CUM ACC | 4 | 1.0
+2024-01-12 09:58:35,027 - =================== sql-spider   4 ======================
+2024-01-12 09:58:35,027 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:35,028 - Predicted: SELECT AVG("Num_Employees") FROM department WHERE "Ranking" BETWEEN 10 AND 15 
+True: SELECT avg(num_employees) FROM department WHERE ranking BETWEEN 10 AND 15
+2024-01-12 09:58:35,028 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 5
+2024-01-12 09:58:35,028 - CUM ACC | 5 | 1.0
+2024-01-12 09:58:36,366 - =================== sql-spider   5 ======================
+2024-01-12 09:58:36,367 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:36,367 - Predicted: SELECT name FROM head WHERE born_state <> 'California' 
+True: SELECT name FROM head WHERE born_state != 'California'
+2024-01-12 09:58:36,367 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 6
+2024-01-12 09:58:36,367 - CUM ACC | 6 | 1.0
+2024-01-12 09:58:38,090 - =================== sql-spider   6 ======================
+2024-01-12 09:58:38,090 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:38,090 - Predicted: SELECT DISTINCT "Creation" FROM "department" WHERE "born_state" = 'Alabama' 
+True: SELECT DISTINCT T1.creation FROM department AS T1 JOIN management AS T2 ON T1.department_id  =  T2.department_id JOIN head AS T3 ON T2.head_id  =  T3.head_id WHERE T3.born_state  =  'Alabama'
+2024-01-12 09:58:38,090 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 7
+2024-01-12 09:58:38,090 - CUM ACC | 6 | 0.8571428571428571
+2024-01-12 09:58:39,625 - =================== sql-spider   7 ======================
+2024-01-12 09:58:39,625 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:39,626 - Predicted: SELECT born_state FROM head GROUP BY born_state HAVING COUNT(*) >= 3 
+True: SELECT born_state FROM head GROUP BY born_state HAVING count(*)  >=  3
+2024-01-12 09:58:39,626 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 8
+2024-01-12 09:58:39,626 - CUM ACC | 7 | 0.875
+2024-01-12 09:58:41,114 - =================== sql-spider   8 ======================
+2024-01-12 09:58:41,115 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:41,115 - Predicted: SELECT Creation FROM department GROUP BY Creation ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT creation FROM department GROUP BY creation ORDER BY count(*) DESC LIMIT 1
+2024-01-12 09:58:41,115 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 9
+2024-01-12 09:58:41,115 - CUM ACC | 8 | 0.8888888888888888
+2024-01-12 09:58:44,077 - =================== sql-spider   9 ======================
+2024-01-12 09:58:44,077 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:44,078 - Predicted: SELECT "Name", "Num_Employees" FROM "department" AS T1 JOIN "management" AS T2 ON T1.Department_ID = T2.department_ID WHERE "temporary_acting" = 'Yes' 
+True: SELECT T1.name ,  T1.num_employees FROM department AS T1 JOIN management AS T2 ON T1.department_id  =  T2.department_id WHERE T2.temporary_acting  =  'Yes'
+2024-01-12 09:58:44,078 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 10
+2024-01-12 09:58:44,078 - CUM ACC | 9 | 0.9
+2024-01-12 09:58:45,381 - =================== sql-spider  10 ======================
+2024-01-12 09:58:45,381 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:45,381 - Predicted: SELECT COUNT(DISTINCT temporary_acting) FROM management 
+True: SELECT count(DISTINCT temporary_acting) FROM management
+2024-01-12 09:58:45,381 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 11
+2024-01-12 09:58:45,381 - CUM ACC | 10 | 0.9090909090909091
+2024-01-12 09:58:47,435 - =================== sql-spider  11 ======================
+2024-01-12 09:58:47,435 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:47,435 - Predicted: SELECT COUNT("department") FROM "department" WHERE NOT "Department_ID" IN (SELECT "department_ID" FROM "management") 
+True: SELECT count(*) FROM department WHERE department_id NOT IN (SELECT department_id FROM management);
+2024-01-12 09:58:47,436 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 12
+2024-01-12 09:58:47,436 - CUM ACC | 11 | 0.9166666666666666
+2024-01-12 09:58:49,989 - =================== sql-spider  12 ======================
+2024-01-12 09:58:49,989 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:49,990 - Predicted: SELECT DISTINCT T1.age FROM head AS T1 JOIN management AS T2 ON T1.head_ID = T2.head_ID WHERE T2.temporary_acting = 'Yes' 
+True: SELECT DISTINCT T1.age FROM management AS T2 JOIN head AS T1 ON T1.head_id  =  T2.head_id WHERE T2.temporary_acting  =  'Yes'
+2024-01-12 09:58:49,990 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 13
+2024-01-12 09:58:49,990 - CUM ACC | 12 | 0.9230769230769231
+2024-01-12 09:58:52,245 - =================== sql-spider  13 ======================
+2024-01-12 09:58:52,245 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:52,245 - Predicted: SELECT born_state FROM head WHERE name = 'Secretary of Treasury' INTERSECT SELECT born_state FROM head WHERE name = 'Secretary of Homeland Security' 
+True: SELECT T3.born_state FROM department AS T1 JOIN management AS T2 ON T1.department_id  =  T2.department_id JOIN head AS T3 ON T2.head_id  =  T3.head_id WHERE T1.name  =  'Treasury' INTERSECT SELECT T3.born_state FROM department AS T1 JOIN management AS T2 ON T1.department_id  =  T2.department_id JOIN head AS T3 ON T2.head_id  =  T3.head_id WHERE T1.name  =  'Homeland Security'
+2024-01-12 09:58:52,245 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 14
+2024-01-12 09:58:52,245 - CUM ACC | 12 | 0.8571428571428571
+2024-01-12 09:58:54,867 - =================== sql-spider  14 ======================
+2024-01-12 09:58:54,867 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:54,867 - Predicted: SELECT T1.name, COUNT(*) FROM department AS T1 JOIN management AS T2 ON T1.department_ID = T2.department_ID GROUP BY T1.name HAVING COUNT(*) > 1 
+True: SELECT T1.department_id ,  T1.name ,  count(*) FROM management AS T2 JOIN department AS T1 ON T1.department_id  =  T2.department_id GROUP BY T1.department_id HAVING count(*)  >  1
+2024-01-12 09:58:54,867 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 15
+2024-01-12 09:58:54,868 - CUM ACC | 12 | 0.8
+2024-01-12 09:58:56,213 - =================== sql-spider  15 ======================
+2024-01-12 09:58:56,213 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:56,213 - Predicted: SELECT name, head_ID FROM head WHERE name LIKE '%Ha%' 
+True: SELECT head_id ,  name FROM head WHERE name LIKE '%Ha%'
+2024-01-12 09:58:56,213 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 16
+2024-01-12 09:58:56,213 - CUM ACC | 12 | 0.75
+2024-01-12 09:58:57,358 - =================== sql-spider  16 ======================
+2024-01-12 09:58:57,358 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:57,358 - Predicted: SELECT COUNT(*) FROM farm 
+True: SELECT count(*) FROM farm
+2024-01-12 09:58:57,359 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 17
+2024-01-12 09:58:57,359 - CUM ACC | 13 | 0.7647058823529411
+2024-01-12 09:58:58,503 - =================== sql-spider  17 ======================
+2024-01-12 09:58:58,503 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:58,503 - Predicted: SELECT COUNT(*) FROM farm 
+True: SELECT count(*) FROM farm
+2024-01-12 09:58:58,503 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 18
+2024-01-12 09:58:58,503 - CUM ACC | 14 | 0.7777777777777778
+2024-01-12 09:58:59,986 - =================== sql-spider  18 ======================
+2024-01-12 09:58:59,986 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:58:59,987 - Predicted: SELECT Total_Horses FROM farm ORDER BY Total_Horses 
+True: SELECT Total_Horses FROM farm ORDER BY Total_Horses ASC
+2024-01-12 09:58:59,988 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 19
+2024-01-12 09:58:59,988 - CUM ACC | 15 | 0.7894736842105263
+2024-01-12 09:59:01,658 - =================== sql-spider  19 ======================
+2024-01-12 09:59:01,658 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:01,658 - Predicted: SELECT Total_Horses, Farm_ID FROM farm ORDER BY Total_Horses 
+True: SELECT Total_Horses FROM farm ORDER BY Total_Horses ASC
+2024-01-12 09:59:01,658 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 20
+2024-01-12 09:59:01,658 - CUM ACC | 15 | 0.75
+2024-01-12 09:59:03,481 - =================== sql-spider  20 ======================
+2024-01-12 09:59:03,482 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:03,482 - Predicted: SELECT "Hosts" FROM "farm_competition" WHERE "Theme" <> 'Aliens' 
+True: SELECT Hosts FROM farm_competition WHERE Theme !=  'Aliens'
+2024-01-12 09:59:03,482 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 21
+2024-01-12 09:59:03,482 - CUM ACC | 16 | 0.7619047619047619
+2024-01-12 09:59:05,082 - =================== sql-spider  21 ======================
+2024-01-12 09:59:05,082 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:05,083 - Predicted: SELECT Hosts FROM farm_competition WHERE Theme <> 'Aliens' 
+True: SELECT Hosts FROM farm_competition WHERE Theme !=  'Aliens'
+2024-01-12 09:59:05,083 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 22
+2024-01-12 09:59:05,084 - CUM ACC | 17 | 0.7727272727272727
+2024-01-12 09:59:06,685 - =================== sql-spider  22 ======================
+2024-01-12 09:59:06,686 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:06,686 - Predicted: SELECT "Theme" FROM "farm_competition" ORDER BY "Year" 
+True: SELECT Theme FROM farm_competition ORDER BY YEAR ASC
+2024-01-12 09:59:06,686 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 23
+2024-01-12 09:59:06,686 - CUM ACC | 18 | 0.782608695652174
+2024-01-12 09:59:08,098 - =================== sql-spider  23 ======================
+2024-01-12 09:59:08,098 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:08,098 - Predicted: SELECT Theme FROM farm_competition ORDER BY Year 
+True: SELECT Theme FROM farm_competition ORDER BY YEAR ASC
+2024-01-12 09:59:08,098 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 24
+2024-01-12 09:59:08,099 - CUM ACC | 19 | 0.7916666666666666
+2024-01-12 09:59:10,022 - =================== sql-spider  24 ======================
+2024-01-12 09:59:10,022 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:10,022 - Predicted: SELECT AVG("Working_Horses") FROM farm WHERE "Total_Horses" > 5000 
+True: SELECT avg(Working_Horses) FROM farm WHERE Total_Horses  >  5000
+2024-01-12 09:59:10,022 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 25
+2024-01-12 09:59:10,022 - CUM ACC | 20 | 0.8
+2024-01-12 09:59:11,968 - =================== sql-spider  25 ======================
+2024-01-12 09:59:11,968 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:11,969 - Predicted: SELECT AVG("Working_Horses") FROM farm WHERE "Total_Horses" > 5000 
+True: SELECT avg(Working_Horses) FROM farm WHERE Total_Horses  >  5000
+2024-01-12 09:59:11,969 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 26
+2024-01-12 09:59:11,969 - CUM ACC | 21 | 0.8076923076923077
+2024-01-12 09:59:13,420 - =================== sql-spider  26 ======================
+2024-01-12 09:59:13,420 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:13,420 - Predicted: SELECT MAX("Cows"), MIN("Cows") FROM farm 
+True: SELECT max(Cows) ,  min(Cows) FROM farm
+2024-01-12 09:59:13,420 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 27
+2024-01-12 09:59:13,420 - CUM ACC | 22 | 0.8148148148148148
+2024-01-12 09:59:14,865 - =================== sql-spider  27 ======================
+2024-01-12 09:59:14,865 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:14,865 - Predicted: SELECT MAX("Cows"), MIN("Cows") FROM farm 
+True: SELECT max(Cows) ,  min(Cows) FROM farm
+2024-01-12 09:59:14,865 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 28
+2024-01-12 09:59:14,865 - CUM ACC | 23 | 0.8214285714285714
+2024-01-12 09:59:16,162 - =================== sql-spider  28 ======================
+2024-01-12 09:59:16,162 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:16,163 - Predicted: SELECT COUNT(DISTINCT Status) FROM city 
+True: SELECT count(DISTINCT Status) FROM city
+2024-01-12 09:59:16,163 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 29
+2024-01-12 09:59:16,163 - CUM ACC | 24 | 0.8275862068965517
+2024-01-12 09:59:17,453 - =================== sql-spider  29 ======================
+2024-01-12 09:59:17,453 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:17,454 - Predicted: SELECT COUNT(DISTINCT Status) FROM city 
+True: SELECT count(DISTINCT Status) FROM city
+2024-01-12 09:59:17,454 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 30
+2024-01-12 09:59:17,454 - CUM ACC | 25 | 0.8333333333333334
+2024-01-12 09:59:18,783 - =================== sql-spider  30 ======================
+2024-01-12 09:59:18,783 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:18,784 - Predicted: SELECT Official_Name FROM city ORDER BY Population DESC 
+True: SELECT Official_Name FROM city ORDER BY Population DESC
+2024-01-12 09:59:18,784 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 31
+2024-01-12 09:59:18,784 - CUM ACC | 26 | 0.8387096774193549
+2024-01-12 09:59:20,078 - =================== sql-spider  31 ======================
+2024-01-12 09:59:20,078 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:20,078 - Predicted: SELECT Official_Name FROM city ORDER BY Population DESC 
+True: SELECT Official_Name FROM city ORDER BY Population DESC
+2024-01-12 09:59:20,078 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 32
+2024-01-12 09:59:20,079 - CUM ACC | 27 | 0.84375
+2024-01-12 09:59:21,562 - =================== sql-spider  32 ======================
+2024-01-12 09:59:21,562 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:21,562 - Predicted: SELECT Official_Name, Status FROM city ORDER BY Population DESC LIMIT 1 
+True: SELECT Official_Name ,  Status FROM city ORDER BY Population DESC LIMIT 1
+2024-01-12 09:59:21,562 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 33
+2024-01-12 09:59:21,562 - CUM ACC | 28 | 0.8484848484848485
+2024-01-12 09:59:23,392 - =================== sql-spider  33 ======================
+2024-01-12 09:59:23,392 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:23,393 - Predicted: SELECT "Official_Name", "Status" FROM "city" ORDER BY "Population" DESC LIMIT 1 
+True: SELECT Official_Name ,  Status FROM city ORDER BY Population DESC LIMIT 1
+2024-01-12 09:59:23,393 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 34
+2024-01-12 09:59:23,393 - CUM ACC | 29 | 0.8529411764705882
+2024-01-12 09:59:25,975 - =================== sql-spider  34 ======================
+2024-01-12 09:59:25,975 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:25,975 - Predicted: SELECT T1.Year, T2.Official_Name FROM farm_competition AS T1 JOIN city AS T2 ON T1.Host_city_ID = T2.City_ID 
+True: SELECT T2.Year ,  T1.Official_Name FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID
+2024-01-12 09:59:25,975 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 35
+2024-01-12 09:59:25,975 - CUM ACC | 30 | 0.8571428571428571
+2024-01-12 09:59:28,595 - =================== sql-spider  35 ======================
+2024-01-12 09:59:28,595 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:28,596 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 36
+2024-01-12 09:59:28,596 - CUM ACC | 30 | 0.8333333333333334
+2024-01-12 09:59:31,629 - =================== sql-spider  36 ======================
+2024-01-12 09:59:31,629 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:31,629 - Predicted: SELECT T1.Official_Name FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID = T2.Host_city_ID GROUP BY T2.Host_city_ID HAVING COUNT(*) > 1 
+True: SELECT T1.Official_Name FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID GROUP BY T2.Host_city_ID HAVING COUNT(*)  >  1
+2024-01-12 09:59:31,629 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 37
+2024-01-12 09:59:31,629 - CUM ACC | 31 | 0.8378378378378378
+2024-01-12 09:59:34,667 - =================== sql-spider  37 ======================
+2024-01-12 09:59:34,667 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:34,668 - Predicted: SELECT T1.Official_Name FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID = T2.Host_city_ID GROUP BY T2.Host_city_ID HAVING COUNT(*) > 1 
+True: SELECT T1.Official_Name FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID GROUP BY T2.Host_city_ID HAVING COUNT(*)  >  1
+2024-01-12 09:59:34,668 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 38
+2024-01-12 09:59:34,668 - CUM ACC | 32 | 0.8421052631578947
+2024-01-12 09:59:37,583 - =================== sql-spider  38 ======================
+2024-01-12 09:59:37,583 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:37,583 - Predicted: SELECT T1.Status FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID = T2.Host_city_ID GROUP BY T2.Host_city_ID ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT T1.Status FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID GROUP BY T2.Host_city_ID ORDER BY COUNT(*) DESC LIMIT 1
+2024-01-12 09:59:37,583 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 39
+2024-01-12 09:59:37,583 - CUM ACC | 33 | 0.8461538461538461
+2024-01-12 09:59:40,502 - =================== sql-spider  39 ======================
+2024-01-12 09:59:40,502 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:40,503 - Predicted: SELECT T1.Status FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID = T2.Host_city_ID GROUP BY T2.Host_city_ID ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT T1.Status FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID GROUP BY T2.Host_city_ID ORDER BY COUNT(*) DESC LIMIT 1
+2024-01-12 09:59:40,503 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 40
+2024-01-12 09:59:40,503 - CUM ACC | 34 | 0.85
+2024-01-12 09:59:43,201 - =================== sql-spider  40 ======================
+2024-01-12 09:59:43,201 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:43,202 - Predicted: SELECT T1.Theme FROM farm_competition AS T1 JOIN city AS T2 ON T1.Host_city_ID = T2.City_ID WHERE T2.Population > 1000 
+True: SELECT T2.Theme FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID WHERE T1.Population  >  1000
+2024-01-12 09:59:43,202 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 41
+2024-01-12 09:59:43,202 - CUM ACC | 35 | 0.8536585365853658
+2024-01-12 09:59:45,883 - =================== sql-spider  41 ======================
+2024-01-12 09:59:45,883 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:45,884 - Predicted: SELECT T1.Theme FROM farm_competition AS T1 JOIN city AS T2 ON T1.Host_city_ID = T2.City_ID WHERE T2.Population > 1000 
+True: SELECT T2.Theme FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID WHERE T1.Population  >  1000
+2024-01-12 09:59:45,884 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 42
+2024-01-12 09:59:45,884 - CUM ACC | 36 | 0.8571428571428571
+2024-01-12 09:59:47,369 - =================== sql-spider  42 ======================
+2024-01-12 09:59:47,370 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:47,370 - Predicted: SELECT Status, AVG(Population) FROM city GROUP BY Status 
+True: SELECT Status ,  avg(Population) FROM city GROUP BY Status
+2024-01-12 09:59:47,370 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 43
+2024-01-12 09:59:47,370 - CUM ACC | 37 | 0.8604651162790697
+2024-01-12 09:59:48,851 - =================== sql-spider  43 ======================
+2024-01-12 09:59:48,851 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:48,852 - Predicted: SELECT Status, AVG(Population) FROM city GROUP BY Status 
+True: SELECT Status ,  avg(Population) FROM city GROUP BY Status
+2024-01-12 09:59:48,852 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 44
+2024-01-12 09:59:48,852 - CUM ACC | 38 | 0.8636363636363636
+2024-01-12 09:59:50,227 - =================== sql-spider  44 ======================
+2024-01-12 09:59:50,227 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:50,227 - Predicted: SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) 
+True: SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) ASC
+2024-01-12 09:59:50,227 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 45
+2024-01-12 09:59:50,227 - CUM ACC | 39 | 0.8666666666666667
+2024-01-12 09:59:51,565 - =================== sql-spider  45 ======================
+2024-01-12 09:59:51,565 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:51,566 - Predicted: SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) 
+True: SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) ASC
+2024-01-12 09:59:51,566 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 46
+2024-01-12 09:59:51,567 - CUM ACC | 40 | 0.8695652173913043
+2024-01-12 09:59:53,048 - =================== sql-spider  46 ======================
+2024-01-12 09:59:53,048 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:53,048 - Predicted: SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) DESC LIMIT 1
+2024-01-12 09:59:53,048 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 47
+2024-01-12 09:59:53,048 - CUM ACC | 41 | 0.8723404255319149
+2024-01-12 09:59:54,529 - =================== sql-spider  47 ======================
+2024-01-12 09:59:54,529 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:54,530 - Predicted: SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) DESC LIMIT 1
+2024-01-12 09:59:54,530 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 48
+2024-01-12 09:59:54,530 - CUM ACC | 42 | 0.875
+2024-01-12 09:59:56,468 - =================== sql-spider  48 ======================
+2024-01-12 09:59:56,468 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:56,469 - Predicted: SELECT Official_Name FROM city WHERE NOT City_ID IN (SELECT Host_city_ID FROM farm_competition) 
+True: SELECT Official_Name FROM city WHERE City_ID NOT IN (SELECT Host_city_ID FROM farm_competition)
+2024-01-12 09:59:56,469 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 49
+2024-01-12 09:59:56,469 - CUM ACC | 43 | 0.8775510204081632
+2024-01-12 09:59:58,411 - =================== sql-spider  49 ======================
+2024-01-12 09:59:58,411 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 09:59:58,411 - Predicted: SELECT Official_Name FROM city WHERE NOT City_ID IN (SELECT Host_city_ID FROM farm_competition) 
+True: SELECT Official_Name FROM city WHERE City_ID NOT IN (SELECT Host_city_ID FROM farm_competition)
+2024-01-12 09:59:58,411 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 50
+2024-01-12 09:59:58,411 - CUM ACC | 44 | 0.88
+2024-01-12 10:00:00,390 - =================== sql-spider  50 ======================
+2024-01-12 10:00:00,390 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:00,390 - Predicted: SELECT Status FROM city WHERE Population > 1500 INTERSECT SELECT Status FROM city WHERE Population < 500 
+True: SELECT Status FROM city WHERE Population  >  1500 INTERSECT SELECT Status FROM city WHERE Population  <  500
+2024-01-12 10:00:00,390 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 51
+2024-01-12 10:00:00,390 - CUM ACC | 45 | 0.8823529411764706
+2024-01-12 10:00:02,322 - =================== sql-spider  51 ======================
+2024-01-12 10:00:02,322 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:02,322 - Predicted: SELECT Status FROM city WHERE Population > 1500 INTERSECT SELECT Status FROM city WHERE Population < 500 
+True: SELECT Status FROM city WHERE Population  >  1500 INTERSECT SELECT Status FROM city WHERE Population  <  500
+2024-01-12 10:00:02,322 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 52
+2024-01-12 10:00:02,322 - CUM ACC | 46 | 0.8846153846153846
+2024-01-12 10:00:04,029 - =================== sql-spider  52 ======================
+2024-01-12 10:00:04,029 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:04,029 - Predicted: SELECT Official_Name FROM city WHERE Population > 1500 OR Population < 500 
+True: SELECT Official_Name FROM city WHERE Population  >  1500 OR Population  <  500
+2024-01-12 10:00:04,029 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 53
+2024-01-12 10:00:04,029 - CUM ACC | 47 | 0.8867924528301887
+2024-01-12 10:00:05,728 - =================== sql-spider  53 ======================
+2024-01-12 10:00:05,728 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:05,728 - Predicted: SELECT Official_Name FROM city WHERE Population > 1500 OR Population < 500 
+True: SELECT Official_Name FROM city WHERE Population  >  1500 OR Population  <  500
+2024-01-12 10:00:05,728 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 54
+2024-01-12 10:00:05,728 - CUM ACC | 48 | 0.8888888888888888
+2024-01-12 10:00:07,293 - =================== sql-spider  54 ======================
+2024-01-12 10:00:07,293 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:07,293 - Predicted: SELECT Census_Ranking FROM city WHERE Status <> "Village" 
+True: SELECT Census_Ranking FROM city WHERE Status !=  "Village"
+2024-01-12 10:00:07,293 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 55
+2024-01-12 10:00:07,293 - CUM ACC | 49 | 0.8909090909090909
+2024-01-12 10:00:09,087 - =================== sql-spider  55 ======================
+2024-01-12 10:00:09,087 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:09,088 - Predicted: SELECT "Census_Ranking" FROM "city" WHERE "Status" <> "Village" 
+True: SELECT Census_Ranking FROM city WHERE Status !=  "Village"
+2024-01-12 10:00:09,088 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 56
+2024-01-12 10:00:09,088 - CUM ACC | 50 | 0.8928571428571429
+2024-01-12 10:00:14,037 - =================== sql-spider  56 ======================
+2024-01-12 10:00:14,037 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:14,037 - Predicted: SELECT course_name FROM Students AS T1 JOIN Student_Course_Registrations AS T2 ON T1.student_id = T2.student_id JOIN Courses AS T3 ON T2.course_id = T3.course_id GROUP BY T2.course_id ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT T1.course_name FROM courses AS T1 JOIN student_course_registrations AS T2 ON T1.course_id = T2.course_Id GROUP BY T1.course_id ORDER BY count(*) DESC LIMIT 1
+2024-01-12 10:00:14,037 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 57
+2024-01-12 10:00:14,037 - CUM ACC | 51 | 0.8947368421052632
+2024-01-12 10:00:18,285 - =================== sql-spider  57 ======================
+2024-01-12 10:00:18,285 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:18,285 - Predicted: SELECT T1.course_name FROM Courses AS T1 JOIN Student_Course_Registrations AS T2 ON T1.course_id = T2.course_id GROUP BY T1.course_name ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT T1.course_name FROM courses AS T1 JOIN student_course_registrations AS T2 ON T1.course_id = T2.course_Id GROUP BY T1.course_id ORDER BY count(*) DESC LIMIT 1
+2024-01-12 10:00:18,286 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 58
+2024-01-12 10:00:18,286 - CUM ACC | 52 | 0.896551724137931
+2024-01-12 10:00:22,614 - =================== sql-spider  58 ======================
+2024-01-12 10:00:22,615 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:22,615 - Predicted: SELECT T1.student_id FROM Students AS T1 JOIN Student_Course_Registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id ORDER BY COUNT(*) LIMIT 1 
+True: SELECT student_id FROM student_course_registrations GROUP BY student_id ORDER BY count(*) LIMIT 1
+2024-01-12 10:00:22,615 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 59
+2024-01-12 10:00:22,615 - CUM ACC | 53 | 0.8983050847457628
+2024-01-12 10:00:25,757 - =================== sql-spider  59 ======================
+2024-01-12 10:00:25,757 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:25,757 - Predicted: SELECT student_id FROM Student_Course_Registrations GROUP BY student_id ORDER BY COUNT(*) LIMIT 1 
+True: SELECT student_id FROM student_course_registrations GROUP BY student_id ORDER BY count(*) LIMIT 1
+2024-01-12 10:00:25,758 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 60
+2024-01-12 10:00:25,758 - CUM ACC | 54 | 0.9
+2024-01-12 10:00:29,518 - =================== sql-spider  60 ======================
+2024-01-12 10:00:29,518 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:29,519 - Predicted: SELECT T1.first_name, T1.last_name FROM People AS T1 JOIN Candidates AS T2 ON T1.person_id = T2.candidate_id 
+True: SELECT T2.first_name ,  T2.last_name FROM candidates AS T1 JOIN people AS T2 ON T1.candidate_id = T2.person_id
+2024-01-12 10:00:29,519 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 61
+2024-01-12 10:00:29,519 - CUM ACC | 55 | 0.9016393442622951
+2024-01-12 10:00:33,405 - =================== sql-spider  61 ======================
+2024-01-12 10:00:33,405 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:33,405 - Predicted: SELECT T1.candidate_details, T1.candidate_details FROM Candidates AS T1 JOIN People AS T2 ON T1.candidate_id = T2.person_id 
+True: SELECT T2.first_name ,  T2.last_name FROM candidates AS T1 JOIN people AS T2 ON T1.candidate_id = T2.person_id
+2024-01-12 10:00:33,405 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 62
+2024-01-12 10:00:33,405 - CUM ACC | 55 | 0.8870967741935484
+2024-01-12 10:00:36,480 - =================== sql-spider  62 ======================
+2024-01-12 10:00:36,480 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:36,481 - Predicted: SELECT student_id FROM Students WHERE NOT student_id IN (SELECT student_id FROM Student_Course_Attendance) 
+True: SELECT student_id FROM students WHERE student_id NOT IN (SELECT student_id FROM student_course_attendance)
+2024-01-12 10:00:36,481 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 63
+2024-01-12 10:00:36,481 - CUM ACC | 56 | 0.8888888888888888
+2024-01-12 10:00:39,573 - =================== sql-spider  63 ======================
+2024-01-12 10:00:39,573 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:39,573 - Predicted: SELECT student_id FROM Students WHERE NOT student_id IN (SELECT student_id FROM Student_Course_Attendance) 
+True: SELECT student_id FROM students WHERE student_id NOT IN (SELECT student_id FROM student_course_attendance)
+2024-01-12 10:00:39,573 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 64
+2024-01-12 10:00:39,573 - CUM ACC | 57 | 0.890625
+2024-01-12 10:00:42,048 - =================== sql-spider  64 ======================
+2024-01-12 10:00:42,048 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:42,049 - Predicted: SELECT student_id FROM Student_Course_Attendance 
+True: SELECT student_id FROM student_course_attendance
+2024-01-12 10:00:42,049 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 65
+2024-01-12 10:00:42,049 - CUM ACC | 58 | 0.8923076923076924
+2024-01-12 10:00:45,057 - =================== sql-spider  65 ======================
+2024-01-12 10:00:45,057 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:45,057 - Predicted: SELECT student_id FROM Student_Course_Attendance GROUP BY student_id HAVING COUNT(*) >= 1 
+True: SELECT student_id FROM student_course_attendance
+2024-01-12 10:00:45,057 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 66
+2024-01-12 10:00:45,057 - CUM ACC | 59 | 0.8939393939393939
+2024-01-12 10:00:48,739 - =================== sql-spider  66 ======================
+2024-01-12 10:00:48,739 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:48,739 - Predicted: SELECT T1.student_id, T2.course_name FROM Students AS T1 JOIN Courses AS T2 ON T1.student_id = T2.course_id 
+True: SELECT T1.student_id ,  T2.course_name FROM student_course_registrations AS T1 JOIN courses AS T2 ON T1.course_id = T2.course_id
+2024-01-12 10:00:48,739 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 67
+2024-01-12 10:00:48,739 - CUM ACC | 59 | 0.8805970149253731
+2024-01-12 10:00:52,874 - =================== sql-spider  67 ======================
+2024-01-12 10:00:52,874 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:52,875 - Predicted: SELECT T1.student_details FROM Students AS T1 JOIN Student_Course_Registrations AS T2 ON T1.student_id = T2.student_id ORDER BY T2.registration_date DESC LIMIT 1 
+True: SELECT T2.student_details FROM student_course_registrations AS T1 JOIN students AS T2 ON T1.student_id = T2.student_id ORDER BY T1.registration_date DESC LIMIT 1
+2024-01-12 10:00:52,875 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 68
+2024-01-12 10:00:52,875 - CUM ACC | 60 | 0.8823529411764706
+2024-01-12 10:00:57,041 - =================== sql-spider  68 ======================
+2024-01-12 10:00:57,041 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:00:57,041 - Predicted: SELECT T1.student_details FROM Students AS T1 JOIN Student_Course_Registrations AS T2 ON T1.student_id = T2.student_id ORDER BY T2.registration_date DESC LIMIT 1 
+True: SELECT T2.student_details FROM student_course_registrations AS T1 JOIN students AS T2 ON T1.student_id = T2.student_id ORDER BY T1.registration_date DESC LIMIT 1
+2024-01-12 10:00:57,041 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 69
+2024-01-12 10:00:57,041 - CUM ACC | 61 | 0.8840579710144928
+2024-01-12 10:01:00,870 - =================== sql-spider  69 ======================
+2024-01-12 10:01:00,870 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:00,871 - Predicted: SELECT COUNT(*) FROM Student_Course_Attendance AS T1 JOIN Courses AS T2 ON T1.course_id = T2.course_id WHERE T2.course_name = "English" 
+True: SELECT count(*) FROM courses AS T1 JOIN student_course_attendance AS T2 ON T1.course_id = T2.course_id WHERE T1.course_name = "English"
+2024-01-12 10:01:00,871 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 70
+2024-01-12 10:01:00,871 - CUM ACC | 62 | 0.8857142857142857
+2024-01-12 10:01:04,700 - =================== sql-spider  70 ======================
+2024-01-12 10:01:04,700 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:04,701 - Predicted: SELECT COUNT(*) FROM Courses AS T1 JOIN Student_Course_Attendance AS T2 ON T1.course_id = T2.course_id WHERE T1.course_name = "English" 
+True: SELECT count(*) FROM courses AS T1 JOIN student_course_attendance AS T2 ON T1.course_id = T2.course_id WHERE T1.course_name = "English"
+2024-01-12 10:01:04,701 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 71
+2024-01-12 10:01:04,701 - CUM ACC | 63 | 0.8873239436619719
+2024-01-12 10:01:08,621 - =================== sql-spider  71 ======================
+2024-01-12 10:01:08,621 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:08,621 - Predicted: SELECT COUNT(*) FROM Courses AS T1 JOIN Student_Course_Attendance AS T2 ON T1.course_id = T2.course_id WHERE T2.student_id = 171 
+True: SELECT count(*) FROM courses AS T1 JOIN student_course_attendance AS T2 ON T1.course_id = T2.course_id WHERE T2.student_id = 171
+2024-01-12 10:01:08,621 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 72
+2024-01-12 10:01:08,621 - CUM ACC | 64 | 0.8888888888888888
+2024-01-12 10:01:12,540 - =================== sql-spider  72 ======================
+2024-01-12 10:01:12,540 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:12,540 - Predicted: SELECT COUNT(*) FROM Student_Course_Attendance AS T1 JOIN Students AS T2 ON T1.student_id = T2.student_id WHERE T2.student_id = 171 
+True: SELECT count(*) FROM courses AS T1 JOIN student_course_attendance AS T2 ON T1.course_id = T2.course_id WHERE T2.student_id = 171
+2024-01-12 10:01:12,540 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 73
+2024-01-12 10:01:12,540 - CUM ACC | 65 | 0.8904109589041096
+2024-01-12 10:01:15,457 - =================== sql-spider  73 ======================
+2024-01-12 10:01:15,457 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:15,458 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 74
+2024-01-12 10:01:15,458 - CUM ACC | 65 | 0.8783783783783784
+2024-01-12 10:01:19,713 - =================== sql-spider  74 ======================
+2024-01-12 10:01:19,713 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:19,714 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 75
+2024-01-12 10:01:19,714 - CUM ACC | 65 | 0.8666666666666667
+2024-01-12 10:01:22,690 - =================== sql-spider  75 ======================
+2024-01-12 10:01:22,690 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:22,690 - Predicted: SELECT student_id FROM Student_Course_Attendance ORDER BY date_of_attendance DESC LIMIT 1 
+True: SELECT candidate_id FROM candidate_assessments ORDER BY assessment_date DESC LIMIT 1
+2024-01-12 10:01:22,690 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 76
+2024-01-12 10:01:22,690 - CUM ACC | 65 | 0.8552631578947368
+2024-01-12 10:01:25,708 - =================== sql-spider  76 ======================
+2024-01-12 10:01:25,708 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:25,709 - Predicted: SELECT student_id FROM Student_Course_Attendance ORDER BY date_of_attendance DESC LIMIT 1 
+True: SELECT candidate_id FROM candidate_assessments ORDER BY assessment_date DESC LIMIT 1
+2024-01-12 10:01:25,709 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 77
+2024-01-12 10:01:25,709 - CUM ACC | 65 | 0.8441558441558441
+2024-01-12 10:01:29,970 - =================== sql-spider  77 ======================
+2024-01-12 10:01:29,970 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:29,970 - Predicted: SELECT T1.student_details FROM Students AS T1 JOIN Student_Course_Registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_details ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT T1.student_details FROM students AS T1 JOIN student_course_registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id ORDER BY count(*) DESC LIMIT 1
+2024-01-12 10:01:29,971 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 78
+2024-01-12 10:01:29,971 - CUM ACC | 65 | 0.8333333333333334
+2024-01-12 10:01:34,233 - =================== sql-spider  78 ======================
+2024-01-12 10:01:34,233 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:34,233 - Predicted: SELECT T1.student_details FROM Students AS T1 JOIN Student_Course_Registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_details ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT T1.student_details FROM students AS T1 JOIN student_course_registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id ORDER BY count(*) DESC LIMIT 1
+2024-01-12 10:01:34,233 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 79
+2024-01-12 10:01:34,233 - CUM ACC | 65 | 0.8227848101265823
+2024-01-12 10:01:38,279 - =================== sql-spider  79 ======================
+2024-01-12 10:01:38,279 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:38,279 - Predicted: SELECT T1.student_id, COUNT(*) FROM Students AS T1 JOIN Student_Course_Registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id 
+True: SELECT T1.student_id ,  count(*) FROM students AS T1 JOIN student_course_registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id
+2024-01-12 10:01:38,279 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 80
+2024-01-12 10:01:38,279 - CUM ACC | 66 | 0.825
+2024-01-12 10:01:42,334 - =================== sql-spider  80 ======================
+2024-01-12 10:01:42,334 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:42,335 - Predicted: SELECT T1.student_id, COUNT(*) FROM Students AS T1 JOIN Student_Course_Registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id 
+True: SELECT T1.student_id ,  count(*) FROM students AS T1 JOIN student_course_registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id
+2024-01-12 10:01:42,335 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 81
+2024-01-12 10:01:42,335 - CUM ACC | 67 | 0.8271604938271605
+2024-01-12 10:01:46,385 - =================== sql-spider  81 ======================
+2024-01-12 10:01:46,385 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:46,385 - Predicted: SELECT T1.course_name, COUNT(*) FROM Courses AS T1 JOIN Student_Course_Registrations AS T2 ON T1.course_id = T2.course_id GROUP BY T1.course_name 
+True: SELECT T3.course_name ,  count(*) FROM students AS T1 JOIN student_course_registrations AS T2 ON T1.student_id = T2.student_id JOIN courses AS T3 ON T2.course_id = T3.course_id GROUP BY T2.course_id
+2024-01-12 10:01:46,385 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 82
+2024-01-12 10:01:46,385 - CUM ACC | 68 | 0.8292682926829268
+2024-01-12 10:01:51,134 - =================== sql-spider  82 ======================
+2024-01-12 10:01:51,134 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:51,134 - Predicted: SELECT course_name, COUNT(*) FROM Students AS T1 JOIN Student_Course_Registrations AS T2 ON T1.student_id = T2.student_id JOIN Courses AS T3 ON T2.course_id = T3.course_id GROUP BY T2.course_id 
+True: SELECT T3.course_name ,  count(*) FROM students AS T1 JOIN student_course_registrations AS T2 ON T1.student_id = T2.student_id JOIN courses AS T3 ON T2.course_id = T3.course_id GROUP BY T2.course_id
+2024-01-12 10:01:51,134 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 83
+2024-01-12 10:01:51,135 - CUM ACC | 69 | 0.8313253012048193
+2024-01-12 10:01:54,151 - =================== sql-spider  83 ======================
+2024-01-12 10:01:54,152 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:54,152 - Predicted: SELECT candidate_id FROM Candidate_Assessments WHERE asessment_outcome_code = "Pass" 
+True: SELECT candidate_id FROM candidate_assessments WHERE asessment_outcome_code = "Pass"
+2024-01-12 10:01:54,152 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 84
+2024-01-12 10:01:54,152 - CUM ACC | 70 | 0.8333333333333334
+2024-01-12 10:01:57,160 - =================== sql-spider  84 ======================
+2024-01-12 10:01:57,160 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:01:57,160 - Predicted: SELECT candidate_id FROM Candidate_Assessments WHERE asessment_outcome_code = "Pass" 
+True: SELECT candidate_id FROM candidate_assessments WHERE asessment_outcome_code = "Pass"
+2024-01-12 10:01:57,160 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 85
+2024-01-12 10:01:57,160 - CUM ACC | 71 | 0.8352941176470589
+2024-01-12 10:02:01,382 - =================== sql-spider  85 ======================
+2024-01-12 10:02:01,382 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:01,383 - Predicted: SELECT cell_mobile_number FROM People AS T1 JOIN Candidate_Assessments AS T2 ON T1.person_id = T2.candidate_id WHERE T2.asessment_outcome_code = "Fail" 
+True: SELECT T3.cell_mobile_number FROM candidates AS T1 JOIN candidate_assessments AS T2 ON T1.candidate_id = T2.candidate_id JOIN people AS T3 ON T1.candidate_id = T3.person_id WHERE T2.asessment_outcome_code = "Fail"
+2024-01-12 10:02:01,383 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 86
+2024-01-12 10:02:01,383 - CUM ACC | 72 | 0.8372093023255814
+2024-01-12 10:02:05,706 - =================== sql-spider  86 ======================
+2024-01-12 10:02:05,706 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:05,707 - Predicted: SELECT T1.cell_mobile_number FROM People AS T1 JOIN Candidate_Assessments AS T2 ON T1.person_id = T2.candidate_id WHERE T2.asessment_outcome_code = "Fail" 
+True: SELECT T3.cell_mobile_number FROM candidates AS T1 JOIN candidate_assessments AS T2 ON T1.candidate_id = T2.candidate_id JOIN people AS T3 ON T1.candidate_id = T3.person_id WHERE T2.asessment_outcome_code = "Fail"
+2024-01-12 10:02:05,707 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 87
+2024-01-12 10:02:05,707 - CUM ACC | 73 | 0.8390804597701149
+2024-01-12 10:02:08,600 - =================== sql-spider  87 ======================
+2024-01-12 10:02:08,601 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:08,601 - Predicted: SELECT student_id FROM Student_Course_Registrations WHERE course_id = 301 
+True: SELECT student_id FROM student_course_attendance WHERE course_id  =  301
+2024-01-12 10:02:08,601 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 88
+2024-01-12 10:02:08,601 - CUM ACC | 74 | 0.8409090909090909
+2024-01-12 10:02:11,495 - =================== sql-spider  88 ======================
+2024-01-12 10:02:11,495 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:11,495 - Predicted: SELECT student_id FROM Student_Course_Registrations WHERE course_id = 301 
+True: SELECT student_id FROM student_course_attendance WHERE course_id  =  301
+2024-01-12 10:02:11,496 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 89
+2024-01-12 10:02:11,496 - CUM ACC | 75 | 0.8426966292134831
+2024-01-12 10:02:14,753 - =================== sql-spider  89 ======================
+2024-01-12 10:02:14,753 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:14,753 - Predicted: SELECT student_id FROM Student_Course_Registrations WHERE course_id = 301 ORDER BY registration_date DESC LIMIT 1 
+True: SELECT student_id FROM student_course_attendance WHERE course_id = 301 ORDER BY date_of_attendance DESC LIMIT 1
+2024-01-12 10:02:14,753 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 90
+2024-01-12 10:02:14,753 - CUM ACC | 75 | 0.8333333333333334
+2024-01-12 10:02:18,021 - =================== sql-spider  90 ======================
+2024-01-12 10:02:18,021 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:18,021 - Predicted: SELECT student_id FROM Student_Course_Registrations WHERE course_id = 301 ORDER BY registration_date DESC LIMIT 1 
+True: SELECT student_id FROM student_course_attendance WHERE course_id = 301 ORDER BY date_of_attendance DESC LIMIT 1
+2024-01-12 10:02:18,021 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 91
+2024-01-12 10:02:18,021 - CUM ACC | 75 | 0.8241758241758241
+2024-01-12 10:02:21,530 - =================== sql-spider  91 ======================
+2024-01-12 10:02:21,530 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:21,530 - Predicted: SELECT DISTINCT T1.city FROM Addresses AS T1 JOIN People_Addresses AS T2 ON T1.address_id = T2.address_id 
+True: SELECT DISTINCT T1.city FROM addresses AS T1 JOIN people_addresses AS T2 ON T1.address_id = T2.address_id
+2024-01-12 10:02:21,530 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 92
+2024-01-12 10:02:21,530 - CUM ACC | 76 | 0.8260869565217391
+2024-01-12 10:02:23,830 - =================== sql-spider  92 ======================
+2024-01-12 10:02:23,830 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:23,836 - Predicted: SELECT DISTINCT city FROM Addresses 
+True: SELECT DISTINCT T1.city FROM addresses AS T1 JOIN people_addresses AS T2 ON T1.address_id = T2.address_id
+2024-01-12 10:02:23,836 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 93
+2024-01-12 10:02:23,836 - CUM ACC | 76 | 0.8172043010752689
+2024-01-12 10:02:28,172 - =================== sql-spider  93 ======================
+2024-01-12 10:02:28,172 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:28,173 - Predicted: SELECT DISTINCT T1.city FROM Addresses AS T1 JOIN People_Addresses AS T2 ON T1.address_id = T2.address_id JOIN Students AS T3 ON T2.person_id = T3.student_id 
+True: SELECT DISTINCT T1.city FROM addresses AS T1 JOIN people_addresses AS T2 ON T1.address_id = T2.address_id JOIN students AS T3 ON T2.person_id = T3.student_id
+2024-01-12 10:02:28,173 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 94
+2024-01-12 10:02:28,173 - CUM ACC | 77 | 0.8191489361702128
+2024-01-12 10:02:32,749 - =================== sql-spider  94 ======================
+2024-01-12 10:02:32,749 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:32,749 - Predicted: SELECT DISTINCT T1.city FROM Addresses AS T1 JOIN People_Addresses AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = "Montana" AND T2.person_id = 1 
+True: SELECT DISTINCT T1.city FROM addresses AS T1 JOIN people_addresses AS T2 ON T1.address_id = T2.address_id JOIN students AS T3 ON T2.person_id = T3.student_id
+2024-01-12 10:02:32,750 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 95
+2024-01-12 10:02:32,750 - CUM ACC | 77 | 0.8105263157894737
+2024-01-12 10:02:35,226 - =================== sql-spider  95 ======================
+2024-01-12 10:02:35,226 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:35,226 - Predicted: SELECT course_name FROM Courses ORDER BY course_name 
+True: SELECT course_name FROM courses ORDER BY course_name
+2024-01-12 10:02:35,226 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 96
+2024-01-12 10:02:35,226 - CUM ACC | 78 | 0.8125
+2024-01-12 10:02:37,705 - =================== sql-spider  96 ======================
+2024-01-12 10:02:37,705 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:37,705 - Predicted: SELECT course_name FROM Courses ORDER BY course_name 
+True: SELECT course_name FROM courses ORDER BY course_name
+2024-01-12 10:02:37,705 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 97
+2024-01-12 10:02:37,705 - CUM ACC | 79 | 0.8144329896907216
+2024-01-12 10:02:40,119 - =================== sql-spider  97 ======================
+2024-01-12 10:02:40,119 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:40,119 - Predicted: SELECT first_name FROM People ORDER BY first_name 
+True: SELECT first_name FROM people ORDER BY first_name
+2024-01-12 10:02:40,119 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 98
+2024-01-12 10:02:40,120 - CUM ACC | 80 | 0.8163265306122449
+2024-01-12 10:02:42,546 - =================== sql-spider  98 ======================
+2024-01-12 10:02:42,546 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:42,546 - Predicted: SELECT first_name FROM People ORDER BY first_name 
+True: SELECT first_name FROM people ORDER BY first_name
+2024-01-12 10:02:42,546 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 99
+2024-01-12 10:02:42,547 - CUM ACC | 81 | 0.8181818181818182
+2024-01-12 10:02:45,636 - =================== sql-spider  99 ======================
+2024-01-12 10:02:45,636 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:45,637 - Predicted: SELECT student_id FROM Student_Course_Registrations UNION SELECT student_id FROM Student_Course_Attendance 
+True: SELECT student_id FROM student_course_registrations UNION SELECT student_id FROM student_course_attendance
+2024-01-12 10:02:45,637 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 100
+2024-01-12 10:02:45,637 - CUM ACC | 82 | 0.82
+2024-01-12 10:02:48,728 - =================== sql-spider 100 ======================
+2024-01-12 10:02:48,728 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:48,728 - Predicted: SELECT student_id FROM Student_Course_Registrations UNION SELECT student_id FROM Student_Course_Attendance 
+True: SELECT student_id FROM student_course_registrations UNION SELECT student_id FROM student_course_attendance
+2024-01-12 10:02:48,728 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 101
+2024-01-12 10:02:48,728 - CUM ACC | 83 | 0.8217821782178217
+2024-01-12 10:02:52,580 - =================== sql-spider 101 ======================
+2024-01-12 10:02:52,580 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:52,580 - Predicted: SELECT course_id FROM Student_Course_Registrations WHERE student_id = 121 UNION SELECT course_id FROM Student_Course_Attendance WHERE student_id = 121 
+True: SELECT course_id FROM student_course_registrations WHERE student_id = 121 UNION SELECT course_id FROM student_course_attendance WHERE student_id = 121
+2024-01-12 10:02:52,580 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 102
+2024-01-12 10:02:52,580 - CUM ACC | 84 | 0.8235294117647058
+2024-01-12 10:02:58,834 - =================== sql-spider 102 ======================
+2024-01-12 10:02:58,834 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:02:58,834 - Predicted: SELECT T1.course_id FROM Courses AS T1 JOIN Student_Course_Registrations AS T2 ON T1.course_id = T2.course_id WHERE T2.student_id = 121 UNION SELECT T1.course_id FROM Courses AS T1 JOIN Student_Course_Attendance AS T2 ON T1.course_id = T2.course_id WHERE T2.student_id = 121 
+True: SELECT course_id FROM student_course_registrations WHERE student_id = 121 UNION SELECT course_id FROM student_course_attendance WHERE student_id = 121
+2024-01-12 10:02:58,835 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 103
+2024-01-12 10:02:58,835 - CUM ACC | 84 | 0.8155339805825242
+2024-01-12 10:03:02,101 - =================== sql-spider 103 ======================
+2024-01-12 10:03:02,102 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:02,102 - Predicted: SELECT * FROM Student_Course_Registrations WHERE NOT student_id IN (SELECT student_id FROM Student_Course_Attendance) 
+True: SELECT * FROM student_course_registrations WHERE student_id NOT IN (SELECT student_id FROM student_course_attendance)
+2024-01-12 10:03:02,102 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 104
+2024-01-12 10:03:02,102 - CUM ACC | 85 | 0.8173076923076923
+2024-01-12 10:03:05,369 - =================== sql-spider 104 ======================
+2024-01-12 10:03:05,369 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:05,370 - Predicted: SELECT * FROM Student_Course_Registrations WHERE NOT student_id IN (SELECT student_id FROM Student_Course_Attendance) 
+True: SELECT * FROM student_course_registrations WHERE student_id NOT IN (SELECT student_id FROM student_course_attendance)
+2024-01-12 10:03:05,370 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 105
+2024-01-12 10:03:05,370 - CUM ACC | 86 | 0.819047619047619
+2024-01-12 10:03:08,514 - =================== sql-spider 105 ======================
+2024-01-12 10:03:08,514 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:08,514 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 106
+2024-01-12 10:03:08,514 - CUM ACC | 86 | 0.8113207547169812
+2024-01-12 10:03:11,648 - =================== sql-spider 106 ======================
+2024-01-12 10:03:11,648 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:11,648 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 107
+2024-01-12 10:03:11,648 - CUM ACC | 86 | 0.8037383177570093
+2024-01-12 10:03:15,746 - =================== sql-spider 107 ======================
+2024-01-12 10:03:15,746 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:15,746 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 108
+2024-01-12 10:03:15,746 - CUM ACC | 86 | 0.7962962962962963
+2024-01-12 10:03:19,712 - =================== sql-spider 108 ======================
+2024-01-12 10:03:19,712 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:19,713 - Predicted: SELECT student_id FROM Student_Course_Attendance WHERE course_id IN (SELECT course_id FROM Courses WHERE course_name LIKE '%statistics%' ORDER BY course_description) ORDER BY date_of_attendance 
+True: SELECT T2.student_id FROM courses AS T1 JOIN student_course_attendance AS T2 ON T1.course_id = T2.course_id WHERE T1.course_name = "statistics" ORDER BY T2.date_of_attendance
+2024-01-12 10:03:19,713 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 109
+2024-01-12 10:03:19,713 - CUM ACC | 87 | 0.7981651376146789
+2024-01-12 10:03:21,315 - =================== sql-spider 109 ======================
+2024-01-12 10:03:21,315 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:21,316 - Predicted: SELECT date FROM weather WHERE max_temperature_f > 85 
+True: SELECT date FROM weather WHERE max_temperature_f  >  85
+2024-01-12 10:03:21,316 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 110
+2024-01-12 10:03:21,316 - CUM ACC | 88 | 0.8
+2024-01-12 10:03:22,911 - =================== sql-spider 110 ======================
+2024-01-12 10:03:22,911 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:22,911 - Predicted: SELECT date FROM weather WHERE max_temperature_f > 85 
+True: SELECT date FROM weather WHERE max_temperature_f  >  85
+2024-01-12 10:03:22,912 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 111
+2024-01-12 10:03:22,912 - CUM ACC | 89 | 0.8018018018018018
+2024-01-12 10:03:24,399 - =================== sql-spider 111 ======================
+2024-01-12 10:03:24,399 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:24,400 - Predicted: SELECT name FROM station WHERE lat < 37.5 
+True: SELECT name FROM station WHERE lat  <  37.5
+2024-01-12 10:03:24,400 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 112
+2024-01-12 10:03:24,400 - CUM ACC | 90 | 0.8035714285714286
+2024-01-12 10:03:25,846 - =================== sql-spider 112 ======================
+2024-01-12 10:03:25,846 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:25,846 - Predicted: SELECT name FROM station WHERE lat < 37.5 
+True: SELECT name FROM station WHERE lat  <  37.5
+2024-01-12 10:03:25,846 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 113
+2024-01-12 10:03:25,846 - CUM ACC | 91 | 0.8053097345132744
+2024-01-12 10:03:27,290 - =================== sql-spider 113 ======================
+2024-01-12 10:03:27,290 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:27,290 - Predicted: SELECT city, MAX(lat) FROM station GROUP BY city 
+True: SELECT city ,  max(lat) FROM station GROUP BY city
+2024-01-12 10:03:27,291 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 114
+2024-01-12 10:03:27,291 - CUM ACC | 92 | 0.8070175438596491
+2024-01-12 10:03:28,777 - =================== sql-spider 114 ======================
+2024-01-12 10:03:28,777 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:28,778 - Predicted: SELECT city, MAX(lat) FROM station GROUP BY city 
+True: SELECT city ,  max(lat) FROM station GROUP BY city
+2024-01-12 10:03:28,778 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 115
+2024-01-12 10:03:28,778 - CUM ACC | 93 | 0.808695652173913
+2024-01-12 10:03:30,565 - =================== sql-spider 115 ======================
+2024-01-12 10:03:30,565 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:30,566 - Predicted: SELECT start_station_name, end_station_name FROM trip ORDER BY id LIMIT 3 
+True: SELECT start_station_name ,  end_station_name FROM trip ORDER BY id LIMIT 3
+2024-01-12 10:03:30,566 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 116
+2024-01-12 10:03:30,566 - CUM ACC | 94 | 0.8103448275862069
+2024-01-12 10:03:32,352 - =================== sql-spider 116 ======================
+2024-01-12 10:03:32,353 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:32,353 - Predicted: SELECT start_station_name, end_station_name FROM trip ORDER BY id LIMIT 3 
+True: SELECT start_station_name ,  end_station_name FROM trip ORDER BY id LIMIT 3
+2024-01-12 10:03:32,353 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 117
+2024-01-12 10:03:32,353 - CUM ACC | 95 | 0.811965811965812
+2024-01-12 10:03:34,144 - =================== sql-spider 117 ======================
+2024-01-12 10:03:34,144 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:34,145 - Predicted: SELECT AVG(lat), AVG(long) FROM station WHERE city = "San Jose" 
+True: SELECT avg(lat) ,  avg(long) FROM station WHERE city  =  "San Jose"
+2024-01-12 10:03:34,145 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 118
+2024-01-12 10:03:34,145 - CUM ACC | 96 | 0.8135593220338984
+2024-01-12 10:03:35,934 - =================== sql-spider 118 ======================
+2024-01-12 10:03:35,934 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:35,935 - Predicted: SELECT AVG(lat), AVG(long) FROM station WHERE city = "San Jose" 
+True: SELECT avg(lat) ,  avg(long) FROM station WHERE city  =  "San Jose"
+2024-01-12 10:03:35,935 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 119
+2024-01-12 10:03:35,935 - CUM ACC | 97 | 0.8151260504201681
+2024-01-12 10:03:37,341 - =================== sql-spider 119 ======================
+2024-01-12 10:03:37,341 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:37,343 - Predicted: SELECT id FROM trip ORDER BY duration LIMIT 1 
+True: SELECT id FROM trip ORDER BY duration LIMIT 1
+2024-01-12 10:03:37,343 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 120
+2024-01-12 10:03:37,343 - CUM ACC | 98 | 0.8166666666666667
+2024-01-12 10:03:38,748 - =================== sql-spider 120 ======================
+2024-01-12 10:03:38,748 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:38,750 - Predicted: SELECT id FROM trip ORDER BY duration LIMIT 1 
+True: SELECT id FROM trip ORDER BY duration LIMIT 1
+2024-01-12 10:03:38,750 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 121
+2024-01-12 10:03:38,750 - CUM ACC | 99 | 0.8181818181818182
+2024-01-12 10:03:40,585 - =================== sql-spider 121 ======================
+2024-01-12 10:03:40,585 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:40,586 - Predicted: SELECT SUM(duration), MAX(duration) FROM trip WHERE bike_id = 636 
+True: SELECT sum(duration) ,  max(duration) FROM trip WHERE bike_id  =  636
+2024-01-12 10:03:40,586 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 122
+2024-01-12 10:03:40,586 - CUM ACC | 100 | 0.819672131147541
+2024-01-12 10:03:42,419 - =================== sql-spider 122 ======================
+2024-01-12 10:03:42,419 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:42,420 - Predicted: SELECT SUM(duration), MAX(duration) FROM trip WHERE bike_id = 636 
+True: SELECT sum(duration) ,  max(duration) FROM trip WHERE bike_id  =  636
+2024-01-12 10:03:42,420 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 123
+2024-01-12 10:03:42,421 - CUM ACC | 101 | 0.8211382113821138
+2024-01-12 10:03:44,547 - =================== sql-spider 123 ======================
+2024-01-12 10:03:44,547 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:44,548 - Predicted: SELECT zip_code, AVG(mean_temperature_f) FROM weather WHERE date LIKE "8/%" GROUP BY zip_code 
+True: SELECT zip_code  ,  avg(mean_temperature_f) FROM weather WHERE date LIKE "8/%" GROUP BY zip_code
+2024-01-12 10:03:44,548 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 124
+2024-01-12 10:03:44,548 - CUM ACC | 102 | 0.8225806451612904
+2024-01-12 10:03:46,759 - =================== sql-spider 124 ======================
+2024-01-12 10:03:46,759 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:46,760 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 125
+2024-01-12 10:03:46,760 - CUM ACC | 102 | 0.816
+2024-01-12 10:03:48,285 - =================== sql-spider 125 ======================
+2024-01-12 10:03:48,285 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:48,289 - Predicted: SELECT COUNT(DISTINCT bike_id) FROM trip 
+True: SELECT count(DISTINCT bike_id) FROM trip
+2024-01-12 10:03:48,289 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 126
+2024-01-12 10:03:48,289 - CUM ACC | 103 | 0.8174603174603174
+2024-01-12 10:03:49,810 - =================== sql-spider 126 ======================
+2024-01-12 10:03:49,810 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:49,815 - Predicted: SELECT COUNT(DISTINCT bike_id) FROM trip 
+True: SELECT count(DISTINCT bike_id) FROM trip
+2024-01-12 10:03:49,815 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 127
+2024-01-12 10:03:49,815 - CUM ACC | 104 | 0.8188976377952756
+2024-01-12 10:03:51,226 - =================== sql-spider 127 ======================
+2024-01-12 10:03:51,226 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:51,227 - Predicted: SELECT COUNT(DISTINCT city) FROM station 
+True: SELECT count(DISTINCT city) FROM station
+2024-01-12 10:03:51,227 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 128
+2024-01-12 10:03:51,227 - CUM ACC | 105 | 0.8203125
+2024-01-12 10:03:52,629 - =================== sql-spider 128 ======================
+2024-01-12 10:03:52,630 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:52,630 - Predicted: SELECT COUNT(DISTINCT city) FROM station 
+True: SELECT count(DISTINCT city) FROM station
+2024-01-12 10:03:52,630 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 129
+2024-01-12 10:03:52,630 - CUM ACC | 106 | 0.8217054263565892
+2024-01-12 10:03:54,114 - =================== sql-spider 129 ======================
+2024-01-12 10:03:54,114 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:54,114 - Predicted: SELECT COUNT(*) FROM station WHERE city = "Mountain View" 
+True: SELECT COUNT(*) FROM station WHERE city  =  "Mountain View"
+2024-01-12 10:03:54,115 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 130
+2024-01-12 10:03:54,115 - CUM ACC | 107 | 0.823076923076923
+2024-01-12 10:03:55,631 - =================== sql-spider 130 ======================
+2024-01-12 10:03:55,631 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:55,631 - Predicted: SELECT COUNT(*) FROM station WHERE city = "Mountain View" 
+True: SELECT COUNT(*) FROM station WHERE city  =  "Mountain View"
+2024-01-12 10:03:55,631 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 131
+2024-01-12 10:03:55,631 - CUM ACC | 108 | 0.8244274809160306
+2024-01-12 10:03:58,213 - =================== sql-spider 131 ======================
+2024-01-12 10:03:58,213 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:03:58,215 - Predicted: SELECT DISTINCT T1.name FROM station AS T1 JOIN status AS T2 ON T1.id = T2.station_id WHERE T2.bikes_available = 7 
+True: SELECT DISTINCT T1.name FROM station AS T1 JOIN status AS T2 ON T1.id  =  T2.station_id WHERE T2.bikes_available  =  7
+2024-01-12 10:03:58,215 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 132
+2024-01-12 10:03:58,215 - CUM ACC | 109 | 0.8257575757575758
+2024-01-12 10:04:00,800 - =================== sql-spider 132 ======================
+2024-01-12 10:04:00,800 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:00,802 - Predicted: SELECT DISTINCT T1.name FROM station AS T1 JOIN status AS T2 ON T1.id = T2.station_id WHERE T2.bikes_available = 7 
+True: SELECT DISTINCT T1.name FROM station AS T1 JOIN status AS T2 ON T1.id  =  T2.station_id WHERE T2.bikes_available  =  7
+2024-01-12 10:04:00,802 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 133
+2024-01-12 10:04:00,802 - CUM ACC | 110 | 0.8270676691729323
+2024-01-12 10:04:03,235 - =================== sql-spider 133 ======================
+2024-01-12 10:04:03,236 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:03,245 - Predicted: SELECT start_station_name, start_station_id FROM trip WHERE start_date LIKE "8/%" GROUP BY start_station_name ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT start_station_name ,  start_station_id FROM trip WHERE start_date LIKE "8/%" GROUP BY start_station_name ORDER BY COUNT(*) DESC LIMIT 1
+2024-01-12 10:04:03,245 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 134
+2024-01-12 10:04:03,245 - CUM ACC | 111 | 0.8283582089552238
+2024-01-12 10:04:05,685 - =================== sql-spider 134 ======================
+2024-01-12 10:04:05,685 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:05,694 - Predicted: SELECT start_station_name, start_station_id FROM trip WHERE start_date LIKE "8/%" GROUP BY start_station_name ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT start_station_name ,  start_station_id FROM trip WHERE start_date LIKE "8/%" GROUP BY start_station_name ORDER BY COUNT(*) DESC LIMIT 1
+2024-01-12 10:04:05,694 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 135
+2024-01-12 10:04:05,694 - CUM ACC | 112 | 0.8296296296296296
+2024-01-12 10:04:07,942 - =================== sql-spider 135 ======================
+2024-01-12 10:04:07,943 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:07,944 - Predicted: SELECT bike_id FROM trip WHERE zip_code = 94002 GROUP BY bike_id ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT bike_id FROM trip WHERE zip_code  =  94002 GROUP BY bike_id ORDER BY COUNT(*) DESC LIMIT 1
+2024-01-12 10:04:07,944 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 136
+2024-01-12 10:04:07,944 - CUM ACC | 113 | 0.8308823529411765
+2024-01-12 10:04:10,187 - =================== sql-spider 136 ======================
+2024-01-12 10:04:10,187 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:10,189 - Predicted: SELECT bike_id FROM trip WHERE zip_code = 94002 GROUP BY bike_id ORDER BY COUNT(*) DESC LIMIT 1 
+True: SELECT bike_id FROM trip WHERE zip_code  =  94002 GROUP BY bike_id ORDER BY COUNT(*) DESC LIMIT 1
+2024-01-12 10:04:10,189 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 137
+2024-01-12 10:04:10,189 - CUM ACC | 114 | 0.8321167883211679
+2024-01-12 10:04:12,241 - =================== sql-spider 137 ======================
+2024-01-12 10:04:12,242 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:12,242 - Predicted: SELECT COUNT(date) FROM weather WHERE mean_humidity > 50 AND mean_visibility_miles > 8 
+True: SELECT COUNT(*) FROM weather WHERE mean_humidity  >  50 AND mean_visibility_miles  >  8
+2024-01-12 10:04:12,243 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 138
+2024-01-12 10:04:12,243 - CUM ACC | 115 | 0.8333333333333334
+2024-01-12 10:04:14,297 - =================== sql-spider 138 ======================
+2024-01-12 10:04:14,297 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:14,298 - Predicted: SELECT COUNT(date) FROM weather WHERE mean_humidity > 50 AND mean_visibility_miles > 8 
+True: SELECT COUNT(*) FROM weather WHERE mean_humidity  >  50 AND mean_visibility_miles  >  8
+2024-01-12 10:04:14,298 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 139
+2024-01-12 10:04:14,298 - CUM ACC | 116 | 0.8345323741007195
+2024-01-12 10:04:17,344 - =================== sql-spider 139 ======================
+2024-01-12 10:04:17,344 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:17,348 - Predicted: SELECT T1.name, T1.lat, T1.long, T1.city FROM station AS T1 JOIN trip AS T2 ON T1.id = T2.start_station_id ORDER BY T2.duration LIMIT 1 
+True: SELECT T1.lat ,  T1.long ,  T1.city FROM station AS T1 JOIN trip AS T2 ON T1.id  =  T2.start_station_id ORDER BY T2.duration LIMIT 1
+2024-01-12 10:04:17,348 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 140
+2024-01-12 10:04:17,348 - CUM ACC | 116 | 0.8285714285714286
+2024-01-12 10:04:20,203 - =================== sql-spider 140 ======================
+2024-01-12 10:04:20,203 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:20,207 - Predicted: SELECT T1.lat, T1.long, T1.city FROM station AS T1 JOIN trip AS T2 ON T1.id = T2.start_station_id ORDER BY T2.duration LIMIT 1 
+True: SELECT T1.lat ,  T1.long ,  T1.city FROM station AS T1 JOIN trip AS T2 ON T1.id  =  T2.start_station_id ORDER BY T2.duration LIMIT 1
+2024-01-12 10:04:20,207 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 141
+2024-01-12 10:04:20,207 - CUM ACC | 117 | 0.8297872340425532
+2024-01-12 10:04:22,757 - =================== sql-spider 141 ======================
+2024-01-12 10:04:22,757 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:22,761 - Predicted: SELECT station_id FROM status GROUP BY station_id HAVING AVG(bikes_available) > 10 INTERSECT SELECT id FROM station WHERE city = "San Francisco" 
+True: SELECT id FROM station WHERE city  =  "San Francisco" INTERSECT SELECT station_id FROM status GROUP BY station_id HAVING avg(bikes_available)  >  10
+2024-01-12 10:04:22,761 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 142
+2024-01-12 10:04:22,761 - CUM ACC | 118 | 0.8309859154929577
+2024-01-12 10:04:25,421 - =================== sql-spider 142 ======================
+2024-01-12 10:04:25,421 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:25,425 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 143
+2024-01-12 10:04:25,425 - CUM ACC | 118 | 0.8251748251748252
+2024-01-12 10:04:29,152 - =================== sql-spider 143 ======================
+2024-01-12 10:04:29,152 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:29,157 - Predicted: SELECT T1.name, T1.id FROM station AS T1 JOIN status AS T2 ON T1.id = T2.station_id GROUP BY T2.station_id HAVING AVG(bikes_available) > 14 UNION SELECT name, id FROM station WHERE installation_date LIKE "12/%" 
+True: SELECT T1.name ,  T1.id FROM station AS T1 JOIN status AS T2 ON T1.id  =  T2.station_id GROUP BY T2.station_id HAVING avg(T2.bikes_available)  >  14 UNION SELECT name ,  id FROM station WHERE installation_date LIKE "12/%"
+2024-01-12 10:04:29,157 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 144
+2024-01-12 10:04:29,157 - CUM ACC | 119 | 0.8263888888888888
+2024-01-12 10:04:32,894 - =================== sql-spider 144 ======================
+2024-01-12 10:04:32,894 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:32,899 - Predicted: SELECT T1.name, T1.id FROM station AS T1 JOIN status AS T2 ON T1.id = T2.station_id GROUP BY T2.station_id HAVING AVG(bikes_available) > 14 UNION SELECT name, id FROM station WHERE installation_date LIKE "12/%" 
+True: SELECT T1.name ,  T1.id FROM station AS T1 JOIN status AS T2 ON T1.id  =  T2.station_id GROUP BY T2.station_id HAVING avg(T2.bikes_available)  >  14 UNION SELECT name ,  id FROM station WHERE installation_date LIKE "12/%"
+2024-01-12 10:04:32,899 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 145
+2024-01-12 10:04:32,899 - CUM ACC | 120 | 0.8275862068965517
+2024-01-12 10:04:35,087 - =================== sql-spider 145 ======================
+2024-01-12 10:04:35,087 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:35,088 - Predicted: SELECT cloud_cover FROM weather WHERE zip_code = 94107 GROUP BY cloud_cover ORDER BY COUNT(*) DESC LIMIT 3 
+True: SELECT cloud_cover FROM weather WHERE zip_code  =  94107 GROUP BY cloud_cover ORDER BY COUNT (*) DESC LIMIT 3
+2024-01-12 10:04:35,088 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 146
+2024-01-12 10:04:35,088 - CUM ACC | 121 | 0.8287671232876712
+2024-01-12 10:04:37,261 - =================== sql-spider 146 ======================
+2024-01-12 10:04:37,261 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:37,262 - Predicted: SELECT cloud_cover FROM weather WHERE zip_code = 94107 GROUP BY cloud_cover ORDER BY COUNT(*) DESC LIMIT 3 
+True: SELECT cloud_cover FROM weather WHERE zip_code  =  94107 GROUP BY cloud_cover ORDER BY COUNT (*) DESC LIMIT 3
+2024-01-12 10:04:37,262 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 147
+2024-01-12 10:04:37,262 - CUM ACC | 122 | 0.8299319727891157
+2024-01-12 10:04:39,507 - =================== sql-spider 147 ======================
+2024-01-12 10:04:39,508 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:39,510 - Predicted: SELECT zip_code FROM weather GROUP BY zip_code ORDER BY AVG(mean_sea_level_pressure_inches) LIMIT 1 
+True: SELECT zip_code FROM weather GROUP BY zip_code ORDER BY avg(mean_sea_level_pressure_inches) LIMIT 1
+2024-01-12 10:04:39,510 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 148
+2024-01-12 10:04:39,510 - CUM ACC | 123 | 0.831081081081081
+2024-01-12 10:04:41,754 - =================== sql-spider 148 ======================
+2024-01-12 10:04:41,755 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:41,757 - Predicted: SELECT zip_code FROM weather GROUP BY zip_code ORDER BY AVG(mean_sea_level_pressure_inches) LIMIT 1 
+True: SELECT zip_code FROM weather GROUP BY zip_code ORDER BY avg(mean_sea_level_pressure_inches) LIMIT 1
+2024-01-12 10:04:41,757 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 149
+2024-01-12 10:04:41,757 - CUM ACC | 124 | 0.8322147651006712
+2024-01-12 10:04:43,923 - =================== sql-spider 149 ======================
+2024-01-12 10:04:43,923 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:43,926 - Predicted: SELECT AVG(bikes_available) FROM status WHERE NOT station_id IN (SELECT id FROM station WHERE city = "Palo Alto") 
+True: SELECT avg(bikes_available) FROM status WHERE station_id NOT IN (SELECT id FROM station WHERE city  =  "Palo Alto")
+2024-01-12 10:04:43,926 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 150
+2024-01-12 10:04:43,926 - CUM ACC | 125 | 0.8333333333333334
+2024-01-12 10:04:46,091 - =================== sql-spider 150 ======================
+2024-01-12 10:04:46,091 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:46,094 - Predicted: SELECT AVG(bikes_available) FROM status WHERE NOT station_id IN (SELECT id FROM station WHERE city = "Palo Alto") 
+True: SELECT avg(bikes_available) FROM status WHERE station_id NOT IN (SELECT id FROM station WHERE city  =  "Palo Alto")
+2024-01-12 10:04:46,094 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 151
+2024-01-12 10:04:46,094 - CUM ACC | 126 | 0.8344370860927153
+2024-01-12 10:04:48,563 - =================== sql-spider 151 ======================
+2024-01-12 10:04:48,563 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:48,568 - Predicted: SELECT AVG(long) FROM station WHERE NOT id IN (SELECT station_id FROM status GROUP BY station_id HAVING MAX(bikes_available) > 10) 
+True: SELECT avg(long) FROM station WHERE id NOT IN (SELECT station_id FROM status GROUP BY station_id HAVING max(bikes_available)  >  10)
+2024-01-12 10:04:48,568 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 152
+2024-01-12 10:04:48,568 - CUM ACC | 127 | 0.8355263157894737
+2024-01-12 10:04:51,043 - =================== sql-spider 152 ======================
+2024-01-12 10:04:51,043 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:51,047 - Predicted: SELECT AVG(long) FROM station WHERE NOT id IN (SELECT station_id FROM status GROUP BY station_id HAVING MAX(bikes_available) > 10) 
+True: SELECT avg(long) FROM station WHERE id NOT IN (SELECT station_id FROM status GROUP BY station_id HAVING max(bikes_available)  >  10)
+2024-01-12 10:04:51,047 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 153
+2024-01-12 10:04:51,047 - CUM ACC | 128 | 0.8366013071895425
+2024-01-12 10:04:52,794 - =================== sql-spider 153 ======================
+2024-01-12 10:04:52,794 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:52,795 - Predicted: SELECT date, zip_code FROM weather WHERE max_temperature_f >= 80 
+True: SELECT date ,  zip_code FROM weather WHERE max_temperature_f  >=  80
+2024-01-12 10:04:52,795 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 154
+2024-01-12 10:04:52,795 - CUM ACC | 129 | 0.8376623376623377
+2024-01-12 10:04:54,547 - =================== sql-spider 154 ======================
+2024-01-12 10:04:54,547 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:54,548 - Predicted: SELECT date, zip_code FROM weather WHERE max_temperature_f >= 80 
+True: SELECT date ,  zip_code FROM weather WHERE max_temperature_f  >=  80
+2024-01-12 10:04:54,548 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 155
+2024-01-12 10:04:54,548 - CUM ACC | 130 | 0.8387096774193549
+2024-01-12 10:04:57,741 - =================== sql-spider 155 ======================
+2024-01-12 10:04:57,741 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:04:58,419 - Predicted: SELECT T1.id FROM trip AS T1 JOIN weather AS T2 ON T1.zip_code = T2.zip_code GROUP BY T2.zip_code HAVING AVG(T2.mean_temperature_f) > 60 
+True: SELECT T1.id FROM trip AS T1 JOIN weather AS T2 ON T1.zip_code  =  T2.zip_code GROUP BY T2.zip_code HAVING avg(T2.mean_temperature_f)  >  60
+2024-01-12 10:04:58,419 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 156
+2024-01-12 10:04:58,419 - CUM ACC | 131 | 0.8397435897435898
+2024-01-12 10:05:01,614 - =================== sql-spider 156 ======================
+2024-01-12 10:05:01,614 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:02,286 - Predicted: SELECT T1.id FROM trip AS T1 JOIN weather AS T2 ON T1.zip_code = T2.zip_code GROUP BY T1.zip_code HAVING AVG(T2.mean_temperature_f) > 60 
+True: SELECT T1.id FROM trip AS T1 JOIN weather AS T2 ON T1.zip_code  =  T2.zip_code GROUP BY T2.zip_code HAVING avg(T2.mean_temperature_f)  >  60
+2024-01-12 10:05:02,286 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 157
+2024-01-12 10:05:02,286 - CUM ACC | 132 | 0.8407643312101911
+2024-01-12 10:05:04,341 - =================== sql-spider 157 ======================
+2024-01-12 10:05:04,341 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:04,342 - Predicted: SELECT zip_code, COUNT(*) FROM weather WHERE max_wind_Speed_mph >= 25 GROUP BY zip_code 
+True: SELECT zip_code , count(*) FROM weather WHERE max_wind_Speed_mph  >=  25 GROUP BY zip_code
+2024-01-12 10:05:04,342 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 158
+2024-01-12 10:05:04,342 - CUM ACC | 133 | 0.8417721518987342
+2024-01-12 10:05:06,394 - =================== sql-spider 158 ======================
+2024-01-12 10:05:06,394 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:06,395 - Predicted: SELECT zip_code, COUNT(*) FROM weather WHERE max_wind_Speed_mph >= 25 GROUP BY zip_code 
+True: SELECT zip_code , count(*) FROM weather WHERE max_wind_Speed_mph  >=  25 GROUP BY zip_code
+2024-01-12 10:05:06,395 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 159
+2024-01-12 10:05:06,395 - CUM ACC | 134 | 0.8427672955974843
+2024-01-12 10:05:09,135 - =================== sql-spider 159 ======================
+2024-01-12 10:05:09,135 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:09,136 - Predicted: SELECT date, zip_code FROM weather WHERE min_dew_point_f < (SELECT MIN(min_dew_point_f) FROM weather WHERE zip_code = 94107) 
+True: SELECT date ,  zip_code FROM weather WHERE min_dew_point_f  <  (SELECT min(min_dew_point_f) FROM weather WHERE zip_code  =  94107)
+2024-01-12 10:05:09,136 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 160
+2024-01-12 10:05:09,136 - CUM ACC | 135 | 0.84375
+2024-01-12 10:05:12,182 - =================== sql-spider 160 ======================
+2024-01-12 10:05:12,182 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:12,183 - Predicted: SELECT date, zip_code FROM weather WHERE min_dew_point_f < (SELECT MIN(min_dew_point_f) FROM weather WHERE zip_code = 94107) GROUP BY date, zip_code 
+True: SELECT date ,  zip_code FROM weather WHERE min_dew_point_f  <  (SELECT min(min_dew_point_f) FROM weather WHERE zip_code  =  94107)
+2024-01-12 10:05:12,183 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 161
+2024-01-12 10:05:12,183 - CUM ACC | 136 | 0.84472049689441
+2024-01-12 10:05:14,617 - =================== sql-spider 161 ======================
+2024-01-12 10:05:14,617 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:14,631 - Predicted: SELECT T1.id, T2.installation_date FROM trip AS T1 JOIN station AS T2 ON T1.end_station_id = T2.id 
+True: SELECT T1.id ,  T2.installation_date FROM trip AS T1 JOIN station AS T2 ON T1.end_station_id  =  T2.id
+2024-01-12 10:05:14,633 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 162
+2024-01-12 10:05:14,633 - CUM ACC | 137 | 0.845679012345679
+2024-01-12 10:05:17,068 - =================== sql-spider 162 ======================
+2024-01-12 10:05:17,068 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:17,082 - Predicted: SELECT T1.name, T1.installation_date FROM station AS T1 JOIN trip AS T2 ON T1.id = T2.end_station_id 
+True: SELECT T1.id ,  T2.installation_date FROM trip AS T1 JOIN station AS T2 ON T1.end_station_id  =  T2.id
+2024-01-12 10:05:17,083 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 163
+2024-01-12 10:05:17,083 - CUM ACC | 137 | 0.8404907975460123
+2024-01-12 10:05:19,703 - =================== sql-spider 163 ======================
+2024-01-12 10:05:19,703 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:19,708 - Predicted: SELECT T1.id FROM trip AS T1 JOIN station AS T2 ON T1.start_station_id = T2.id ORDER BY T2.dock_count DESC LIMIT 1 
+True: SELECT T1.id FROM trip AS T1 JOIN station AS T2 ON T1.start_station_id  =  T2.id ORDER BY T2.dock_count DESC LIMIT 1
+2024-01-12 10:05:19,708 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 164
+2024-01-12 10:05:19,709 - CUM ACC | 138 | 0.8414634146341463
+2024-01-12 10:05:22,327 - =================== sql-spider 164 ======================
+2024-01-12 10:05:22,327 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:22,331 - Predicted: SELECT T1.id FROM trip AS T1 JOIN station AS T2 ON T1.start_station_id = T2.id ORDER BY T2.dock_count DESC LIMIT 1 
+True: SELECT T1.id FROM trip AS T1 JOIN station AS T2 ON T1.start_station_id  =  T2.id ORDER BY T2.dock_count DESC LIMIT 1
+2024-01-12 10:05:22,331 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 165
+2024-01-12 10:05:22,331 - CUM ACC | 139 | 0.8424242424242424
+2024-01-12 10:05:23,933 - =================== sql-spider 165 ======================
+2024-01-12 10:05:23,933 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:23,936 - Predicted: SELECT COUNT(*) FROM trip WHERE end_station_name <> 'San Francisco' 
+True: SELECT count(*) FROM trip AS T1 JOIN station AS T2 ON T1.end_station_id  =  T2.id WHERE T2.city !=  "San Francisco"
+2024-01-12 10:05:23,937 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 166
+2024-01-12 10:05:23,937 - CUM ACC | 139 | 0.8373493975903614
+2024-01-12 10:05:25,537 - =================== sql-spider 166 ======================
+2024-01-12 10:05:25,537 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:25,541 - Predicted: SELECT COUNT(*) FROM trip WHERE end_station_name <> 'San Francisco' 
+True: SELECT count(*) FROM trip AS T1 JOIN station AS T2 ON T1.end_station_id  =  T2.id WHERE T2.city != "San Francisco"
+2024-01-12 10:05:25,541 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 167
+2024-01-12 10:05:25,541 - CUM ACC | 139 | 0.8323353293413174
+2024-01-12 10:05:27,632 - =================== sql-spider 167 ======================
+2024-01-12 10:05:27,633 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:27,634 - Predicted: SELECT date FROM weather WHERE zip_code = 94107 AND events <> "Fog" AND events <> "Rain" 
+True: SELECT date FROM weather WHERE zip_code  =  94107 AND EVENTS != "Fog" AND EVENTS != "Rain"
+2024-01-12 10:05:27,634 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 168
+2024-01-12 10:05:27,634 - CUM ACC | 140 | 0.8333333333333334
+2024-01-12 10:05:29,765 - =================== sql-spider 168 ======================
+2024-01-12 10:05:29,765 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:29,767 - Predicted: SELECT date FROM weather WHERE zip_code = 94107 AND events <> "Fog" AND events <> "Rain" 
+True: SELECT date FROM weather WHERE zip_code  =  94107 AND EVENTS != "Fog" AND EVENTS != "Rain"
+2024-01-12 10:05:29,767 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 169
+2024-01-12 10:05:29,767 - CUM ACC | 141 | 0.834319526627219
+2024-01-12 10:05:32,318 - =================== sql-spider 169 ======================
+2024-01-12 10:05:32,318 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:32,322 - Predicted: SELECT id FROM station WHERE lat > 37.4 EXCEPT SELECT station_id FROM status GROUP BY station_id HAVING MIN(bikes_available) < 7 
+True: SELECT id FROM station WHERE lat  >  37.4 EXCEPT SELECT station_id FROM status GROUP BY station_id HAVING min(bikes_available)  <  7
+2024-01-12 10:05:32,322 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 170
+2024-01-12 10:05:32,322 - CUM ACC | 142 | 0.8352941176470589
+2024-01-12 10:05:34,842 - =================== sql-spider 170 ======================
+2024-01-12 10:05:34,842 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:34,846 - Predicted: SELECT id FROM station WHERE lat > 37.4 EXCEPT SELECT station_id FROM status GROUP BY station_id HAVING MIN(bikes_available) < 7 
+True: SELECT id FROM station WHERE lat  >  37.4 EXCEPT SELECT station_id FROM status GROUP BY station_id HAVING min(bikes_available)  <  7
+2024-01-12 10:05:34,846 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 171
+2024-01-12 10:05:34,846 - CUM ACC | 143 | 0.8362573099415205
+2024-01-12 10:05:38,275 - =================== sql-spider 171 ======================
+2024-01-12 10:05:38,275 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:38,280 - Predicted: SELECT T2.name FROM status AS T1 JOIN station AS T2 ON T1.station_id = T2.id GROUP BY T1.station_id HAVING AVG(bikes_available) > 10 EXCEPT SELECT name FROM station WHERE city = "San Jose" 
+True: SELECT T1.name FROM station AS T1 JOIN status AS T2 ON T1.id  =  T2.station_id GROUP BY T2.station_id HAVING avg(bikes_available)  >  10 EXCEPT SELECT name FROM station WHERE city  =  "San Jose"
+2024-01-12 10:05:38,280 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 172
+2024-01-12 10:05:38,280 - CUM ACC | 144 | 0.8372093023255814
+2024-01-12 10:05:41,253 - =================== sql-spider 172 ======================
+2024-01-12 10:05:41,253 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:41,256 - Predicted: SELECT DISTINCT T1.name FROM station AS T1 JOIN status AS T2 ON T1.id = T2.station_id WHERE T2.bikes_available > 10 AND T1.city <> "San Jose" 
+True: SELECT T1.name FROM station AS T1 JOIN status AS T2 ON T1.id  =  T2.station_id GROUP BY T2.station_id HAVING avg(bikes_available)  >  10 EXCEPT SELECT name FROM station WHERE city  =  "San Jose"
+2024-01-12 10:05:41,256 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 173
+2024-01-12 10:05:41,256 - CUM ACC | 144 | 0.8323699421965318
+2024-01-12 10:05:42,820 - =================== sql-spider 173 ======================
+2024-01-12 10:05:42,820 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:42,820 - Predicted: SELECT name, lat, city FROM station ORDER BY lat LIMIT 1 
+True: SELECT name ,  lat ,  city FROM station ORDER BY lat LIMIT 1
+2024-01-12 10:05:42,820 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 174
+2024-01-12 10:05:42,820 - CUM ACC | 145 | 0.8333333333333334
+2024-01-12 10:05:44,387 - =================== sql-spider 174 ======================
+2024-01-12 10:05:44,388 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:44,388 - Predicted: SELECT name, lat, city FROM station ORDER BY lat LIMIT 1 
+True: SELECT name ,  lat ,  city FROM station ORDER BY lat LIMIT 1
+2024-01-12 10:05:44,388 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 175
+2024-01-12 10:05:44,388 - CUM ACC | 146 | 0.8342857142857143
+2024-01-12 10:05:46,643 - =================== sql-spider 175 ======================
+2024-01-12 10:05:46,643 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:46,644 - Predicted: SELECT date, mean_temperature_f, mean_humidity FROM weather ORDER BY max_gust_speed_mph DESC LIMIT 3 
+True: SELECT date ,  mean_temperature_f ,  mean_humidity FROM weather ORDER BY max_gust_speed_mph DESC LIMIT 3
+2024-01-12 10:05:46,644 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 176
+2024-01-12 10:05:46,644 - CUM ACC | 147 | 0.8352272727272727
+2024-01-12 10:05:48,889 - =================== sql-spider 176 ======================
+2024-01-12 10:05:48,889 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:48,891 - Predicted: SELECT date, mean_temperature_f, mean_humidity FROM weather ORDER BY max_gust_speed_mph DESC LIMIT 3 
+True: SELECT date ,  mean_temperature_f ,  mean_humidity FROM weather ORDER BY max_gust_speed_mph DESC LIMIT 3
+2024-01-12 10:05:48,891 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 177
+2024-01-12 10:05:48,891 - CUM ACC | 148 | 0.8361581920903954
+2024-01-12 10:05:50,307 - =================== sql-spider 177 ======================
+2024-01-12 10:05:50,307 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:50,307 - Predicted: SELECT city, COUNT(*) FROM station GROUP BY city 
+True: SELECT city ,  COUNT(*) FROM station GROUP BY city HAVING COUNT(*)  >=  15
+2024-01-12 10:05:50,308 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 178
+2024-01-12 10:05:50,308 - CUM ACC | 148 | 0.8314606741573034
+2024-01-12 10:05:52,068 - =================== sql-spider 178 ======================
+2024-01-12 10:05:52,068 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:52,068 - Predicted: SELECT city, COUNT(*) FROM station GROUP BY city HAVING COUNT(*) >= 15 
+True: SELECT city ,  COUNT(*) FROM station GROUP BY city HAVING COUNT(*)  >=  15
+2024-01-12 10:05:52,068 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 179
+2024-01-12 10:05:52,068 - CUM ACC | 149 | 0.8324022346368715
+2024-01-12 10:05:54,281 - =================== sql-spider 179 ======================
+2024-01-12 10:05:54,281 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:54,289 - Predicted: SELECT start_station_name, start_station_id FROM trip GROUP BY start_station_name HAVING COUNT(*) >= 200 
+True: SELECT start_station_id ,  start_station_name FROM trip GROUP BY start_station_name HAVING COUNT(*)  >=  200
+2024-01-12 10:05:54,289 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 180
+2024-01-12 10:05:54,289 - CUM ACC | 149 | 0.8277777777777777
+2024-01-12 10:05:55,853 - =================== sql-spider 180 ======================
+2024-01-12 10:05:55,853 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:55,862 - Predicted: SELECT start_station_name, start_station_id FROM trip 
+True: SELECT start_station_id ,  start_station_name FROM trip GROUP BY start_station_name HAVING COUNT(*)  >=  200
+2024-01-12 10:05:55,862 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 181
+2024-01-12 10:05:55,862 - CUM ACC | 149 | 0.8232044198895028
+2024-01-12 10:05:57,957 - =================== sql-spider 181 ======================
+2024-01-12 10:05:57,957 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:05:57,959 - Predicted: SELECT zip_code FROM weather GROUP BY zip_code HAVING AVG(mean_visibility_miles) < 10 
+True: SELECT zip_code FROM weather GROUP BY zip_code HAVING avg(mean_visibility_miles)  <  10
+2024-01-12 10:05:57,959 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 182
+2024-01-12 10:05:57,959 - CUM ACC | 150 | 0.8241758241758241
+2024-01-12 10:06:00,052 - =================== sql-spider 182 ======================
+2024-01-12 10:06:00,052 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:00,054 - Predicted: SELECT zip_code FROM weather GROUP BY zip_code HAVING AVG(mean_visibility_miles) < 10 
+True: SELECT zip_code FROM weather GROUP BY zip_code HAVING avg(mean_visibility_miles)  <  10
+2024-01-12 10:06:00,054 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 183
+2024-01-12 10:06:00,054 - CUM ACC | 151 | 0.825136612021858
+2024-01-12 10:06:01,621 - =================== sql-spider 183 ======================
+2024-01-12 10:06:01,621 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:01,622 - Predicted: SELECT city FROM station GROUP BY city ORDER BY MAX(lat) DESC 
+True: SELECT city FROM station GROUP BY city ORDER BY max(lat) DESC
+2024-01-12 10:06:01,623 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 184
+2024-01-12 10:06:01,623 - CUM ACC | 152 | 0.8260869565217391
+2024-01-12 10:06:03,375 - =================== sql-spider 184 ======================
+2024-01-12 10:06:03,375 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:03,375 - Predicted: SELECT city, MAX(lat) FROM station GROUP BY city ORDER BY MAX(lat) DESC 
+True: SELECT city FROM station GROUP BY city ORDER BY max(lat) DESC
+2024-01-12 10:06:03,376 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 185
+2024-01-12 10:06:03,376 - CUM ACC | 152 | 0.8216216216216217
+2024-01-12 10:06:05,051 - =================== sql-spider 185 ======================
+2024-01-12 10:06:05,051 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:05,052 - Predicted: SELECT date, cloud_cover FROM weather ORDER BY cloud_cover DESC LIMIT 5 
+True: SELECT date ,  cloud_cover FROM weather ORDER BY cloud_cover DESC LIMIT 5
+2024-01-12 10:06:05,053 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 186
+2024-01-12 10:06:05,053 - CUM ACC | 153 | 0.8225806451612904
+2024-01-12 10:06:06,732 - =================== sql-spider 186 ======================
+2024-01-12 10:06:06,732 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:06,735 - Predicted: SELECT date, cloud_cover FROM weather ORDER BY cloud_cover DESC LIMIT 5 
+True: SELECT date ,  cloud_cover FROM weather ORDER BY cloud_cover DESC LIMIT 5
+2024-01-12 10:06:06,735 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 187
+2024-01-12 10:06:06,735 - CUM ACC | 154 | 0.8235294117647058
+2024-01-12 10:06:08,226 - =================== sql-spider 187 ======================
+2024-01-12 10:06:08,226 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:08,228 - Predicted: SELECT id, duration FROM trip ORDER BY duration DESC LIMIT 3 
+True: SELECT id ,  duration FROM trip ORDER BY duration DESC LIMIT 3
+2024-01-12 10:06:08,228 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 188
+2024-01-12 10:06:08,228 - CUM ACC | 155 | 0.824468085106383
+2024-01-12 10:06:09,751 - =================== sql-spider 188 ======================
+2024-01-12 10:06:09,751 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:09,753 - Predicted: SELECT id, duration FROM trip ORDER BY duration DESC LIMIT 3 
+True: SELECT id ,  duration FROM trip ORDER BY duration DESC LIMIT 3
+2024-01-12 10:06:09,753 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 189
+2024-01-12 10:06:09,753 - CUM ACC | 156 | 0.8253968253968254
+2024-01-12 10:06:12,793 - =================== sql-spider 189 ======================
+2024-01-12 10:06:12,793 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:12,803 - Predicted: SELECT T1.name, T1.long, AVG(T2.duration) FROM station AS T1 JOIN trip AS T2 ON T1.id = T2.start_station_id GROUP BY T2.start_station_id 
+True: SELECT T1.name ,  T1.long ,  avg(T2.duration) FROM station AS T1 JOIN trip AS T2 ON T1.id  =  T2.start_station_id GROUP BY T2.start_station_id
+2024-01-12 10:06:12,803 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 190
+2024-01-12 10:06:12,803 - CUM ACC | 157 | 0.8263157894736842
+2024-01-12 10:06:15,848 - =================== sql-spider 190 ======================
+2024-01-12 10:06:15,848 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:15,857 - Predicted: SELECT T1.name, T1.long, AVG(T2.duration) FROM station AS T1 JOIN trip AS T2 ON T1.id = T2.start_station_id GROUP BY T2.start_station_id 
+True: SELECT T1.name ,  T1.long ,  avg(T2.duration) FROM station AS T1 JOIN trip AS T2 ON T1.id  =  T2.start_station_id GROUP BY T2.start_station_id
+2024-01-12 10:06:15,857 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 191
+2024-01-12 10:06:15,857 - CUM ACC | 158 | 0.8272251308900523
+2024-01-12 10:06:18,707 - =================== sql-spider 191 ======================
+2024-01-12 10:06:18,707 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:18,717 - Predicted: SELECT T1.name, MIN(T2.duration) FROM station AS T1 JOIN trip AS T2 ON T1.id = T2.end_station_id GROUP BY T2.end_station_id 
+True: SELECT T1.name ,  T1.lat ,  min(T2.duration) FROM station AS T1 JOIN trip AS T2 ON T1.id  =  T2.end_station_id GROUP BY T2.end_station_id
+2024-01-12 10:06:18,717 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 192
+2024-01-12 10:06:18,717 - CUM ACC | 158 | 0.8229166666666666
+2024-01-12 10:06:21,757 - =================== sql-spider 192 ======================
+2024-01-12 10:06:21,757 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:21,767 - Predicted: SELECT T1.name, T1.lat, MIN(T2.duration) FROM station AS T1 JOIN trip AS T2 ON T1.id = T2.end_station_id GROUP BY T2.end_station_id 
+True: SELECT T1.name ,  T1.lat ,  min(T2.duration) FROM station AS T1 JOIN trip AS T2 ON T1.id  =  T2.end_station_id GROUP BY T2.end_station_id
+2024-01-12 10:06:21,767 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 193
+2024-01-12 10:06:21,767 - CUM ACC | 159 | 0.8238341968911918
+2024-01-12 10:06:23,479 - =================== sql-spider 193 ======================
+2024-01-12 10:06:23,479 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:23,481 - Predicted: SELECT DISTINCT start_station_name FROM trip WHERE duration < 100 
+True: SELECT DISTINCT start_station_name FROM trip WHERE duration  <  100
+2024-01-12 10:06:23,481 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 194
+2024-01-12 10:06:23,481 - CUM ACC | 160 | 0.8247422680412371
+2024-01-12 10:06:25,200 - =================== sql-spider 194 ======================
+2024-01-12 10:06:25,200 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:25,202 - Predicted: SELECT DISTINCT start_station_name FROM trip WHERE duration < 100 
+True: SELECT DISTINCT start_station_name FROM trip WHERE duration  <  100
+2024-01-12 10:06:25,202 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 195
+2024-01-12 10:06:25,202 - CUM ACC | 161 | 0.8256410256410256
+2024-01-12 10:06:26,958 - =================== sql-spider 195 ======================
+2024-01-12 10:06:26,958 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:26,960 - Predicted: SELECT zip_code FROM weather WHERE max_dew_point_f < 70 
+True: SELECT DISTINCT zip_code FROM weather EXCEPT SELECT DISTINCT zip_code FROM weather WHERE max_dew_point_f  >=  70
+2024-01-12 10:06:26,960 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 196
+2024-01-12 10:06:26,961 - CUM ACC | 161 | 0.8214285714285714
+2024-01-12 10:06:28,825 - =================== sql-spider 196 ======================
+2024-01-12 10:06:28,825 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:28,826 - Predicted: SELECT DISTINCT zip_code FROM weather WHERE max_dew_point_f < 70 
+True: SELECT DISTINCT zip_code FROM weather EXCEPT SELECT DISTINCT zip_code FROM weather WHERE max_dew_point_f  >=  70
+2024-01-12 10:06:28,826 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 197
+2024-01-12 10:06:28,826 - CUM ACC | 161 | 0.817258883248731
+2024-01-12 10:06:30,892 - =================== sql-spider 197 ======================
+2024-01-12 10:06:30,892 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:30,898 - Predicted: SELECT id FROM trip WHERE duration >= (SELECT AVG(duration) FROM trip WHERE zip_code = 94103) 
+True: SELECT id FROM trip WHERE duration  >=  (SELECT avg(duration) FROM trip WHERE zip_code  =  94103)
+2024-01-12 10:06:30,898 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 198
+2024-01-12 10:06:30,898 - CUM ACC | 162 | 0.8181818181818182
+2024-01-12 10:06:32,958 - =================== sql-spider 198 ======================
+2024-01-12 10:06:32,958 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:32,964 - Predicted: SELECT id FROM trip WHERE duration >= (SELECT AVG(duration) FROM trip WHERE zip_code = 94103) 
+True: SELECT id FROM trip WHERE duration  >=  (SELECT avg(duration) FROM trip WHERE zip_code  =  94103)
+2024-01-12 10:06:32,965 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 199
+2024-01-12 10:06:32,965 - CUM ACC | 163 | 0.8190954773869347
+2024-01-12 10:06:35,139 - =================== sql-spider 199 ======================
+2024-01-12 10:06:35,139 - Model Chosen: NSQL | Model Expected: sql-spider
+2024-01-12 10:06:35,140 - Predicted: SELECT date FROM weather WHERE mean_sea_level_pressure_inches BETWEEN 30.3 AND 31 
+True: SELECT date FROM weather WHERE mean_sea_level_pressure_inches BETWEEN 30.3 AND 31
+2024-01-12 10:06:35,140 - ROUTING ACC | Med: 0 - Fin: 0 - NSQL: 200
+2024-01-12 10:06:35,140 - CUM ACC | 164 | 0.82

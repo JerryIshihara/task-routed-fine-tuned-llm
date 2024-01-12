@@ -1,0 +1,501 @@
+2024-01-11 12:47:27,981 - PyTorch version 2.1.1 available.
+2024-01-11 12:48:19,732 - =================== fin       0 ======================
+2024-01-11 12:48:19,732 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:19,732 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:48:19,732 - ROUTING ACC | Med: 0 - Fin: 1 - SQL: 0
+2024-01-11 12:48:19,732 - CUM ACC | 1 | 1.0
+2024-01-11 12:48:21,262 - =================== fin       1 ======================
+2024-01-11 12:48:21,262 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:21,262 - Predicted Label: yes | True Label: No
+2024-01-11 12:48:21,262 - ROUTING ACC | Med: 0 - Fin: 2 - SQL: 0
+2024-01-11 12:48:21,262 - CUM ACC | 1 | 0.5
+2024-01-11 12:48:22,198 - =================== fin       2 ======================
+2024-01-11 12:48:22,198 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:22,198 - Predicted Label: no | True Label: No
+2024-01-11 12:48:22,199 - ROUTING ACC | Med: 0 - Fin: 3 - SQL: 0
+2024-01-11 12:48:22,199 - CUM ACC | 2 | 0.6666666666666666
+2024-01-11 12:48:23,163 - =================== fin       3 ======================
+2024-01-11 12:48:23,163 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:23,164 - Predicted Label: no | True Label: Yes
+2024-01-11 12:48:23,164 - ROUTING ACC | Med: 0 - Fin: 4 - SQL: 0
+2024-01-11 12:48:23,164 - CUM ACC | 2 | 0.5
+2024-01-11 12:48:24,689 - =================== fin       4 ======================
+2024-01-11 12:48:24,689 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:24,689 - Predicted Label: no | True Label: No
+2024-01-11 12:48:24,689 - ROUTING ACC | Med: 0 - Fin: 5 - SQL: 0
+2024-01-11 12:48:24,689 - CUM ACC | 3 | 0.6
+2024-01-11 12:48:26,735 - =================== fin       5 ======================
+2024-01-11 12:48:26,735 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:26,735 - Predicted Label: yes | True Label: No
+2024-01-11 12:48:26,735 - ROUTING ACC | Med: 0 - Fin: 6 - SQL: 0
+2024-01-11 12:48:26,735 - CUM ACC | 3 | 0.5
+2024-01-11 12:48:27,580 - =================== fin       6 ======================
+2024-01-11 12:48:27,580 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:27,580 - Predicted Label: no | True Label: No
+2024-01-11 12:48:27,580 - ROUTING ACC | Med: 0 - Fin: 7 - SQL: 0
+2024-01-11 12:48:27,580 - CUM ACC | 4 | 0.5714285714285714
+2024-01-11 12:48:28,461 - =================== fin       7 ======================
+2024-01-11 12:48:28,462 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:28,462 - Predicted Label: no | True Label: Yes
+2024-01-11 12:48:28,462 - ROUTING ACC | Med: 0 - Fin: 8 - SQL: 0
+2024-01-11 12:48:28,462 - CUM ACC | 4 | 0.5
+2024-01-11 12:48:29,309 - =================== fin       8 ======================
+2024-01-11 12:48:29,309 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:29,309 - Predicted Label: no | True Label: No
+2024-01-11 12:48:29,309 - ROUTING ACC | Med: 0 - Fin: 9 - SQL: 0
+2024-01-11 12:48:29,310 - CUM ACC | 5 | 0.5555555555555556
+2024-01-11 12:48:30,820 - =================== fin       9 ======================
+2024-01-11 12:48:30,820 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:30,820 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:48:30,820 - ROUTING ACC | Med: 0 - Fin: 10 - SQL: 0
+2024-01-11 12:48:30,820 - CUM ACC | 6 | 0.6
+2024-01-11 12:48:31,962 - =================== fin      10 ======================
+2024-01-11 12:48:31,962 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:48:31,964 - Predicted Label: no | True Label: No
+2024-01-11 12:48:31,964 - ROUTING ACC | Med: 1 - Fin: 10 - SQL: 0
+2024-01-11 12:48:31,964 - CUM ACC | 7 | 0.6363636363636364
+2024-01-11 12:48:33,451 - =================== fin      11 ======================
+2024-01-11 12:48:33,451 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:33,451 - Predicted Label: yes | True Label: No
+2024-01-11 12:48:33,451 - ROUTING ACC | Med: 1 - Fin: 11 - SQL: 0
+2024-01-11 12:48:33,452 - CUM ACC | 7 | 0.5833333333333334
+2024-01-11 12:48:34,325 - =================== fin      12 ======================
+2024-01-11 12:48:34,325 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:34,326 - Predicted Label: no | True Label: Yes
+2024-01-11 12:48:34,326 - ROUTING ACC | Med: 1 - Fin: 12 - SQL: 0
+2024-01-11 12:48:34,326 - CUM ACC | 7 | 0.5384615384615384
+2024-01-11 12:48:35,850 - =================== fin      13 ======================
+2024-01-11 12:48:35,851 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:35,851 - Predicted Label: no | True Label: Yes
+2024-01-11 12:48:35,851 - ROUTING ACC | Med: 1 - Fin: 13 - SQL: 0
+2024-01-11 12:48:35,851 - CUM ACC | 7 | 0.5
+2024-01-11 12:48:36,790 - =================== fin      14 ======================
+2024-01-11 12:48:36,790 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:48:36,790 - Predicted Label: no | True Label: No
+2024-01-11 12:48:36,790 - ROUTING ACC | Med: 2 - Fin: 13 - SQL: 0
+2024-01-11 12:48:36,790 - CUM ACC | 8 | 0.5333333333333333
+2024-01-11 12:48:37,651 - =================== fin      15 ======================
+2024-01-11 12:48:37,651 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:48:37,652 - Predicted Label: yes | True Label: No
+2024-01-11 12:48:37,652 - ROUTING ACC | Med: 3 - Fin: 13 - SQL: 0
+2024-01-11 12:48:37,652 - CUM ACC | 8 | 0.5
+2024-01-11 12:48:38,528 - =================== fin      16 ======================
+2024-01-11 12:48:38,528 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:38,528 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:48:38,528 - ROUTING ACC | Med: 3 - Fin: 14 - SQL: 0
+2024-01-11 12:48:38,528 - CUM ACC | 9 | 0.5294117647058824
+2024-01-11 12:48:39,364 - =================== fin      17 ======================
+2024-01-11 12:48:39,364 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:39,364 - Predicted Label: no | True Label: No
+2024-01-11 12:48:39,364 - ROUTING ACC | Med: 3 - Fin: 15 - SQL: 0
+2024-01-11 12:48:39,364 - CUM ACC | 10 | 0.5555555555555556
+2024-01-11 12:48:41,498 - =================== fin      18 ======================
+2024-01-11 12:48:41,498 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:41,498 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:48:41,498 - ROUTING ACC | Med: 3 - Fin: 16 - SQL: 0
+2024-01-11 12:48:41,498 - CUM ACC | 11 | 0.5789473684210527
+2024-01-11 12:48:43,046 - =================== fin      19 ======================
+2024-01-11 12:48:43,046 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:43,046 - Predicted Label: yes | True Label: No
+2024-01-11 12:48:43,046 - ROUTING ACC | Med: 3 - Fin: 17 - SQL: 0
+2024-01-11 12:48:43,046 - CUM ACC | 11 | 0.55
+2024-01-11 12:48:43,914 - =================== fin      20 ======================
+2024-01-11 12:48:43,914 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:43,915 - Predicted Label: yes | True Label: No
+2024-01-11 12:48:43,915 - ROUTING ACC | Med: 3 - Fin: 18 - SQL: 0
+2024-01-11 12:48:43,915 - CUM ACC | 11 | 0.5238095238095238
+2024-01-11 12:48:45,409 - =================== fin      21 ======================
+2024-01-11 12:48:45,409 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:45,409 - Predicted Label: yes | True Label: No
+2024-01-11 12:48:45,409 - ROUTING ACC | Med: 3 - Fin: 19 - SQL: 0
+2024-01-11 12:48:45,409 - CUM ACC | 11 | 0.5
+2024-01-11 12:48:47,004 - =================== fin      22 ======================
+2024-01-11 12:48:47,004 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:47,004 - Predicted Label: no | True Label: Yes
+2024-01-11 12:48:47,004 - ROUTING ACC | Med: 3 - Fin: 20 - SQL: 0
+2024-01-11 12:48:47,004 - CUM ACC | 11 | 0.4782608695652174
+2024-01-11 12:48:47,893 - =================== fin      23 ======================
+2024-01-11 12:48:47,893 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:48:47,893 - Predicted Label: no | True Label: No
+2024-01-11 12:48:47,893 - ROUTING ACC | Med: 3 - Fin: 21 - SQL: 0
+2024-01-11 12:48:47,893 - CUM ACC | 12 | 0.5
+2024-01-11 12:48:48,720 - =================== fin      24 ======================
+2024-01-11 12:48:48,720 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:48:48,721 - Predicted Label: no | True Label: No
+2024-01-11 12:48:48,721 - ROUTING ACC | Med: 4 - Fin: 21 - SQL: 0
+2024-01-11 12:48:48,721 - CUM ACC | 13 | 0.52
+2024-01-11 12:55:32,725 - =================== fin      25 ======================
+2024-01-11 12:55:32,726 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:32,726 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:55:32,726 - ROUTING ACC | Med: 4 - Fin: 22 - SQL: 0
+2024-01-11 12:55:32,726 - CUM ACC | 14 | 0.5384615384615384
+2024-01-11 12:55:34,260 - =================== fin      26 ======================
+2024-01-11 12:55:34,260 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:34,260 - Predicted Label: no | True Label: No
+2024-01-11 12:55:34,260 - ROUTING ACC | Med: 4 - Fin: 23 - SQL: 0
+2024-01-11 12:55:34,260 - CUM ACC | 15 | 0.5555555555555556
+2024-01-11 12:55:35,117 - =================== fin      27 ======================
+2024-01-11 12:55:35,117 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:55:35,117 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:55:35,117 - ROUTING ACC | Med: 5 - Fin: 23 - SQL: 0
+2024-01-11 12:55:35,117 - CUM ACC | 16 | 0.5714285714285714
+2024-01-11 12:55:36,712 - =================== fin      28 ======================
+2024-01-11 12:55:36,712 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:36,712 - Predicted Label: no | True Label: No
+2024-01-11 12:55:36,712 - ROUTING ACC | Med: 5 - Fin: 24 - SQL: 0
+2024-01-11 12:55:36,712 - CUM ACC | 17 | 0.5862068965517241
+2024-01-11 12:55:38,318 - =================== fin      29 ======================
+2024-01-11 12:55:38,318 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:38,318 - Predicted Label: no | True Label: No
+2024-01-11 12:55:38,318 - ROUTING ACC | Med: 5 - Fin: 25 - SQL: 0
+2024-01-11 12:55:38,318 - CUM ACC | 18 | 0.6
+2024-01-11 12:55:39,212 - =================== fin      30 ======================
+2024-01-11 12:55:39,212 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:39,212 - Predicted Label: no | True Label: No
+2024-01-11 12:55:39,212 - ROUTING ACC | Med: 5 - Fin: 26 - SQL: 0
+2024-01-11 12:55:39,212 - CUM ACC | 19 | 0.6129032258064516
+2024-01-11 12:55:40,785 - =================== fin      31 ======================
+2024-01-11 12:55:40,785 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:55:40,786 - Predicted Label: no | True Label: No
+2024-01-11 12:55:40,786 - ROUTING ACC | Med: 6 - Fin: 26 - SQL: 0
+2024-01-11 12:55:40,786 - CUM ACC | 20 | 0.625
+2024-01-11 12:55:42,274 - =================== fin      32 ======================
+2024-01-11 12:55:42,275 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:42,275 - Predicted Label: yes | True Label: No
+2024-01-11 12:55:42,275 - ROUTING ACC | Med: 6 - Fin: 27 - SQL: 0
+2024-01-11 12:55:42,275 - CUM ACC | 20 | 0.6060606060606061
+2024-01-11 12:55:43,072 - =================== fin      33 ======================
+2024-01-11 12:55:43,072 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:55:43,072 - Predicted Label: no | True Label: Yes
+2024-01-11 12:55:43,072 - ROUTING ACC | Med: 7 - Fin: 27 - SQL: 0
+2024-01-11 12:55:43,072 - CUM ACC | 20 | 0.5882352941176471
+2024-01-11 12:55:43,939 - =================== fin      34 ======================
+2024-01-11 12:55:43,939 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:43,940 - Predicted Label: no | True Label: Yes
+2024-01-11 12:55:43,940 - ROUTING ACC | Med: 7 - Fin: 28 - SQL: 0
+2024-01-11 12:55:43,940 - CUM ACC | 20 | 0.5714285714285714
+2024-01-11 12:55:44,811 - =================== fin      35 ======================
+2024-01-11 12:55:44,811 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:44,812 - Predicted Label: no | True Label: No
+2024-01-11 12:55:44,812 - ROUTING ACC | Med: 7 - Fin: 29 - SQL: 0
+2024-01-11 12:55:44,812 - CUM ACC | 21 | 0.5833333333333334
+2024-01-11 12:55:45,681 - =================== fin      36 ======================
+2024-01-11 12:55:45,681 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:45,681 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:55:45,681 - ROUTING ACC | Med: 7 - Fin: 30 - SQL: 0
+2024-01-11 12:55:45,681 - CUM ACC | 22 | 0.5945945945945946
+2024-01-11 12:55:46,637 - =================== fin      37 ======================
+2024-01-11 12:55:46,637 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:55:46,637 - Predicted Label: no | True Label: No
+2024-01-11 12:55:46,637 - ROUTING ACC | Med: 8 - Fin: 30 - SQL: 0
+2024-01-11 12:55:46,637 - CUM ACC | 23 | 0.6052631578947368
+2024-01-11 12:55:48,173 - =================== fin      38 ======================
+2024-01-11 12:55:48,173 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:48,173 - Predicted Label: yes | True Label: No
+2024-01-11 12:55:48,173 - ROUTING ACC | Med: 8 - Fin: 31 - SQL: 0
+2024-01-11 12:55:48,173 - CUM ACC | 23 | 0.5897435897435898
+2024-01-11 12:55:49,708 - =================== fin      39 ======================
+2024-01-11 12:55:49,708 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:49,709 - Predicted Label: yes | True Label: No
+2024-01-11 12:55:49,709 - ROUTING ACC | Med: 8 - Fin: 32 - SQL: 0
+2024-01-11 12:55:49,709 - CUM ACC | 23 | 0.575
+2024-01-11 12:55:51,217 - =================== fin      40 ======================
+2024-01-11 12:55:51,217 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:51,217 - Predicted Label: no | True Label: Yes
+2024-01-11 12:55:51,217 - ROUTING ACC | Med: 8 - Fin: 33 - SQL: 0
+2024-01-11 12:55:51,217 - CUM ACC | 23 | 0.5609756097560976
+2024-01-11 12:55:52,089 - =================== fin      41 ======================
+2024-01-11 12:55:52,089 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:52,090 - Predicted Label: yes | True Label: No
+2024-01-11 12:55:52,090 - ROUTING ACC | Med: 8 - Fin: 34 - SQL: 0
+2024-01-11 12:55:52,090 - CUM ACC | 23 | 0.5476190476190477
+2024-01-11 12:55:53,583 - =================== fin      42 ======================
+2024-01-11 12:55:53,583 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:53,583 - Predicted Label: yes | True Label: No
+2024-01-11 12:55:53,583 - ROUTING ACC | Med: 8 - Fin: 35 - SQL: 0
+2024-01-11 12:55:53,583 - CUM ACC | 23 | 0.5348837209302325
+2024-01-11 12:55:55,121 - =================== fin      43 ======================
+2024-01-11 12:55:55,121 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:55,121 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:55:55,121 - ROUTING ACC | Med: 8 - Fin: 36 - SQL: 0
+2024-01-11 12:55:55,121 - CUM ACC | 24 | 0.5454545454545454
+2024-01-11 12:55:56,102 - =================== fin      44 ======================
+2024-01-11 12:55:56,102 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:56,103 - Predicted Label: no | True Label: No
+2024-01-11 12:55:56,103 - ROUTING ACC | Med: 8 - Fin: 37 - SQL: 0
+2024-01-11 12:55:56,103 - CUM ACC | 25 | 0.5555555555555556
+2024-01-11 12:55:57,079 - =================== fin      45 ======================
+2024-01-11 12:55:57,079 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:57,080 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:55:57,080 - ROUTING ACC | Med: 8 - Fin: 38 - SQL: 0
+2024-01-11 12:55:57,080 - CUM ACC | 26 | 0.5652173913043478
+2024-01-11 12:55:58,897 - =================== fin      46 ======================
+2024-01-11 12:55:58,897 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:55:58,897 - Predicted Label: no | True Label: No
+2024-01-11 12:55:58,897 - ROUTING ACC | Med: 8 - Fin: 39 - SQL: 0
+2024-01-11 12:55:58,897 - CUM ACC | 27 | 0.574468085106383
+2024-01-11 12:56:00,214 - =================== fin      47 ======================
+2024-01-11 12:56:00,215 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:00,215 - Predicted Label: no | True Label: No
+2024-01-11 12:56:00,215 - ROUTING ACC | Med: 8 - Fin: 40 - SQL: 0
+2024-01-11 12:56:00,215 - CUM ACC | 28 | 0.5833333333333334
+2024-01-11 12:56:02,092 - =================== fin      48 ======================
+2024-01-11 12:56:02,092 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:56:02,093 - Predicted Label: no | True Label: Yes
+2024-01-11 12:56:02,093 - ROUTING ACC | Med: 9 - Fin: 40 - SQL: 0
+2024-01-11 12:56:02,093 - CUM ACC | 28 | 0.5714285714285714
+2024-01-11 12:56:02,992 - =================== fin      49 ======================
+2024-01-11 12:56:02,992 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:02,992 - Predicted Label: no | True Label: No
+2024-01-11 12:56:02,992 - ROUTING ACC | Med: 9 - Fin: 41 - SQL: 0
+2024-01-11 12:56:02,992 - CUM ACC | 29 | 0.58
+2024-01-11 12:56:04,517 - =================== fin      50 ======================
+2024-01-11 12:56:04,517 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:04,517 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:56:04,517 - ROUTING ACC | Med: 9 - Fin: 42 - SQL: 0
+2024-01-11 12:56:04,517 - CUM ACC | 30 | 0.5882352941176471
+2024-01-11 12:56:06,103 - =================== fin      51 ======================
+2024-01-11 12:56:06,103 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:06,103 - Predicted Label: no | True Label: No
+2024-01-11 12:56:06,103 - ROUTING ACC | Med: 9 - Fin: 43 - SQL: 0
+2024-01-11 12:56:06,103 - CUM ACC | 31 | 0.5961538461538461
+2024-01-11 12:56:07,628 - =================== fin      52 ======================
+2024-01-11 12:56:07,628 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:07,629 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:56:07,629 - ROUTING ACC | Med: 9 - Fin: 44 - SQL: 0
+2024-01-11 12:56:07,629 - CUM ACC | 32 | 0.6037735849056604
+2024-01-11 12:56:08,497 - =================== fin      53 ======================
+2024-01-11 12:56:08,497 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:08,497 - Predicted Label: no | True Label: No
+2024-01-11 12:56:08,497 - ROUTING ACC | Med: 9 - Fin: 45 - SQL: 0
+2024-01-11 12:56:08,497 - CUM ACC | 33 | 0.6111111111111112
+2024-01-11 12:56:10,562 - =================== fin      54 ======================
+2024-01-11 12:56:10,562 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:10,562 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:56:10,562 - ROUTING ACC | Med: 9 - Fin: 46 - SQL: 0
+2024-01-11 12:56:10,562 - CUM ACC | 34 | 0.6181818181818182
+2024-01-11 12:56:12,160 - =================== fin      55 ======================
+2024-01-11 12:56:12,160 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:12,160 - Predicted Label: no | True Label: No
+2024-01-11 12:56:12,160 - ROUTING ACC | Med: 9 - Fin: 47 - SQL: 0
+2024-01-11 12:56:12,160 - CUM ACC | 35 | 0.625
+2024-01-11 12:56:13,037 - =================== fin      56 ======================
+2024-01-11 12:56:13,038 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:13,038 - Predicted Label: yes | True Label: No
+2024-01-11 12:56:13,038 - ROUTING ACC | Med: 9 - Fin: 48 - SQL: 0
+2024-01-11 12:56:13,038 - CUM ACC | 35 | 0.6140350877192983
+2024-01-11 12:56:14,689 - =================== fin      57 ======================
+2024-01-11 12:56:14,689 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:14,689 - Predicted Label: no | True Label: Yes
+2024-01-11 12:56:14,689 - ROUTING ACC | Med: 9 - Fin: 49 - SQL: 0
+2024-01-11 12:56:14,689 - CUM ACC | 35 | 0.603448275862069
+2024-01-11 12:56:16,509 - =================== fin      58 ======================
+2024-01-11 12:56:16,509 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:16,509 - Predicted Label: no | True Label: No
+2024-01-11 12:56:16,509 - ROUTING ACC | Med: 9 - Fin: 50 - SQL: 0
+2024-01-11 12:56:16,510 - CUM ACC | 36 | 0.6101694915254238
+2024-01-11 12:56:17,993 - =================== fin      59 ======================
+2024-01-11 12:56:17,993 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:17,993 - Predicted Label: yes | True Label: No
+2024-01-11 12:56:17,993 - ROUTING ACC | Med: 9 - Fin: 51 - SQL: 0
+2024-01-11 12:56:17,993 - CUM ACC | 36 | 0.6
+2024-01-11 12:56:19,591 - =================== fin      60 ======================
+2024-01-11 12:56:19,591 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:19,591 - Predicted Label: no | True Label: No
+2024-01-11 12:56:19,591 - ROUTING ACC | Med: 9 - Fin: 52 - SQL: 0
+2024-01-11 12:56:19,591 - CUM ACC | 37 | 0.6065573770491803
+2024-01-11 12:56:20,458 - =================== fin      61 ======================
+2024-01-11 12:56:20,458 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:20,458 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:56:20,458 - ROUTING ACC | Med: 9 - Fin: 53 - SQL: 0
+2024-01-11 12:56:20,458 - CUM ACC | 38 | 0.6129032258064516
+2024-01-11 12:56:21,983 - =================== fin      62 ======================
+2024-01-11 12:56:21,983 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:21,983 - Predicted Label: no | True Label: No
+2024-01-11 12:56:21,984 - ROUTING ACC | Med: 9 - Fin: 54 - SQL: 0
+2024-01-11 12:56:21,984 - CUM ACC | 39 | 0.6190476190476191
+2024-01-11 12:56:23,636 - =================== fin      63 ======================
+2024-01-11 12:56:23,636 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:23,636 - Predicted Label: no | True Label: Yes
+2024-01-11 12:56:23,636 - ROUTING ACC | Med: 9 - Fin: 55 - SQL: 0
+2024-01-11 12:56:23,636 - CUM ACC | 39 | 0.609375
+2024-01-11 12:56:24,488 - =================== fin      64 ======================
+2024-01-11 12:56:24,488 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:24,489 - Predicted Label: no | True Label: No
+2024-01-11 12:56:24,489 - ROUTING ACC | Med: 9 - Fin: 56 - SQL: 0
+2024-01-11 12:56:24,489 - CUM ACC | 40 | 0.6153846153846154
+2024-01-11 12:56:26,084 - =================== fin      65 ======================
+2024-01-11 12:56:26,084 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:26,084 - Predicted Label: no | True Label: No
+2024-01-11 12:56:26,084 - ROUTING ACC | Med: 9 - Fin: 57 - SQL: 0
+2024-01-11 12:56:26,084 - CUM ACC | 41 | 0.6212121212121212
+2024-01-11 12:56:27,686 - =================== fin      66 ======================
+2024-01-11 12:56:27,686 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:27,686 - Predicted Label: no | True Label: No
+2024-01-11 12:56:27,686 - ROUTING ACC | Med: 9 - Fin: 58 - SQL: 0
+2024-01-11 12:56:27,687 - CUM ACC | 42 | 0.6268656716417911
+2024-01-11 12:56:28,554 - =================== fin      67 ======================
+2024-01-11 12:56:28,554 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:28,554 - Predicted Label: yes | True Label: No
+2024-01-11 12:56:28,554 - ROUTING ACC | Med: 9 - Fin: 59 - SQL: 0
+2024-01-11 12:56:28,554 - CUM ACC | 42 | 0.6176470588235294
+2024-01-11 12:56:29,524 - =================== fin      68 ======================
+2024-01-11 12:56:29,524 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:29,525 - Predicted Label: no | True Label: No
+2024-01-11 12:56:29,525 - ROUTING ACC | Med: 9 - Fin: 60 - SQL: 0
+2024-01-11 12:56:29,525 - CUM ACC | 43 | 0.6231884057971014
+2024-01-11 12:56:31,326 - =================== fin      69 ======================
+2024-01-11 12:56:31,326 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:31,327 - Predicted Label: no | True Label: No
+2024-01-11 12:56:31,327 - ROUTING ACC | Med: 9 - Fin: 61 - SQL: 0
+2024-01-11 12:56:31,327 - CUM ACC | 44 | 0.6285714285714286
+2024-01-11 12:56:32,301 - =================== fin      70 ======================
+2024-01-11 12:56:32,301 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:32,301 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:56:32,301 - ROUTING ACC | Med: 9 - Fin: 62 - SQL: 0
+2024-01-11 12:56:32,301 - CUM ACC | 45 | 0.6338028169014085
+2024-01-11 12:56:33,147 - =================== fin      71 ======================
+2024-01-11 12:56:33,147 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:33,147 - Predicted Label: no | True Label: No
+2024-01-11 12:56:33,147 - ROUTING ACC | Med: 9 - Fin: 63 - SQL: 0
+2024-01-11 12:56:33,147 - CUM ACC | 46 | 0.6388888888888888
+2024-01-11 12:56:34,008 - =================== fin      72 ======================
+2024-01-11 12:56:34,008 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:56:34,008 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:56:34,008 - ROUTING ACC | Med: 10 - Fin: 63 - SQL: 0
+2024-01-11 12:56:34,008 - CUM ACC | 47 | 0.6438356164383562
+2024-01-11 12:56:34,928 - =================== fin      73 ======================
+2024-01-11 12:56:34,928 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:56:34,928 - Predicted Label: no | True Label: No
+2024-01-11 12:56:34,928 - ROUTING ACC | Med: 11 - Fin: 63 - SQL: 0
+2024-01-11 12:56:34,928 - CUM ACC | 48 | 0.6486486486486487
+2024-01-11 12:56:36,574 - =================== fin      74 ======================
+2024-01-11 12:56:36,574 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:36,575 - Predicted Label: no | True Label: No
+2024-01-11 12:56:36,575 - ROUTING ACC | Med: 11 - Fin: 64 - SQL: 0
+2024-01-11 12:56:36,576 - CUM ACC | 49 | 0.6533333333333333
+2024-01-11 12:56:38,162 - =================== fin      75 ======================
+2024-01-11 12:56:38,162 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:38,162 - Predicted Label: no | True Label: Yes
+2024-01-11 12:56:38,162 - ROUTING ACC | Med: 11 - Fin: 65 - SQL: 0
+2024-01-11 12:56:38,162 - CUM ACC | 49 | 0.6447368421052632
+2024-01-11 12:56:39,789 - =================== fin      76 ======================
+2024-01-11 12:56:39,789 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:39,789 - Predicted Label: no | True Label: No
+2024-01-11 12:56:39,789 - ROUTING ACC | Med: 11 - Fin: 66 - SQL: 0
+2024-01-11 12:56:39,789 - CUM ACC | 50 | 0.6493506493506493
+2024-01-11 12:56:40,775 - =================== fin      77 ======================
+2024-01-11 12:56:40,775 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:40,776 - Predicted Label: no | True Label: No
+2024-01-11 12:56:40,776 - ROUTING ACC | Med: 11 - Fin: 67 - SQL: 0
+2024-01-11 12:56:40,776 - CUM ACC | 51 | 0.6538461538461539
+2024-01-11 12:56:41,716 - =================== fin      78 ======================
+2024-01-11 12:56:41,716 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 12:56:41,717 - Predicted Label: no | True Label: No
+2024-01-11 12:56:41,717 - ROUTING ACC | Med: 12 - Fin: 67 - SQL: 0
+2024-01-11 12:56:41,717 - CUM ACC | 52 | 0.6582278481012658
+2024-01-11 12:56:43,305 - =================== fin      79 ======================
+2024-01-11 12:56:43,305 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:43,305 - Predicted Label: no | True Label: No
+2024-01-11 12:56:43,305 - ROUTING ACC | Med: 12 - Fin: 68 - SQL: 0
+2024-01-11 12:56:43,305 - CUM ACC | 53 | 0.6625
+2024-01-11 12:56:44,817 - =================== fin      80 ======================
+2024-01-11 12:56:44,817 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:44,817 - Predicted Label: no | True Label: No
+2024-01-11 12:56:44,817 - ROUTING ACC | Med: 12 - Fin: 69 - SQL: 0
+2024-01-11 12:56:44,817 - CUM ACC | 54 | 0.6666666666666666
+2024-01-11 12:56:45,684 - =================== fin      81 ======================
+2024-01-11 12:56:45,684 - Model Chosen: finance | Model Expected: fin
+2024-01-11 12:56:45,685 - Predicted Label: yes | True Label: Yes
+2024-01-11 12:56:45,685 - ROUTING ACC | Med: 12 - Fin: 70 - SQL: 0
+2024-01-11 12:56:45,685 - CUM ACC | 55 | 0.6707317073170732
+2024-01-11 13:03:27,781 - =================== fin      82 ======================
+2024-01-11 13:03:27,782 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 13:03:27,782 - Predicted Label: yes | True Label: No
+2024-01-11 13:03:27,782 - ROUTING ACC | Med: 13 - Fin: 70 - SQL: 0
+2024-01-11 13:03:27,782 - CUM ACC | 55 | 0.6626506024096386
+2024-01-11 13:03:29,314 - =================== fin      83 ======================
+2024-01-11 13:03:29,314 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:29,314 - Predicted Label: yes | True Label: No
+2024-01-11 13:03:29,314 - ROUTING ACC | Med: 13 - Fin: 71 - SQL: 0
+2024-01-11 13:03:29,314 - CUM ACC | 55 | 0.6547619047619048
+2024-01-11 13:03:30,123 - =================== fin      84 ======================
+2024-01-11 13:03:30,123 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 13:03:30,123 - Predicted Label: no | True Label: No
+2024-01-11 13:03:30,123 - ROUTING ACC | Med: 14 - Fin: 71 - SQL: 0
+2024-01-11 13:03:30,123 - CUM ACC | 56 | 0.6588235294117647
+2024-01-11 13:03:31,645 - =================== fin      85 ======================
+2024-01-11 13:03:31,645 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:31,645 - Predicted Label: no | True Label: No
+2024-01-11 13:03:31,645 - ROUTING ACC | Med: 14 - Fin: 72 - SQL: 0
+2024-01-11 13:03:31,645 - CUM ACC | 57 | 0.6627906976744186
+2024-01-11 13:03:32,487 - =================== fin      86 ======================
+2024-01-11 13:03:32,487 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:32,487 - Predicted Label: no | True Label: No
+2024-01-11 13:03:32,487 - ROUTING ACC | Med: 14 - Fin: 73 - SQL: 0
+2024-01-11 13:03:32,487 - CUM ACC | 58 | 0.6666666666666666
+2024-01-11 13:03:34,082 - =================== fin      87 ======================
+2024-01-11 13:03:34,082 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:34,082 - Predicted Label: no | True Label: No
+2024-01-11 13:03:34,082 - ROUTING ACC | Med: 14 - Fin: 74 - SQL: 0
+2024-01-11 13:03:34,083 - CUM ACC | 59 | 0.6704545454545454
+2024-01-11 13:03:34,963 - =================== fin      88 ======================
+2024-01-11 13:03:34,963 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:34,963 - Predicted Label: yes | True Label: No
+2024-01-11 13:03:34,963 - ROUTING ACC | Med: 14 - Fin: 75 - SQL: 0
+2024-01-11 13:03:34,963 - CUM ACC | 59 | 0.6629213483146067
+2024-01-11 13:03:35,763 - =================== fin      89 ======================
+2024-01-11 13:03:35,763 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 13:03:35,763 - Predicted Label: no | True Label: No
+2024-01-11 13:03:35,763 - ROUTING ACC | Med: 15 - Fin: 75 - SQL: 0
+2024-01-11 13:03:35,763 - CUM ACC | 60 | 0.6666666666666666
+2024-01-11 13:03:36,655 - =================== fin      90 ======================
+2024-01-11 13:03:36,655 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:36,655 - Predicted Label: yes | True Label: Yes
+2024-01-11 13:03:36,655 - ROUTING ACC | Med: 15 - Fin: 76 - SQL: 0
+2024-01-11 13:03:36,656 - CUM ACC | 61 | 0.6703296703296703
+2024-01-11 13:03:37,503 - =================== fin      91 ======================
+2024-01-11 13:03:37,503 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:37,504 - Predicted Label: no | True Label: No
+2024-01-11 13:03:37,504 - ROUTING ACC | Med: 15 - Fin: 77 - SQL: 0
+2024-01-11 13:03:37,504 - CUM ACC | 62 | 0.6739130434782609
+2024-01-11 13:03:38,382 - =================== fin      92 ======================
+2024-01-11 13:03:38,382 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:38,382 - Predicted Label: no | True Label: No
+2024-01-11 13:03:38,382 - ROUTING ACC | Med: 15 - Fin: 78 - SQL: 0
+2024-01-11 13:03:38,382 - CUM ACC | 63 | 0.6774193548387096
+2024-01-11 13:03:40,004 - =================== fin      93 ======================
+2024-01-11 13:03:40,004 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:40,004 - Predicted Label: no | True Label: No
+2024-01-11 13:03:40,004 - ROUTING ACC | Med: 15 - Fin: 79 - SQL: 0
+2024-01-11 13:03:40,004 - CUM ACC | 64 | 0.6808510638297872
+2024-01-11 13:03:40,982 - =================== fin      94 ======================
+2024-01-11 13:03:40,982 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:40,983 - Predicted Label: yes | True Label: Yes
+2024-01-11 13:03:40,983 - ROUTING ACC | Med: 15 - Fin: 80 - SQL: 0
+2024-01-11 13:03:40,983 - CUM ACC | 65 | 0.6842105263157895
+2024-01-11 13:03:41,884 - =================== fin      95 ======================
+2024-01-11 13:03:41,884 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:41,884 - Predicted Label: no | True Label: No
+2024-01-11 13:03:41,884 - ROUTING ACC | Med: 15 - Fin: 81 - SQL: 0
+2024-01-11 13:03:41,884 - CUM ACC | 66 | 0.6875
+2024-01-11 13:03:42,839 - =================== fin      96 ======================
+2024-01-11 13:03:42,839 - Model Chosen: medicine | Model Expected: fin
+2024-01-11 13:03:42,839 - Predicted Label: no | True Label: No
+2024-01-11 13:03:42,839 - ROUTING ACC | Med: 16 - Fin: 81 - SQL: 0
+2024-01-11 13:03:42,839 - CUM ACC | 67 | 0.6907216494845361
+2024-01-11 13:03:44,390 - =================== fin      97 ======================
+2024-01-11 13:03:44,390 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:44,390 - Predicted Label: no | True Label: No
+2024-01-11 13:03:44,390 - ROUTING ACC | Med: 16 - Fin: 82 - SQL: 0
+2024-01-11 13:03:44,390 - CUM ACC | 68 | 0.6938775510204082
+2024-01-11 13:03:45,223 - =================== fin      98 ======================
+2024-01-11 13:03:45,223 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:45,224 - Predicted Label: no | True Label: No
+2024-01-11 13:03:45,224 - ROUTING ACC | Med: 16 - Fin: 83 - SQL: 0
+2024-01-11 13:03:45,224 - CUM ACC | 69 | 0.696969696969697
+2024-01-11 13:03:46,746 - =================== fin      99 ======================
+2024-01-11 13:03:46,746 - Model Chosen: finance | Model Expected: fin
+2024-01-11 13:03:46,747 - Predicted Label: no | True Label: No
+2024-01-11 13:03:46,747 - ROUTING ACC | Med: 16 - Fin: 84 - SQL: 0
+2024-01-11 13:03:46,747 - CUM ACC | 70 | 0.7

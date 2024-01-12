@@ -1,0 +1,801 @@
+2024-01-12 08:24:08,616 - PyTorch version 2.1.2 available.
+2024-01-12 08:27:40,801 - =================== sql-spider   0 ======================
+2024-01-12 08:27:40,801 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:40,801 - ROUTING ACC | Med: 1 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:40,801 - CUM ACC | 1 | 1.0
+2024-01-12 08:27:42,317 - =================== sql-spider   1 ======================
+2024-01-12 08:27:42,318 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:42,318 - ROUTING ACC | Med: 2 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:42,318 - CUM ACC | 2 | 1.0
+2024-01-12 08:27:43,944 - =================== sql-spider   2 ======================
+2024-01-12 08:27:43,944 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:43,945 - ROUTING ACC | Med: 3 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:43,945 - CUM ACC | 2 | 0.6666666666666666
+2024-01-12 08:27:45,127 - =================== sql-spider   3 ======================
+2024-01-12 08:27:45,127 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:45,128 - ROUTING ACC | Med: 4 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:45,128 - CUM ACC | 2 | 0.5
+2024-01-12 08:27:46,351 - =================== sql-spider   4 ======================
+2024-01-12 08:27:46,352 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:46,352 - ROUTING ACC | Med: 5 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:46,352 - CUM ACC | 2 | 0.4
+2024-01-12 08:27:47,424 - =================== sql-spider   5 ======================
+2024-01-12 08:27:47,424 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:47,424 - ROUTING ACC | Med: 6 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:47,424 - CUM ACC | 2 | 0.3333333333333333
+2024-01-12 08:27:49,092 - =================== sql-spider   6 ======================
+2024-01-12 08:27:49,092 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:49,092 - ROUTING ACC | Med: 7 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:49,092 - CUM ACC | 2 | 0.2857142857142857
+2024-01-12 08:27:50,054 - =================== sql-spider   7 ======================
+2024-01-12 08:27:50,054 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:50,054 - ROUTING ACC | Med: 8 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:50,054 - CUM ACC | 2 | 0.25
+2024-01-12 08:27:50,908 - =================== sql-spider   8 ======================
+2024-01-12 08:27:50,908 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:50,909 - ROUTING ACC | Med: 9 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:50,909 - CUM ACC | 2 | 0.2222222222222222
+2024-01-12 08:27:52,094 - =================== sql-spider   9 ======================
+2024-01-12 08:27:52,095 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:52,095 - ROUTING ACC | Med: 10 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:52,095 - CUM ACC | 2 | 0.2
+2024-01-12 08:27:52,983 - =================== sql-spider  10 ======================
+2024-01-12 08:27:52,983 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:52,983 - ROUTING ACC | Med: 11 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:52,984 - CUM ACC | 2 | 0.18181818181818182
+2024-01-12 08:27:53,872 - =================== sql-spider  11 ======================
+2024-01-12 08:27:53,872 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:53,872 - ROUTING ACC | Med: 12 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:53,872 - CUM ACC | 2 | 0.16666666666666666
+2024-01-12 08:27:54,318 - =================== sql-spider  12 ======================
+2024-01-12 08:27:54,318 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:54,319 - ROUTING ACC | Med: 13 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:54,319 - CUM ACC | 2 | 0.15384615384615385
+2024-01-12 08:27:56,356 - =================== sql-spider  13 ======================
+2024-01-12 08:27:56,356 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:56,357 - ROUTING ACC | Med: 14 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:56,357 - CUM ACC | 2 | 0.14285714285714285
+2024-01-12 08:27:57,988 - =================== sql-spider  14 ======================
+2024-01-12 08:27:57,988 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:57,988 - ROUTING ACC | Med: 15 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:57,988 - CUM ACC | 2 | 0.13333333333333333
+2024-01-12 08:27:59,763 - =================== sql-spider  15 ======================
+2024-01-12 08:27:59,763 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:27:59,764 - ROUTING ACC | Med: 16 - Fin: 0 - NSQL: 0
+2024-01-12 08:27:59,764 - CUM ACC | 2 | 0.125
+2024-01-12 08:28:00,179 - =================== sql-spider  16 ======================
+2024-01-12 08:28:00,179 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:00,179 - ROUTING ACC | Med: 17 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:00,179 - CUM ACC | 3 | 0.17647058823529413
+2024-01-12 08:28:00,593 - =================== sql-spider  17 ======================
+2024-01-12 08:28:00,594 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:00,594 - ROUTING ACC | Med: 18 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:00,594 - CUM ACC | 4 | 0.2222222222222222
+2024-01-12 08:28:01,648 - =================== sql-spider  18 ======================
+2024-01-12 08:28:01,648 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:01,650 - ROUTING ACC | Med: 19 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:01,650 - CUM ACC | 4 | 0.21052631578947367
+2024-01-12 08:28:04,209 - =================== sql-spider  19 ======================
+2024-01-12 08:28:04,209 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:04,209 - ROUTING ACC | Med: 20 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:04,209 - CUM ACC | 4 | 0.2
+2024-01-12 08:28:05,375 - =================== sql-spider  20 ======================
+2024-01-12 08:28:05,375 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:05,376 - ROUTING ACC | Med: 21 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:05,376 - CUM ACC | 5 | 0.23809523809523808
+2024-01-12 08:28:06,541 - =================== sql-spider  21 ======================
+2024-01-12 08:28:06,541 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:06,542 - ROUTING ACC | Med: 22 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:06,542 - CUM ACC | 6 | 0.2727272727272727
+2024-01-12 08:28:09,403 - =================== sql-spider  22 ======================
+2024-01-12 08:28:09,404 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:09,404 - ROUTING ACC | Med: 23 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:09,404 - CUM ACC | 6 | 0.2608695652173913
+2024-01-12 08:28:10,834 - =================== sql-spider  23 ======================
+2024-01-12 08:28:10,834 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:10,834 - ROUTING ACC | Med: 24 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:10,834 - CUM ACC | 6 | 0.25
+2024-01-12 08:28:12,082 - =================== sql-spider  24 ======================
+2024-01-12 08:28:12,082 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:12,082 - ROUTING ACC | Med: 25 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:12,082 - CUM ACC | 7 | 0.28
+2024-01-12 08:28:13,254 - =================== sql-spider  25 ======================
+2024-01-12 08:28:13,254 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:13,254 - ROUTING ACC | Med: 26 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:13,254 - CUM ACC | 8 | 0.3076923076923077
+2024-01-12 08:28:14,008 - =================== sql-spider  26 ======================
+2024-01-12 08:28:14,008 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:14,008 - ROUTING ACC | Med: 27 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:14,008 - CUM ACC | 8 | 0.2962962962962963
+2024-01-12 08:28:14,762 - =================== sql-spider  27 ======================
+2024-01-12 08:28:14,762 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:14,763 - ROUTING ACC | Med: 28 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:14,763 - CUM ACC | 8 | 0.2857142857142857
+2024-01-12 08:28:15,514 - =================== sql-spider  28 ======================
+2024-01-12 08:28:15,514 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:15,515 - ROUTING ACC | Med: 29 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:15,515 - CUM ACC | 8 | 0.27586206896551724
+2024-01-12 08:28:16,192 - =================== sql-spider  29 ======================
+2024-01-12 08:28:16,192 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:16,192 - ROUTING ACC | Med: 30 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:16,192 - CUM ACC | 9 | 0.3
+2024-01-12 08:28:17,095 - =================== sql-spider  30 ======================
+2024-01-12 08:28:17,095 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:17,096 - ROUTING ACC | Med: 31 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:17,096 - CUM ACC | 10 | 0.3225806451612903
+2024-01-12 08:28:18,450 - =================== sql-spider  31 ======================
+2024-01-12 08:28:18,450 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:18,450 - ROUTING ACC | Med: 32 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:18,450 - CUM ACC | 10 | 0.3125
+2024-01-12 08:28:19,804 - =================== sql-spider  32 ======================
+2024-01-12 08:28:19,804 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:19,805 - ROUTING ACC | Med: 33 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:19,805 - CUM ACC | 11 | 0.3333333333333333
+2024-01-12 08:28:21,159 - =================== sql-spider  33 ======================
+2024-01-12 08:28:21,159 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:21,159 - ROUTING ACC | Med: 34 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:21,159 - CUM ACC | 12 | 0.35294117647058826
+2024-01-12 08:28:22,814 - =================== sql-spider  34 ======================
+2024-01-12 08:28:22,815 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:22,815 - ROUTING ACC | Med: 35 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:22,815 - CUM ACC | 12 | 0.34285714285714286
+2024-01-12 08:28:24,921 - =================== sql-spider  35 ======================
+2024-01-12 08:28:24,921 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:24,923 - ROUTING ACC | Med: 36 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:24,923 - CUM ACC | 12 | 0.3333333333333333
+2024-01-12 08:28:26,991 - =================== sql-spider  36 ======================
+2024-01-12 08:28:26,991 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:26,991 - ROUTING ACC | Med: 37 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:26,991 - CUM ACC | 12 | 0.32432432432432434
+2024-01-12 08:28:29,813 - =================== sql-spider  37 ======================
+2024-01-12 08:28:29,813 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:28:29,814 - ROUTING ACC | Med: 38 - Fin: 0 - NSQL: 0
+2024-01-12 08:28:29,814 - CUM ACC | 12 | 0.3157894736842105
+2024-01-12 08:35:15,087 - =================== sql-spider  38 ======================
+2024-01-12 08:35:15,087 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:35:15,088 - ROUTING ACC | Med: 39 - Fin: 0 - NSQL: 0
+2024-01-12 08:35:15,088 - CUM ACC | 12 | 0.3076923076923077
+2024-01-12 08:35:18,028 - =================== sql-spider  39 ======================
+2024-01-12 08:35:18,028 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:35:18,029 - ROUTING ACC | Med: 40 - Fin: 0 - NSQL: 0
+2024-01-12 08:35:18,029 - CUM ACC | 12 | 0.3
+2024-01-12 08:35:19,917 - =================== sql-spider  40 ======================
+2024-01-12 08:35:19,917 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:35:19,917 - ROUTING ACC | Med: 41 - Fin: 0 - NSQL: 0
+2024-01-12 08:35:19,917 - CUM ACC | 13 | 0.3170731707317073
+2024-01-12 08:35:21,805 - =================== sql-spider  41 ======================
+2024-01-12 08:35:21,805 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:35:21,805 - ROUTING ACC | Med: 42 - Fin: 0 - NSQL: 0
+2024-01-12 08:35:21,805 - CUM ACC | 14 | 0.3333333333333333
+2024-01-12 08:41:59,988 - =================== sql-spider  42 ======================
+2024-01-12 08:41:59,988 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:41:59,988 - ROUTING ACC | Med: 43 - Fin: 0 - NSQL: 0
+2024-01-12 08:41:59,988 - CUM ACC | 14 | 0.32558139534883723
+2024-01-12 08:42:01,629 - =================== sql-spider  43 ======================
+2024-01-12 08:42:01,629 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:42:01,629 - ROUTING ACC | Med: 44 - Fin: 0 - NSQL: 0
+2024-01-12 08:42:01,629 - CUM ACC | 14 | 0.3181818181818182
+2024-01-12 08:42:02,797 - =================== sql-spider  44 ======================
+2024-01-12 08:42:02,798 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:42:02,798 - ROUTING ACC | Med: 45 - Fin: 0 - NSQL: 0
+2024-01-12 08:42:02,798 - CUM ACC | 14 | 0.3111111111111111
+2024-01-12 08:42:03,628 - =================== sql-spider  45 ======================
+2024-01-12 08:42:03,628 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:42:03,628 - ROUTING ACC | Med: 46 - Fin: 0 - NSQL: 0
+2024-01-12 08:42:03,628 - CUM ACC | 14 | 0.30434782608695654
+2024-01-12 08:42:04,121 - =================== sql-spider  46 ======================
+2024-01-12 08:42:04,121 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:42:04,121 - ROUTING ACC | Med: 47 - Fin: 0 - NSQL: 0
+2024-01-12 08:42:04,121 - CUM ACC | 14 | 0.2978723404255319
+2024-01-12 08:42:04,500 - =================== sql-spider  47 ======================
+2024-01-12 08:42:04,500 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:42:04,500 - ROUTING ACC | Med: 48 - Fin: 0 - NSQL: 0
+2024-01-12 08:42:04,500 - CUM ACC | 14 | 0.2916666666666667
+2024-01-12 08:42:06,463 - =================== sql-spider  48 ======================
+2024-01-12 08:42:06,463 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:42:06,463 - ROUTING ACC | Med: 49 - Fin: 0 - NSQL: 0
+2024-01-12 08:42:06,463 - CUM ACC | 15 | 0.30612244897959184
+2024-01-12 08:42:08,384 - =================== sql-spider  49 ======================
+2024-01-12 08:42:08,385 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:42:08,385 - ROUTING ACC | Med: 50 - Fin: 0 - NSQL: 0
+2024-01-12 08:42:08,385 - CUM ACC | 16 | 0.32
+2024-01-12 08:48:46,499 - =================== sql-spider  50 ======================
+2024-01-12 08:48:46,499 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:48:46,500 - ROUTING ACC | Med: 51 - Fin: 0 - NSQL: 0
+2024-01-12 08:48:46,500 - CUM ACC | 16 | 0.3137254901960784
+2024-01-12 08:48:47,958 - =================== sql-spider  51 ======================
+2024-01-12 08:48:47,959 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:48:47,959 - ROUTING ACC | Med: 52 - Fin: 0 - NSQL: 0
+2024-01-12 08:48:47,959 - CUM ACC | 16 | 0.3076923076923077
+2024-01-12 08:48:49,401 - =================== sql-spider  52 ======================
+2024-01-12 08:48:49,401 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:48:49,401 - ROUTING ACC | Med: 53 - Fin: 0 - NSQL: 0
+2024-01-12 08:48:49,401 - CUM ACC | 17 | 0.32075471698113206
+2024-01-12 08:48:50,838 - =================== sql-spider  53 ======================
+2024-01-12 08:48:50,838 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:48:50,839 - ROUTING ACC | Med: 54 - Fin: 0 - NSQL: 0
+2024-01-12 08:48:50,839 - CUM ACC | 17 | 0.3148148148148148
+2024-01-12 08:48:52,914 - =================== sql-spider  54 ======================
+2024-01-12 08:48:52,914 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:48:52,915 - ROUTING ACC | Med: 55 - Fin: 0 - NSQL: 0
+2024-01-12 08:48:52,915 - CUM ACC | 17 | 0.3090909090909091
+2024-01-12 08:48:54,464 - =================== sql-spider  55 ======================
+2024-01-12 08:48:54,464 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:48:54,464 - ROUTING ACC | Med: 56 - Fin: 0 - NSQL: 0
+2024-01-12 08:48:54,464 - CUM ACC | 17 | 0.30357142857142855
+2024-01-12 08:54:50,701 - =================== sql-spider  56 ======================
+2024-01-12 08:54:50,701 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:54:50,701 - ROUTING ACC | Med: 57 - Fin: 0 - NSQL: 0
+2024-01-12 08:54:50,702 - CUM ACC | 17 | 0.2982456140350877
+2024-01-12 08:54:55,132 - =================== sql-spider  57 ======================
+2024-01-12 08:54:55,132 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:54:55,133 - ROUTING ACC | Med: 58 - Fin: 0 - NSQL: 0
+2024-01-12 08:54:55,133 - CUM ACC | 17 | 0.29310344827586204
+2024-01-12 08:54:57,725 - =================== sql-spider  58 ======================
+2024-01-12 08:54:57,725 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:54:57,726 - ROUTING ACC | Med: 59 - Fin: 0 - NSQL: 0
+2024-01-12 08:54:57,726 - CUM ACC | 17 | 0.288135593220339
+2024-01-12 08:55:00,154 - =================== sql-spider  59 ======================
+2024-01-12 08:55:00,154 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:00,155 - ROUTING ACC | Med: 60 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:00,155 - CUM ACC | 17 | 0.2833333333333333
+2024-01-12 08:55:01,367 - =================== sql-spider  60 ======================
+2024-01-12 08:55:01,367 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:01,367 - ROUTING ACC | Med: 61 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:01,367 - CUM ACC | 17 | 0.2786885245901639
+2024-01-12 08:55:02,578 - =================== sql-spider  61 ======================
+2024-01-12 08:55:02,578 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:02,578 - ROUTING ACC | Med: 62 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:02,578 - CUM ACC | 17 | 0.27419354838709675
+2024-01-12 08:55:04,170 - =================== sql-spider  62 ======================
+2024-01-12 08:55:04,170 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:04,170 - ROUTING ACC | Med: 63 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:04,170 - CUM ACC | 17 | 0.2698412698412698
+2024-01-12 08:55:05,763 - =================== sql-spider  63 ======================
+2024-01-12 08:55:05,764 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:05,764 - ROUTING ACC | Med: 64 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:05,764 - CUM ACC | 17 | 0.265625
+2024-01-12 08:55:06,975 - =================== sql-spider  64 ======================
+2024-01-12 08:55:06,975 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:06,976 - ROUTING ACC | Med: 65 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:06,976 - CUM ACC | 18 | 0.27692307692307694
+2024-01-12 08:55:08,195 - =================== sql-spider  65 ======================
+2024-01-12 08:55:08,195 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:08,195 - ROUTING ACC | Med: 66 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:08,195 - CUM ACC | 19 | 0.2878787878787879
+2024-01-12 08:55:10,738 - =================== sql-spider  66 ======================
+2024-01-12 08:55:10,738 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:10,739 - ROUTING ACC | Med: 67 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:10,739 - CUM ACC | 19 | 0.2835820895522388
+2024-01-12 08:55:13,070 - =================== sql-spider  67 ======================
+2024-01-12 08:55:13,070 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:13,071 - ROUTING ACC | Med: 68 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:13,071 - CUM ACC | 19 | 0.27941176470588236
+2024-01-12 08:55:15,411 - =================== sql-spider  68 ======================
+2024-01-12 08:55:15,411 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:15,412 - ROUTING ACC | Med: 69 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:15,412 - CUM ACC | 19 | 0.2753623188405797
+2024-01-12 08:55:16,920 - =================== sql-spider  69 ======================
+2024-01-12 08:55:16,920 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:16,921 - ROUTING ACC | Med: 70 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:16,921 - CUM ACC | 19 | 0.2714285714285714
+2024-01-12 08:55:18,386 - =================== sql-spider  70 ======================
+2024-01-12 08:55:18,386 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:18,387 - ROUTING ACC | Med: 71 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:18,387 - CUM ACC | 19 | 0.2676056338028169
+2024-01-12 08:55:19,980 - =================== sql-spider  71 ======================
+2024-01-12 08:55:19,980 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:19,980 - ROUTING ACC | Med: 72 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:19,980 - CUM ACC | 20 | 0.2777777777777778
+2024-01-12 08:55:21,531 - =================== sql-spider  72 ======================
+2024-01-12 08:55:21,531 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:21,532 - ROUTING ACC | Med: 73 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:21,532 - CUM ACC | 21 | 0.2876712328767123
+2024-01-12 08:55:23,250 - =================== sql-spider  73 ======================
+2024-01-12 08:55:23,250 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:23,251 - ROUTING ACC | Med: 74 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:23,251 - CUM ACC | 21 | 0.28378378378378377
+2024-01-12 08:55:24,971 - =================== sql-spider  74 ======================
+2024-01-12 08:55:24,971 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:24,971 - ROUTING ACC | Med: 75 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:24,971 - CUM ACC | 21 | 0.28
+2024-01-12 08:55:29,261 - =================== sql-spider  75 ======================
+2024-01-12 08:55:29,261 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:29,261 - ROUTING ACC | Med: 76 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:29,261 - CUM ACC | 21 | 0.27631578947368424
+2024-01-12 08:55:31,760 - =================== sql-spider  76 ======================
+2024-01-12 08:55:31,760 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:31,760 - ROUTING ACC | Med: 77 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:31,760 - CUM ACC | 21 | 0.2727272727272727
+2024-01-12 08:55:33,635 - =================== sql-spider  77 ======================
+2024-01-12 08:55:33,635 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:33,635 - ROUTING ACC | Med: 78 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:33,636 - CUM ACC | 21 | 0.2692307692307692
+2024-01-12 08:55:35,512 - =================== sql-spider  78 ======================
+2024-01-12 08:55:35,512 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:35,512 - ROUTING ACC | Med: 79 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:35,512 - CUM ACC | 21 | 0.26582278481012656
+2024-01-12 08:55:37,397 - =================== sql-spider  79 ======================
+2024-01-12 08:55:37,397 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:37,398 - ROUTING ACC | Med: 80 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:37,398 - CUM ACC | 22 | 0.275
+2024-01-12 08:55:38,611 - =================== sql-spider  80 ======================
+2024-01-12 08:55:38,611 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:38,612 - ROUTING ACC | Med: 81 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:38,612 - CUM ACC | 22 | 0.2716049382716049
+2024-01-12 08:55:40,497 - =================== sql-spider  81 ======================
+2024-01-12 08:55:40,498 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:40,498 - ROUTING ACC | Med: 82 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:40,498 - CUM ACC | 22 | 0.2682926829268293
+2024-01-12 08:55:43,713 - =================== sql-spider  82 ======================
+2024-01-12 08:55:43,713 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:43,714 - ROUTING ACC | Med: 83 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:43,714 - CUM ACC | 22 | 0.26506024096385544
+2024-01-12 08:55:45,381 - =================== sql-spider  83 ======================
+2024-01-12 08:55:45,381 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:45,381 - ROUTING ACC | Med: 84 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:45,381 - CUM ACC | 22 | 0.2619047619047619
+2024-01-12 08:55:47,057 - =================== sql-spider  84 ======================
+2024-01-12 08:55:47,057 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:47,058 - ROUTING ACC | Med: 85 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:47,058 - CUM ACC | 22 | 0.25882352941176473
+2024-01-12 08:55:48,560 - =================== sql-spider  85 ======================
+2024-01-12 08:55:48,560 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:48,561 - ROUTING ACC | Med: 86 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:48,561 - CUM ACC | 22 | 0.2558139534883721
+2024-01-12 08:55:50,653 - =================== sql-spider  86 ======================
+2024-01-12 08:55:50,654 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:50,654 - ROUTING ACC | Med: 87 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:50,654 - CUM ACC | 22 | 0.25287356321839083
+2024-01-12 08:55:52,279 - =================== sql-spider  87 ======================
+2024-01-12 08:55:52,279 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:52,280 - ROUTING ACC | Med: 88 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:52,280 - CUM ACC | 23 | 0.26136363636363635
+2024-01-12 08:55:53,907 - =================== sql-spider  88 ======================
+2024-01-12 08:55:53,907 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:53,908 - ROUTING ACC | Med: 89 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:53,908 - CUM ACC | 24 | 0.2696629213483146
+2024-01-12 08:55:56,623 - =================== sql-spider  89 ======================
+2024-01-12 08:55:56,623 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:56,623 - ROUTING ACC | Med: 90 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:56,623 - CUM ACC | 24 | 0.26666666666666666
+2024-01-12 08:55:59,831 - =================== sql-spider  90 ======================
+2024-01-12 08:55:59,832 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:55:59,832 - ROUTING ACC | Med: 91 - Fin: 0 - NSQL: 0
+2024-01-12 08:55:59,832 - CUM ACC | 24 | 0.26373626373626374
+2024-01-12 08:56:01,374 - =================== sql-spider  91 ======================
+2024-01-12 08:56:01,374 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:56:01,374 - ROUTING ACC | Med: 92 - Fin: 0 - NSQL: 0
+2024-01-12 08:56:01,374 - CUM ACC | 24 | 0.2608695652173913
+2024-01-12 08:56:02,425 - =================== sql-spider  92 ======================
+2024-01-12 08:56:02,425 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:56:02,425 - ROUTING ACC | Med: 93 - Fin: 0 - NSQL: 0
+2024-01-12 08:56:02,425 - CUM ACC | 24 | 0.25806451612903225
+2024-01-12 08:56:04,630 - =================== sql-spider  93 ======================
+2024-01-12 08:56:04,630 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:56:04,630 - ROUTING ACC | Med: 94 - Fin: 0 - NSQL: 0
+2024-01-12 08:56:04,630 - CUM ACC | 25 | 0.26595744680851063
+2024-01-12 08:56:12,909 - =================== sql-spider  94 ======================
+2024-01-12 08:56:12,909 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:56:12,910 - ROUTING ACC | Med: 95 - Fin: 0 - NSQL: 0
+2024-01-12 08:56:12,910 - CUM ACC | 25 | 0.2631578947368421
+2024-01-12 08:56:14,037 - =================== sql-spider  95 ======================
+2024-01-12 08:56:14,037 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:56:14,038 - ROUTING ACC | Med: 96 - Fin: 0 - NSQL: 0
+2024-01-12 08:56:14,038 - CUM ACC | 26 | 0.2708333333333333
+2024-01-12 08:56:15,166 - =================== sql-spider  96 ======================
+2024-01-12 08:56:15,166 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 08:56:15,166 - ROUTING ACC | Med: 97 - Fin: 0 - NSQL: 0
+2024-01-12 08:56:15,166 - CUM ACC | 27 | 0.27835051546391754
+2024-01-12 09:02:11,184 - =================== sql-spider  97 ======================
+2024-01-12 09:02:11,184 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:02:11,184 - ROUTING ACC | Med: 98 - Fin: 0 - NSQL: 0
+2024-01-12 09:02:11,184 - CUM ACC | 28 | 0.2857142857142857
+2024-01-12 09:08:07,167 - =================== sql-spider  98 ======================
+2024-01-12 09:08:07,167 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:08:07,168 - ROUTING ACC | Med: 99 - Fin: 0 - NSQL: 0
+2024-01-12 09:08:07,168 - CUM ACC | 28 | 0.2828282828282828
+2024-01-12 09:08:09,068 - =================== sql-spider  99 ======================
+2024-01-12 09:08:09,068 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:08:09,068 - ROUTING ACC | Med: 100 - Fin: 0 - NSQL: 0
+2024-01-12 09:08:09,068 - CUM ACC | 29 | 0.29
+2024-01-12 09:14:05,106 - =================== sql-spider 100 ======================
+2024-01-12 09:14:05,106 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:05,106 - ROUTING ACC | Med: 101 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:05,106 - CUM ACC | 30 | 0.297029702970297
+2024-01-12 09:14:08,265 - =================== sql-spider 101 ======================
+2024-01-12 09:14:08,265 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:08,265 - ROUTING ACC | Med: 102 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:08,265 - CUM ACC | 31 | 0.30392156862745096
+2024-01-12 09:14:09,903 - =================== sql-spider 102 ======================
+2024-01-12 09:14:09,903 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:09,903 - ROUTING ACC | Med: 103 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:09,903 - CUM ACC | 32 | 0.3106796116504854
+2024-01-12 09:14:12,239 - =================== sql-spider 103 ======================
+2024-01-12 09:14:12,239 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:12,239 - ROUTING ACC | Med: 104 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:12,239 - CUM ACC | 32 | 0.3076923076923077
+2024-01-12 09:14:15,031 - =================== sql-spider 104 ======================
+2024-01-12 09:14:15,031 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:15,031 - ROUTING ACC | Med: 105 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:15,031 - CUM ACC | 33 | 0.3142857142857143
+2024-01-12 09:14:16,492 - =================== sql-spider 105 ======================
+2024-01-12 09:14:16,492 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:16,493 - ROUTING ACC | Med: 106 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:16,493 - CUM ACC | 33 | 0.3113207547169811
+2024-01-12 09:14:18,918 - =================== sql-spider 106 ======================
+2024-01-12 09:14:18,918 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:18,919 - ROUTING ACC | Med: 107 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:18,919 - CUM ACC | 33 | 0.308411214953271
+2024-01-12 09:14:21,421 - =================== sql-spider 107 ======================
+2024-01-12 09:14:21,421 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:21,421 - ROUTING ACC | Med: 108 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:21,421 - CUM ACC | 33 | 0.3055555555555556
+2024-01-12 09:14:24,726 - =================== sql-spider 108 ======================
+2024-01-12 09:14:24,726 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:24,726 - ROUTING ACC | Med: 109 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:24,726 - CUM ACC | 33 | 0.30275229357798167
+2024-01-12 09:14:25,561 - =================== sql-spider 109 ======================
+2024-01-12 09:14:25,561 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:25,562 - ROUTING ACC | Med: 110 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:25,562 - CUM ACC | 34 | 0.3090909090909091
+2024-01-12 09:14:26,657 - =================== sql-spider 110 ======================
+2024-01-12 09:14:26,658 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:26,659 - ROUTING ACC | Med: 111 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:26,659 - CUM ACC | 34 | 0.3063063063063063
+2024-01-12 09:14:27,371 - =================== sql-spider 111 ======================
+2024-01-12 09:14:27,371 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:27,371 - ROUTING ACC | Med: 112 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:27,371 - CUM ACC | 35 | 0.3125
+2024-01-12 09:14:28,084 - =================== sql-spider 112 ======================
+2024-01-12 09:14:28,084 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:28,085 - ROUTING ACC | Med: 113 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:28,085 - CUM ACC | 36 | 0.3185840707964602
+2024-01-12 09:14:28,873 - =================== sql-spider 113 ======================
+2024-01-12 09:14:28,873 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:28,873 - ROUTING ACC | Med: 114 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:28,873 - CUM ACC | 37 | 0.32456140350877194
+2024-01-12 09:14:29,657 - =================== sql-spider 114 ======================
+2024-01-12 09:14:29,658 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:29,658 - ROUTING ACC | Med: 115 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:29,658 - CUM ACC | 38 | 0.33043478260869563
+2024-01-12 09:14:33,266 - =================== sql-spider 115 ======================
+2024-01-12 09:14:33,266 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:33,267 - ROUTING ACC | Med: 116 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:33,267 - CUM ACC | 38 | 0.3275862068965517
+2024-01-12 09:14:34,245 - =================== sql-spider 116 ======================
+2024-01-12 09:14:34,245 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:34,245 - ROUTING ACC | Med: 117 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:34,245 - CUM ACC | 38 | 0.3247863247863248
+2024-01-12 09:14:35,222 - =================== sql-spider 117 ======================
+2024-01-12 09:14:35,223 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:35,223 - ROUTING ACC | Med: 118 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:35,223 - CUM ACC | 39 | 0.3305084745762712
+2024-01-12 09:14:36,199 - =================== sql-spider 118 ======================
+2024-01-12 09:14:36,199 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:36,199 - ROUTING ACC | Med: 119 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:36,200 - CUM ACC | 40 | 0.33613445378151263
+2024-01-12 09:14:37,062 - =================== sql-spider 119 ======================
+2024-01-12 09:14:37,063 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:37,065 - ROUTING ACC | Med: 120 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:37,065 - CUM ACC | 41 | 0.3416666666666667
+2024-01-12 09:14:37,929 - =================== sql-spider 120 ======================
+2024-01-12 09:14:37,929 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:37,931 - ROUTING ACC | Med: 121 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:37,931 - CUM ACC | 42 | 0.34710743801652894
+2024-01-12 09:14:39,326 - =================== sql-spider 121 ======================
+2024-01-12 09:14:39,326 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:39,328 - ROUTING ACC | Med: 122 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:39,328 - CUM ACC | 43 | 0.3524590163934426
+2024-01-12 09:14:40,722 - =================== sql-spider 122 ======================
+2024-01-12 09:14:40,722 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:40,723 - ROUTING ACC | Med: 123 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:40,724 - CUM ACC | 44 | 0.35772357723577236
+2024-01-12 09:14:42,728 - =================== sql-spider 123 ======================
+2024-01-12 09:14:42,728 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:42,729 - ROUTING ACC | Med: 124 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:42,729 - CUM ACC | 44 | 0.3548387096774194
+2024-01-12 09:14:43,780 - =================== sql-spider 124 ======================
+2024-01-12 09:14:43,781 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:43,782 - ROUTING ACC | Med: 125 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:43,782 - CUM ACC | 44 | 0.352
+2024-01-12 09:14:44,527 - =================== sql-spider 125 ======================
+2024-01-12 09:14:44,527 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:44,532 - ROUTING ACC | Med: 126 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:44,532 - CUM ACC | 45 | 0.35714285714285715
+2024-01-12 09:14:45,280 - =================== sql-spider 126 ======================
+2024-01-12 09:14:45,280 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:45,284 - ROUTING ACC | Med: 127 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:45,284 - CUM ACC | 46 | 0.36220472440944884
+2024-01-12 09:14:45,915 - =================== sql-spider 127 ======================
+2024-01-12 09:14:45,915 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:45,916 - ROUTING ACC | Med: 128 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:45,916 - CUM ACC | 47 | 0.3671875
+2024-01-12 09:14:46,551 - =================== sql-spider 128 ======================
+2024-01-12 09:14:46,551 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:46,552 - ROUTING ACC | Med: 129 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:46,552 - CUM ACC | 48 | 0.37209302325581395
+2024-01-12 09:14:47,260 - =================== sql-spider 129 ======================
+2024-01-12 09:14:47,260 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:47,261 - ROUTING ACC | Med: 130 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:47,261 - CUM ACC | 49 | 0.3769230769230769
+2024-01-12 09:14:47,970 - =================== sql-spider 130 ======================
+2024-01-12 09:14:47,970 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:47,971 - ROUTING ACC | Med: 131 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:47,971 - CUM ACC | 50 | 0.3816793893129771
+2024-01-12 09:14:48,644 - =================== sql-spider 131 ======================
+2024-01-12 09:14:48,645 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:48,645 - ROUTING ACC | Med: 132 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:48,645 - CUM ACC | 50 | 0.3787878787878788
+2024-01-12 09:14:49,319 - =================== sql-spider 132 ======================
+2024-01-12 09:14:49,319 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:49,320 - ROUTING ACC | Med: 133 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:49,320 - CUM ACC | 50 | 0.37593984962406013
+2024-01-12 09:14:51,026 - =================== sql-spider 133 ======================
+2024-01-12 09:14:51,026 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:51,032 - ROUTING ACC | Med: 134 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:51,032 - CUM ACC | 50 | 0.373134328358209
+2024-01-12 09:14:53,043 - =================== sql-spider 134 ======================
+2024-01-12 09:14:53,043 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:53,047 - ROUTING ACC | Med: 135 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:53,047 - CUM ACC | 50 | 0.37037037037037035
+2024-01-12 09:14:56,736 - =================== sql-spider 135 ======================
+2024-01-12 09:14:56,737 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:14:56,738 - ROUTING ACC | Med: 136 - Fin: 0 - NSQL: 0
+2024-01-12 09:14:56,738 - CUM ACC | 50 | 0.36764705882352944
+2024-01-12 09:15:03,118 - =================== sql-spider 136 ======================
+2024-01-12 09:15:03,118 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:03,120 - ROUTING ACC | Med: 137 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:03,120 - CUM ACC | 50 | 0.36496350364963503
+2024-01-12 09:15:04,211 - =================== sql-spider 137 ======================
+2024-01-12 09:15:04,212 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:04,212 - ROUTING ACC | Med: 138 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:04,212 - CUM ACC | 50 | 0.36231884057971014
+2024-01-12 09:15:05,311 - =================== sql-spider 138 ======================
+2024-01-12 09:15:05,311 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:05,312 - ROUTING ACC | Med: 139 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:05,312 - CUM ACC | 50 | 0.3597122302158273
+2024-01-12 09:15:12,073 - =================== sql-spider 139 ======================
+2024-01-12 09:15:12,073 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:12,075 - ROUTING ACC | Med: 140 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:12,075 - CUM ACC | 50 | 0.35714285714285715
+2024-01-12 09:15:13,317 - =================== sql-spider 140 ======================
+2024-01-12 09:15:13,317 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:13,319 - ROUTING ACC | Med: 141 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:13,319 - CUM ACC | 50 | 0.3546099290780142
+2024-01-12 09:15:14,418 - =================== sql-spider 141 ======================
+2024-01-12 09:15:14,418 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:14,420 - ROUTING ACC | Med: 142 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:14,420 - CUM ACC | 50 | 0.352112676056338
+2024-01-12 09:15:15,479 - =================== sql-spider 142 ======================
+2024-01-12 09:15:15,479 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:15,482 - ROUTING ACC | Med: 143 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:15,482 - CUM ACC | 50 | 0.34965034965034963
+2024-01-12 09:15:18,449 - =================== sql-spider 143 ======================
+2024-01-12 09:15:18,449 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:18,452 - ROUTING ACC | Med: 144 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:18,452 - CUM ACC | 50 | 0.3472222222222222
+2024-01-12 09:15:25,577 - =================== sql-spider 144 ======================
+2024-01-12 09:15:25,578 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:25,580 - ROUTING ACC | Med: 145 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:25,580 - CUM ACC | 50 | 0.3448275862068966
+2024-01-12 09:15:27,172 - =================== sql-spider 145 ======================
+2024-01-12 09:15:27,172 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:27,173 - ROUTING ACC | Med: 146 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:27,173 - CUM ACC | 50 | 0.3424657534246575
+2024-01-12 09:15:29,708 - =================== sql-spider 146 ======================
+2024-01-12 09:15:29,708 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:29,709 - ROUTING ACC | Med: 147 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:29,709 - CUM ACC | 50 | 0.3401360544217687
+2024-01-12 09:15:31,486 - =================== sql-spider 147 ======================
+2024-01-12 09:15:31,486 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:31,489 - ROUTING ACC | Med: 148 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:31,489 - CUM ACC | 50 | 0.33783783783783783
+2024-01-12 09:15:33,265 - =================== sql-spider 148 ======================
+2024-01-12 09:15:33,265 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:33,266 - ROUTING ACC | Med: 149 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:33,267 - CUM ACC | 50 | 0.33557046979865773
+2024-01-12 09:15:34,739 - =================== sql-spider 149 ======================
+2024-01-12 09:15:34,739 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:34,742 - ROUTING ACC | Med: 150 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:34,742 - CUM ACC | 51 | 0.34
+2024-01-12 09:15:36,138 - =================== sql-spider 150 ======================
+2024-01-12 09:15:36,138 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:36,141 - ROUTING ACC | Med: 151 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:36,141 - CUM ACC | 52 | 0.3443708609271523
+2024-01-12 09:15:37,424 - =================== sql-spider 151 ======================
+2024-01-12 09:15:37,424 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:37,426 - ROUTING ACC | Med: 152 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:37,426 - CUM ACC | 52 | 0.34210526315789475
+2024-01-12 09:15:38,288 - =================== sql-spider 152 ======================
+2024-01-12 09:15:38,288 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:38,290 - ROUTING ACC | Med: 153 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:38,290 - CUM ACC | 52 | 0.33986928104575165
+2024-01-12 09:15:40,104 - =================== sql-spider 153 ======================
+2024-01-12 09:15:40,104 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:40,105 - ROUTING ACC | Med: 154 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:40,105 - CUM ACC | 52 | 0.33766233766233766
+2024-01-12 09:15:44,331 - =================== sql-spider 154 ======================
+2024-01-12 09:15:44,331 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:44,332 - ROUTING ACC | Med: 155 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:44,332 - CUM ACC | 52 | 0.33548387096774196
+2024-01-12 09:15:47,528 - =================== sql-spider 155 ======================
+2024-01-12 09:15:47,528 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:47,865 - ROUTING ACC | Med: 156 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:47,865 - CUM ACC | 52 | 0.3333333333333333
+2024-01-12 09:15:57,648 - =================== sql-spider 156 ======================
+2024-01-12 09:15:57,648 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:15:57,984 - ROUTING ACC | Med: 157 - Fin: 0 - NSQL: 0
+2024-01-12 09:15:57,984 - CUM ACC | 52 | 0.33121019108280253
+2024-01-12 09:16:01,742 - =================== sql-spider 157 ======================
+2024-01-12 09:16:01,742 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:16:01,743 - ROUTING ACC | Med: 158 - Fin: 0 - NSQL: 0
+2024-01-12 09:16:01,743 - CUM ACC | 52 | 0.3291139240506329
+2024-01-12 09:16:04,778 - =================== sql-spider 158 ======================
+2024-01-12 09:16:04,778 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:16:04,778 - ROUTING ACC | Med: 159 - Fin: 0 - NSQL: 0
+2024-01-12 09:16:04,778 - CUM ACC | 52 | 0.3270440251572327
+2024-01-12 09:16:08,168 - =================== sql-spider 159 ======================
+2024-01-12 09:16:08,168 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:16:08,169 - ROUTING ACC | Med: 160 - Fin: 0 - NSQL: 0
+2024-01-12 09:16:08,169 - CUM ACC | 52 | 0.325
+2024-01-12 09:22:41,478 - =================== sql-spider 160 ======================
+2024-01-12 09:22:41,478 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:22:41,479 - ROUTING ACC | Med: 161 - Fin: 0 - NSQL: 0
+2024-01-12 09:22:41,479 - CUM ACC | 52 | 0.32298136645962733
+2024-01-12 09:22:43,236 - =================== sql-spider 161 ======================
+2024-01-12 09:22:43,236 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:22:43,246 - ROUTING ACC | Med: 162 - Fin: 0 - NSQL: 0
+2024-01-12 09:22:43,246 - CUM ACC | 52 | 0.32098765432098764
+2024-01-12 09:29:17,290 - =================== sql-spider 162 ======================
+2024-01-12 09:29:17,290 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:17,300 - ROUTING ACC | Med: 163 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:17,300 - CUM ACC | 52 | 0.31901840490797545
+2024-01-12 09:29:19,179 - =================== sql-spider 163 ======================
+2024-01-12 09:29:19,179 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:19,182 - ROUTING ACC | Med: 164 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:19,182 - CUM ACC | 52 | 0.3170731707317073
+2024-01-12 09:29:20,656 - =================== sql-spider 164 ======================
+2024-01-12 09:29:20,656 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:20,659 - ROUTING ACC | Med: 165 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:20,659 - CUM ACC | 52 | 0.3151515151515151
+2024-01-12 09:29:21,828 - =================== sql-spider 165 ======================
+2024-01-12 09:29:21,828 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:21,832 - ROUTING ACC | Med: 166 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:21,832 - CUM ACC | 52 | 0.3132530120481928
+2024-01-12 09:29:23,000 - =================== sql-spider 166 ======================
+2024-01-12 09:29:23,000 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:23,003 - ROUTING ACC | Med: 167 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:23,003 - CUM ACC | 52 | 0.31137724550898205
+2024-01-12 09:29:27,775 - =================== sql-spider 167 ======================
+2024-01-12 09:29:27,775 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:27,776 - ROUTING ACC | Med: 168 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:27,776 - CUM ACC | 52 | 0.30952380952380953
+2024-01-12 09:29:29,637 - =================== sql-spider 168 ======================
+2024-01-12 09:29:29,637 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:29,638 - ROUTING ACC | Med: 169 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:29,638 - CUM ACC | 52 | 0.3076923076923077
+2024-01-12 09:29:30,662 - =================== sql-spider 169 ======================
+2024-01-12 09:29:30,662 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:30,665 - ROUTING ACC | Med: 170 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:30,665 - CUM ACC | 52 | 0.3058823529411765
+2024-01-12 09:29:31,686 - =================== sql-spider 170 ======================
+2024-01-12 09:29:31,686 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:31,688 - ROUTING ACC | Med: 171 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:31,688 - CUM ACC | 52 | 0.30409356725146197
+2024-01-12 09:29:33,168 - =================== sql-spider 171 ======================
+2024-01-12 09:29:33,168 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:33,170 - ROUTING ACC | Med: 172 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:33,170 - CUM ACC | 52 | 0.3023255813953488
+2024-01-12 09:29:34,116 - =================== sql-spider 172 ======================
+2024-01-12 09:29:34,116 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:34,119 - ROUTING ACC | Med: 173 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:34,119 - CUM ACC | 52 | 0.30057803468208094
+2024-01-12 09:29:35,135 - =================== sql-spider 173 ======================
+2024-01-12 09:29:35,135 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:35,135 - ROUTING ACC | Med: 174 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:35,135 - CUM ACC | 53 | 0.3045977011494253
+2024-01-12 09:29:36,644 - =================== sql-spider 174 ======================
+2024-01-12 09:29:36,644 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:36,645 - ROUTING ACC | Med: 175 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:36,645 - CUM ACC | 53 | 0.3028571428571429
+2024-01-12 09:29:39,460 - =================== sql-spider 175 ======================
+2024-01-12 09:29:39,460 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:39,461 - ROUTING ACC | Med: 176 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:39,461 - CUM ACC | 53 | 0.30113636363636365
+2024-01-12 09:29:44,622 - =================== sql-spider 176 ======================
+2024-01-12 09:29:44,622 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:44,623 - ROUTING ACC | Med: 177 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:44,623 - CUM ACC | 53 | 0.2994350282485876
+2024-01-12 09:29:50,305 - =================== sql-spider 177 ======================
+2024-01-12 09:29:50,305 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:50,305 - ROUTING ACC | Med: 178 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:50,305 - CUM ACC | 53 | 0.29775280898876405
+2024-01-12 09:29:51,555 - =================== sql-spider 178 ======================
+2024-01-12 09:29:51,555 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:51,556 - ROUTING ACC | Med: 179 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:51,556 - CUM ACC | 53 | 0.29608938547486036
+2024-01-12 09:29:52,914 - =================== sql-spider 179 ======================
+2024-01-12 09:29:52,915 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:52,952 - ROUTING ACC | Med: 180 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:52,952 - CUM ACC | 53 | 0.29444444444444445
+2024-01-12 09:29:54,317 - =================== sql-spider 180 ======================
+2024-01-12 09:29:54,317 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:54,355 - ROUTING ACC | Med: 181 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:54,355 - CUM ACC | 53 | 0.292817679558011
+2024-01-12 09:29:55,446 - =================== sql-spider 181 ======================
+2024-01-12 09:29:55,446 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:55,450 - ROUTING ACC | Med: 182 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:55,450 - CUM ACC | 53 | 0.29120879120879123
+2024-01-12 09:29:57,004 - =================== sql-spider 182 ======================
+2024-01-12 09:29:57,004 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:57,006 - ROUTING ACC | Med: 183 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:57,006 - CUM ACC | 53 | 0.2896174863387978
+2024-01-12 09:29:58,517 - =================== sql-spider 183 ======================
+2024-01-12 09:29:58,518 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:58,518 - ROUTING ACC | Med: 184 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:58,518 - CUM ACC | 53 | 0.28804347826086957
+2024-01-12 09:29:59,990 - =================== sql-spider 184 ======================
+2024-01-12 09:29:59,990 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:29:59,990 - ROUTING ACC | Med: 185 - Fin: 0 - NSQL: 0
+2024-01-12 09:29:59,990 - CUM ACC | 53 | 0.2864864864864865
+2024-01-12 09:30:01,621 - =================== sql-spider 185 ======================
+2024-01-12 09:30:01,621 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:01,623 - ROUTING ACC | Med: 186 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:01,623 - CUM ACC | 53 | 0.2849462365591398
+2024-01-12 09:30:03,057 - =================== sql-spider 186 ======================
+2024-01-12 09:30:03,057 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:03,060 - ROUTING ACC | Med: 187 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:03,060 - CUM ACC | 53 | 0.28342245989304815
+2024-01-12 09:30:04,227 - =================== sql-spider 187 ======================
+2024-01-12 09:30:04,227 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:04,243 - ROUTING ACC | Med: 188 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:04,243 - CUM ACC | 53 | 0.28191489361702127
+2024-01-12 09:30:05,146 - =================== sql-spider 188 ======================
+2024-01-12 09:30:05,146 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:05,149 - ROUTING ACC | Med: 189 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:05,149 - CUM ACC | 53 | 0.2804232804232804
+2024-01-12 09:30:06,850 - =================== sql-spider 189 ======================
+2024-01-12 09:30:06,850 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:06,862 - ROUTING ACC | Med: 190 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:06,862 - CUM ACC | 53 | 0.2789473684210526
+2024-01-12 09:30:10,275 - =================== sql-spider 190 ======================
+2024-01-12 09:30:10,275 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:10,280 - ROUTING ACC | Med: 191 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:10,280 - CUM ACC | 53 | 0.2774869109947644
+2024-01-12 09:30:11,983 - =================== sql-spider 191 ======================
+2024-01-12 09:30:11,983 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:11,993 - ROUTING ACC | Med: 192 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:11,993 - CUM ACC | 53 | 0.2760416666666667
+2024-01-12 09:30:13,929 - =================== sql-spider 192 ======================
+2024-01-12 09:30:13,929 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:13,934 - ROUTING ACC | Med: 193 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:13,934 - CUM ACC | 53 | 0.27461139896373055
+2024-01-12 09:30:14,798 - =================== sql-spider 193 ======================
+2024-01-12 09:30:14,798 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:14,799 - ROUTING ACC | Med: 194 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:14,799 - CUM ACC | 53 | 0.27319587628865977
+2024-01-12 09:30:15,623 - =================== sql-spider 194 ======================
+2024-01-12 09:30:15,623 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:15,624 - ROUTING ACC | Med: 195 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:15,625 - CUM ACC | 54 | 0.27692307692307694
+2024-01-12 09:30:16,793 - =================== sql-spider 195 ======================
+2024-01-12 09:30:16,793 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:16,805 - ROUTING ACC | Med: 196 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:16,805 - CUM ACC | 54 | 0.2755102040816326
+2024-01-12 09:30:17,980 - =================== sql-spider 196 ======================
+2024-01-12 09:30:17,980 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:17,981 - ROUTING ACC | Med: 197 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:17,981 - CUM ACC | 54 | 0.27411167512690354
+2024-01-12 09:30:19,332 - =================== sql-spider 197 ======================
+2024-01-12 09:30:19,332 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:19,339 - ROUTING ACC | Med: 198 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:19,339 - CUM ACC | 55 | 0.2777777777777778
+2024-01-12 09:30:20,690 - =================== sql-spider 198 ======================
+2024-01-12 09:30:20,690 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:20,695 - ROUTING ACC | Med: 199 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:20,695 - CUM ACC | 55 | 0.27638190954773867
+2024-01-12 09:30:22,098 - =================== sql-spider 199 ======================
+2024-01-12 09:30:22,098 - Model Chosen: medicine-llm | Model Expected: sql-spider
+2024-01-12 09:30:22,099 - ROUTING ACC | Med: 200 - Fin: 0 - NSQL: 0
+2024-01-12 09:30:22,099 - CUM ACC | 56 | 0.28
