@@ -55,6 +55,9 @@ cover/
 *.mo
 *.pot
 
+# Mac OS
+.DS_Store
+
 # Django stuff:
 local_settings.py
 db.sqlite3
